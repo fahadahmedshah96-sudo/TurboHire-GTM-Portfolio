@@ -1,155 +1,166 @@
 schema_version: 1
-
-purpose: >
-  Track public market signals relevant to TurboHire's positioning,
-  product narrative, and go-to-market activity.
-
+purpose: Track public market signals relevant to TurboHire's positioning, product narrative, and go-to-market activity.
 source_policy:
   google_news: discovery_only
   linkedin: manual_review_or_approved_integration
-  verification: >
-    Verify material claims through an official company source or a credible
-    publication before marking them verified.
+  verification: Verify material claims through an official company source or a credible publication before marking
+    them verified.
   human_review_required: true
-
+  coverage_note: Google News RSS is an expanded discovery feed, not exhaustive monitoring. LinkedIn company pages
+    are reference links and are not scraped by this workflow.
 event_types:
-  - acquisitions_and_mergers
-  - funding_and_investor_rounds
-  - partnerships_and_integrations
-  - product_and_ai_launches
-  - customer_wins_and_case_studies
-  - leadership_changes
-  - geographic_or_segment_expansion
-  - regulatory_security_and_compliance
-  - layoffs_and_restructuring
-
+- acquisitions_and_mergers
+- funding_and_investor_rounds
+- partnerships_and_integrations
+- product_and_ai_launches
+- customer_wins_and_case_studies
+- leadership_changes
+- geographic_or_segment_expansion
+- regulatory_security_and_compliance
+- layoffs_and_restructuring
 competitors:
-  - id: ripplehire
-    name: RippleHire
-    group: core
-    relationship: Direct product overlap in enterprise hiring automation
-    focus:
-      - enterprise hiring
-      - high-volume hiring
-      - recruitment automation
-    official_url: "https://www.ripplehire.com/"
-    linkedin_url: "https://www.linkedin.com/company/ripplehire/"
-    google_news_rss: "https://news.google.com/rss/search?q=%22RippleHire%22&hl=en-IN&gl=IN&ceid=IN:en"
-
-  - id: zappyhire
-    name: Zappyhire
-    group: core
-    relationship: Direct product overlap in high-volume recruitment automation
-    focus:
-      - high-volume hiring
-      - candidate screening
-      - candidate engagement
-      - recruitment automation
-    official_url: "https://www.zappyhire.com/"
-    linkedin_url: "https://www.linkedin.com/company/zappyhire/"
-    google_news_rss: "https://news.google.com/rss/search?q=%22Zappyhire%22&hl=en-IN&gl=IN&ceid=IN:en"
-
-  - id: skillate_sense
-    name: Skillate / Sense
-    group: core
-    relationship: Skillate was acquired by Sense; monitor both names
-    focus:
-      - candidate matching
-      - screening
-      - job distribution
-      - talent acquisition
-    official_urls:
-      - "https://skillate.com/"
-      - "https://www.sensehq.com/"
-    linkedin_urls:
-      - "https://www.linkedin.com/company/skillate/"
-      - "https://www.linkedin.com/company/sensehq/"
-    google_news_rss: "https://news.google.com/rss/search?q=%22Skillate%22+OR+%22Sense%22+recruitment&hl=en-IN&gl=IN&ceid=IN:en"
-
-  - id: fountain
-    name: Fountain
-    group: core
-    relationship: Direct product overlap in frontline hiring and onboarding
-    focus:
-      - frontline hiring
-      - high-volume hiring
-      - onboarding
-      - workforce operations
-    official_url: "https://www.fountain.com/"
-    linkedin_url: "https://www.linkedin.com/company/fountaininc/"
-    google_news_rss: "https://news.google.com/rss/search?q=Fountain+frontline+hiring&hl=en-US&gl=US&ceid=US:en"
-
-  - id: workday_paradox
-    name: Workday / Paradox
-    group: core
-    relationship: Workday acquired Paradox; monitor both company and product news
-    focus:
-      - enterprise talent acquisition
-      - frontline hiring
-      - high-volume hiring
-      - conversational candidate experience
-    official_urls:
-      - "https://www.workday.com/"
-      - "https://www.paradox.ai/"
-    linkedin_urls:
-      - "https://www.linkedin.com/company/workday/"
-      - "https://www.linkedin.com/company/paradoxolivia/"
-    announcement_url: "https://investor.workday.com/news-and-events/press-releases/news-details/2025/Workday-Completes-Acquisition-of-Paradox-10-01-2025/default.aspx"
-    google_news_rss: "https://news.google.com/rss/search?q=Workday+Paradox+recruiting&hl=en-US&gl=US&ceid=US:en"
-
-  - id: phenom
-    name: Phenom
-    group: core
-    relationship: Product overlap in enterprise talent acquisition and high-volume hiring
-    focus:
-      - enterprise talent acquisition
-      - frontline hiring
-      - high-volume hiring
-      - AI-led automation
-    official_url: "https://www.phenom.com/"
-    linkedin_url: "https://www.linkedin.com/company/phenomai/"
-    google_news_rss: "https://news.google.com/rss/search?q=Phenom+HR+recruiting&hl=en-US&gl=US&ceid=US:en"
-
-  - id: sap_smartrecruiters
-    name: SAP / SmartRecruiters
-    group: adjacent
-    relationship: SAP acquired SmartRecruiters; monitor product integration and portfolio changes
-    focus:
-      - enterprise recruiting
-      - high-volume hiring
-      - AI recruiting
-      - HCM
-    official_urls:
-      - "https://www.sap.com/products/recruiting-software.html"
-      - "https://www.smartrecruiters.com/"
-    linkedin_urls:
-      - "https://www.linkedin.com/company/sap/"
-      - "https://www.linkedin.com/company/smartrecruiters/"
-    announcement_url: "https://news.sap.com/2025/09/sap-completes-smartrecruiters-acquisition/"
-    google_news_rss: "https://news.google.com/rss/search?q=SAP+SmartRecruiters+recruiting&hl=en-US&gl=US&ceid=US:en"
-
-  - id: workstream
-    name: Workstream
-    group: adjacent
-    relationship: Adjacent product overlap in hourly and multi-location hiring
-    focus:
-      - hourly hiring
-      - QSR and restaurants
-      - multi-location operations
-      - hiring and onboarding
-    official_url: "https://www.workstream.us/"
-    linkedin_url: "https://www.linkedin.com/company/workstream-us/"
-    google_news_rss: "https://news.google.com/rss/search?q=Workstream+HR+hourly+hiring&hl=en-US&gl=US&ceid=US:en"
-
-  - id: eightfold
-    name: Eightfold
-    group: adjacent
-    relationship: Adjacent product overlap in talent intelligence and AI recruiting
-    focus:
-      - talent intelligence
-      - candidate matching
-      - AI recruiting
-      - talent acquisition
-    official_url: "https://eightfold.ai/"
-    linkedin_url: "https://www.linkedin.com/company/eightfoldai/"
-    google_news_rss: "https://news.google.com/rss/search?q=Eightfold+AI+recruiting&hl=en-US&gl=US&ceid=US:en"
+- id: ripplehire
+  name: RippleHire
+  group: core
+  relationship: Direct product overlap in enterprise hiring automation
+  focus:
+  - enterprise hiring
+  - high-volume hiring
+  - recruitment automation
+  official_url: https://www.ripplehire.com/
+  linkedin_url: https://www.linkedin.com/company/ripplehire/
+  match_terms:
+  - RippleHire
+  - Ripple Hire
+  google_news_rss: https://news.google.com/rss/search?q=%28%22RippleHire%22+OR+%22Ripple+Hire%22%29+%28hiring+OR+recruiting+OR+recruitment+OR+talent+OR+workforce+OR+staffing+OR+acquisition+OR+acquired+OR+merger+OR+funding+OR+investor+OR+investment+OR+%22Series+A%22+OR+%22Series+B%22+OR+%22Series+C%22+OR+%22Series+D%22+OR+partnership+OR+integration+OR+product+launch+OR+expansion+OR+CEO+OR+layoffs%29&hl=en-US&gl=US&ceid=US%3Aen
+- id: zappyhire
+  name: Zappyhire
+  group: core
+  relationship: Direct product overlap in high-volume recruitment automation
+  focus:
+  - high-volume hiring
+  - candidate screening
+  - candidate engagement
+  - recruitment automation
+  official_url: https://www.zappyhire.com/
+  linkedin_url: https://www.linkedin.com/company/zappyhire/
+  match_terms:
+  - Zappyhire
+  - Zappy Hire
+  google_news_rss: https://news.google.com/rss/search?q=%28%22Zappyhire%22+OR+%22Zappy+Hire%22%29+%28hiring+OR+recruiting+OR+recruitment+OR+talent+OR+workforce+OR+staffing+OR+acquisition+OR+acquired+OR+merger+OR+funding+OR+investor+OR+investment+OR+%22Series+A%22+OR+%22Series+B%22+OR+%22Series+C%22+OR+%22Series+D%22+OR+partnership+OR+integration+OR+product+launch+OR+expansion+OR+CEO+OR+layoffs%29&hl=en-US&gl=US&ceid=US%3Aen
+- id: skillate_sense
+  name: Skillate / Sense
+  group: core
+  relationship: Skillate was acquired by Sense; monitor both names
+  focus:
+  - candidate matching
+  - screening
+  - job distribution
+  - talent acquisition
+  official_urls:
+  - https://skillate.com/
+  - https://www.sensehq.com/
+  linkedin_urls:
+  - https://www.linkedin.com/company/skillate/
+  - https://www.linkedin.com/company/sensehq/
+  announcement_url: ''
+  match_terms:
+  - Skillate
+  - Sense
+  google_news_rss: https://news.google.com/rss/search?q=%28%22Skillate%22+OR+%28%22Sense%22+recruiting%29%29+%28hiring+OR+recruiting+OR+recruitment+OR+talent+OR+workforce+OR+staffing+OR+acquisition+OR+acquired+OR+merger+OR+funding+OR+investor+OR+investment+OR+%22Series+A%22+OR+%22Series+B%22+OR+%22Series+C%22+OR+%22Series+D%22+OR+partnership+OR+integration+OR+product+launch+OR+expansion+OR+CEO+OR+layoffs%29&hl=en-US&gl=US&ceid=US%3Aen
+- id: fountain
+  name: Fountain
+  group: core
+  relationship: Direct product overlap in frontline hiring and onboarding
+  focus:
+  - frontline hiring
+  - high-volume hiring
+  - onboarding
+  - workforce operations
+  official_url: https://www.fountain.com/
+  linkedin_url: https://www.linkedin.com/company/fountaininc/
+  match_terms:
+  - Fountain
+  google_news_rss: https://news.google.com/rss/search?q=%28Fountain%29+%28hiring+OR+recruiting+OR+recruitment+OR+talent+OR+workforce+OR+staffing+OR+acquisition+OR+acquired+OR+merger+OR+funding+OR+investor+OR+investment+OR+%22Series+A%22+OR+%22Series+B%22+OR+%22Series+C%22+OR+%22Series+D%22+OR+partnership+OR+integration+OR+product+launch+OR+expansion+OR+CEO+OR+layoffs%29&hl=en-US&gl=US&ceid=US%3Aen
+- id: workday_paradox
+  name: Workday / Paradox
+  group: core
+  relationship: Workday acquired Paradox; monitor both company and product news
+  focus:
+  - enterprise talent acquisition
+  - frontline hiring
+  - high-volume hiring
+  - conversational candidate experience
+  official_urls:
+  - https://www.workday.com/
+  - https://www.paradox.ai/
+  linkedin_urls:
+  - https://www.linkedin.com/company/workday/
+  - https://www.linkedin.com/company/paradoxolivia/
+  announcement_url: https://investor.workday.com/news-and-events/press-releases/news-details/2025/Workday-Completes-Acquisition-of-Paradox-10-01-2025/default.aspx
+  match_terms:
+  - Workday
+  - Paradox
+  google_news_rss: https://news.google.com/rss/search?q=%28Workday+OR+Paradox%29+%28hiring+OR+recruiting+OR+recruitment+OR+talent+OR+workforce+OR+staffing+OR+acquisition+OR+acquired+OR+merger+OR+funding+OR+investor+OR+investment+OR+%22Series+A%22+OR+%22Series+B%22+OR+%22Series+C%22+OR+%22Series+D%22+OR+partnership+OR+integration+OR+product+launch+OR+expansion+OR+CEO+OR+layoffs%29&hl=en-US&gl=US&ceid=US%3Aen
+- id: phenom
+  name: Phenom
+  group: core
+  relationship: Product overlap in enterprise talent acquisition and high-volume hiring
+  focus:
+  - enterprise talent acquisition
+  - frontline hiring
+  - high-volume hiring
+  - AI-led automation
+  official_url: https://www.phenom.com/
+  linkedin_url: https://www.linkedin.com/company/phenomai/
+  match_terms:
+  - Phenom
+  google_news_rss: https://news.google.com/rss/search?q=%28Phenom%29+%28hiring+OR+recruiting+OR+recruitment+OR+talent+OR+workforce+OR+staffing+OR+acquisition+OR+acquired+OR+merger+OR+funding+OR+investor+OR+investment+OR+%22Series+A%22+OR+%22Series+B%22+OR+%22Series+C%22+OR+%22Series+D%22+OR+partnership+OR+integration+OR+product+launch+OR+expansion+OR+CEO+OR+layoffs%29&hl=en-US&gl=US&ceid=US%3Aen
+- id: sap_smartrecruiters
+  name: SAP / SmartRecruiters
+  group: adjacent
+  relationship: SAP acquired SmartRecruiters; monitor product integration and portfolio changes
+  focus:
+  - enterprise recruiting
+  - high-volume hiring
+  - AI recruiting
+  - HCM
+  official_urls:
+  - https://www.sap.com/products/recruiting-software.html
+  - https://www.smartrecruiters.com/
+  linkedin_urls:
+  - https://www.linkedin.com/company/sap/
+  - https://www.linkedin.com/company/smartrecruiters/
+  announcement_url: https://news.sap.com/2025/09/sap-completes-smartrecruiters-acquisition/
+  match_terms:
+  - SAP
+  - SmartRecruiters
+  google_news_rss: https://news.google.com/rss/search?q=%28SAP+OR+SmartRecruiters%29+%28hiring+OR+recruiting+OR+recruitment+OR+talent+OR+workforce+OR+staffing+OR+acquisition+OR+acquired+OR+merger+OR+funding+OR+investor+OR+investment+OR+%22Series+A%22+OR+%22Series+B%22+OR+%22Series+C%22+OR+%22Series+D%22+OR+partnership+OR+integration+OR+product+launch+OR+expansion+OR+CEO+OR+layoffs%29&hl=en-US&gl=US&ceid=US%3Aen
+- id: workstream
+  name: Workstream
+  group: adjacent
+  relationship: Adjacent product overlap in hourly and multi-location hiring
+  focus:
+  - hourly hiring
+  - QSR and restaurants
+  - multi-location operations
+  - hiring and onboarding
+  official_url: https://www.workstream.us/
+  linkedin_url: https://www.linkedin.com/company/workstream-us/
+  match_terms:
+  - Workstream
+  google_news_rss: https://news.google.com/rss/search?q=%28Workstream%29+%28hiring+OR+recruiting+OR+recruitment+OR+talent+OR+workforce+OR+staffing+OR+acquisition+OR+acquired+OR+merger+OR+funding+OR+investor+OR+investment+OR+%22Series+A%22+OR+%22Series+B%22+OR+%22Series+C%22+OR+%22Series+D%22+OR+partnership+OR+integration+OR+product+launch+OR+expansion+OR+CEO+OR+layoffs%29&hl=en-US&gl=US&ceid=US%3Aen
+- id: eightfold
+  name: Eightfold
+  group: adjacent
+  relationship: Adjacent product overlap in talent intelligence and AI recruiting
+  focus:
+  - talent intelligence
+  - candidate matching
+  - AI recruiting
+  - talent acquisition
+  official_url: https://eightfold.ai/
+  linkedin_url: https://www.linkedin.com/company/eightfoldai/
+  match_terms:
+  - Eightfold
+  google_news_rss: https://news.google.com/rss/search?q=%28Eightfold%29+%28hiring+OR+recruiting+OR+recruitment+OR+talent+OR+workforce+OR+staffing+OR+acquisition+OR+acquired+OR+merger+OR+funding+OR+investor+OR+investment+OR+%22Series+A%22+OR+%22Series+B%22+OR+%22Series+C%22+OR+%22Series+D%22+OR+partnership+OR+integration+OR+product+launch+OR+expansion+OR+CEO+OR+layoffs%29&hl=en-US&gl=US&ceid=US%3Aen
