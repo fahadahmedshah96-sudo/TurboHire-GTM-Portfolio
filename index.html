@@ -418,7 +418,21 @@
             `<option value="${escapeHTML(name)}">${escapeHTML(name)}</option>`);
         });
 
-        [...new Set(allItems.flatMap(item => item.signal_types || []))].sort().forEach(type => {
+        const knownTypes = [
+  "acquisitions_and_mergers",
+  "funding_and_investor_rounds",
+  "partnerships_and_integrations",
+  "product_and_ai_launches",
+  "customer_wins_and_case_studies",
+  "leadership_changes",
+  "geographic_or_segment_expansion",
+  "regulatory_security_and_compliance",
+  "layoffs_and_restructuring"
+];
+
+[...new Set([...knownTypes, ...allItems.flatMap(item => item.signal_types || [])])]
+  .sort()
+  .forEach(type => {
           typeFilter.insertAdjacentHTML("beforeend",
             `<option value="${escapeHTML(type)}">${escapeHTML(label(type))}</option>`);
         });
