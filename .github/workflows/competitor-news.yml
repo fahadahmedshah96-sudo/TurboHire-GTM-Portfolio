@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: "17 2 * * *"
 
+concurrency:
+  group: competitor-news-refresh
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -37,5 +41,7 @@ jobs:
             echo "No changes to competitor news."
           else
             git commit -m "Refresh competitor news"
-            git push origin HEAD:${GITHUB_REF_NAME}
+            git fetch origin "${GITHUB_REF_NAME}"
+            git rebase "origin/${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
