@@ -71,6 +71,43 @@ HIRING_CONTEXT_TERMS = {
     "hr tech", "human resources", "candidate", "applicant", "workforce",
     "staffing", "ats", "successfactors", "smartrecruiters", "paradox"
 }
+UNRELATED_CONTEXT_TERMS = {
+    "basketball", "football", "lacrosse", "baseball", "soccer", "hoops",
+    "ncaa", "prospects", "golden buzzer", "america's got talent",
+    "fountain valley", "fountain hills", "berger fountain", "fountain blues festival"
+}
+
+SIGNAL_PATTERNS = {
+    "acquisitions_and_mergers": re.compile(
+        r"\b(acquires?|acquired|acquiring|buys|bought|merger|merges with|"
+        r"takeover|buyout)\b|\bacquisition of\b", re.I
+    ),
+    "funding_and_investor_rounds": re.compile(
+        r"\b(funding round|fundraising|fundraise|seed round|series [a-e] "
+        r"(round|funding)|rais(?:e|es|ed)\s+[$€£]?\s?\d|secured\s+[$€£]?\s?\d|"
+        r"investment from|invested by)\b", re.I
+    ),
+    "partnerships_and_integrations": re.compile(
+        r"\b(partnership|partnered with|partners with|integration|integrates with|"
+        r"alliance)\b", re.I
+    ),
+    "product_and_ai_launches": re.compile(
+        r"\b(launches? (a |an )?(new )?(product|feature|platform|agent)|"
+        r"introduces? (a |an )?(new )?(product|feature|platform|agent)|"
+        r"unveils? (a |an )?(new )?(product|feature|platform|agent))\b", re.I
+    ),
+    "leadership_changes": re.compile(
+        r"\b(appointed|appoints|named|names|joins as)\b.{0,50}\b(ceo|chief|president|cfo|cto|cmo)\b|"
+        r"\b(new ceo|chief executive officer)\b", re.I
+    ),
+    "geographic_or_segment_expansion": re.compile(
+        r"\b(expands into|enters (a |the )?new market|launches in (a |the )?new market|"
+        r"opens (a |its first) (office|location|market))\b", re.I
+    ),
+    "layoffs_and_restructuring": re.compile(
+        r"\b(layoffs?|job cuts|workforce reduction|restructuring|shuts down|shutdown)\b", re.I
+    ),
+}
 
 
 def clean_html(value):
@@ -126,18 +163,40 @@ def competitor_match_terms(competitor):
 def matches_competitor(competitor, title, description):
     haystack = f"{title} {description}".lower()
     context_found = any(term in haystack for term in HIRING_CONTEXT_TERMS)
+    if any(term in haystack for term in UNRELATED_CONTEXT_TERMS):
+        return ""
 
     for term in competitor_match_terms(competitor):
         normalized_term = term.lower().strip()
         if not normalized_term or normalized_term not in haystack:
             continue
 
-        event_context_found = any(
-            keyword in haystack
-            for keywords in EVENT_KEYWORDS.values()
-            for keyword in keywords
-        )
-        if normalized_term in AMBIGUOUS_BRAND_TERMS and not (context_found or event_context_found):
+        # "Sense" is too ambiguous to match on its own. Keep Skillate monitoring
+        # tied to the Skillate name until a distinctive Sense-specific alias is known.
+        if normalized_term == "sense":
+            continue
+
+        if normalized_term in AMBIGUOUS_BRAND_TERMS and not context_found:
+            continue
+
+        # These names also occur frequently in sports, geography, or ordinary
+        # language. Require a talent/HR context for a relevant company mention.
+        if normalized_term == "phenom" and not (
+            "phenom ai" in haystack or context_found
+        ):
+            continue
+        if normalized_term == "eightfold" and not (
+            "eightfold ai" in haystack or context_found
+        ):
+            continue
+        if normalized_term == "paradox" and not (
+            "workday" in haystack or context_found
+        ):
+            continue
+
+        if normalized_term == "sap" and not (
+            context_found or "workforce startup" in haystack
+        ):
             continue
 
         return term
@@ -146,13 +205,11 @@ def matches_competitor(competitor, title, description):
 
 
 def classify_signal(text):
-    text = text.lower()
-    matches = []
-
-    for signal_type, keywords in EVENT_KEYWORDS.items():
-        if any(keyword in text for keyword in keywords):
-            matches.append(signal_type)
-
+    matches = [
+        signal_type
+        for signal_type, pattern in SIGNAL_PATTERNS.items()
+        if pattern.search(text or "")
+    ]
     return matches or ["general_competitor_news"]
 
 
@@ -420,7 +477,7 @@ def main():
     output = {
         "refreshed_at": fetched_at,
         "source_note": (
-            f"Expanded Google News RSS queries are used for discovery. Items older than {MAX_AGE_DAYS} "
+            f"Google News RSS is used for discovery. Items older than {MAX_AGE_DAYS} "
             "days and results without a configured competitor-name match are excluded. "
             "Verify important signals through an official source or credible publication."
         ),
