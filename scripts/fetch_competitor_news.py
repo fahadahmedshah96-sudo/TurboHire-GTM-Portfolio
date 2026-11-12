@@ -20,17 +20,19 @@ OUTPUT_FILE = ROOT / "data" / "competitor-news.json"
 
 # Keep the live board focused on recent signals. Older records are removed from
 # the live JSON; Git history remains available in the repository.
-MAX_AGE_DAYS = 90
+MAX_AGE_DAYS = 180
 MAX_ITEMS = 300
 
 EVENT_KEYWORDS = {
     "acquisitions_and_mergers": [
-        "acquisition", "acquired", "acquires", "merger", "merged",
-        "merges", "takeover", "buyout"
+        "acquisition", "acquired", "acquires", "acquiring", "merger",
+        "merged", "merges", "takeover", "buyout", "m&a"
     ],
     "funding_and_investor_rounds": [
-        "funding", "fundraise", "fundraising", "raised", "investment",
-        "investor", "series a", "series b", "series c", "seed round"
+        "funding", "fundraise", "fundraising", "funding round", "raised",
+        "raises", "investment", "investor", "venture capital", "private equity",
+        "series a", "series b", "series c", "series d", "series e", "seed round",
+        "strategic investment", "ipo", "valuation"
     ],
     "partnerships_and_integrations": [
         "partnership", "partnered", "partners with", "integration",
@@ -46,7 +48,8 @@ EVENT_KEYWORDS = {
     ],
     "leadership_changes": [
         "appointed", "appoints", "named ceo", "new ceo", "joins as ceo",
-        "chief executive"
+        "chief executive", "chief product officer", "chief technology officer",
+        "chief marketing officer"
     ],
     "geographic_or_segment_expansion": [
         "expansion", "expands", "enters", "new market", "launches in"
@@ -129,13 +132,12 @@ def matches_competitor(competitor, title, description):
         if not normalized_term or normalized_term not in haystack:
             continue
 
-        if normalized_term == "sense":
-            # Avoid generic uses such as "makes sense" or "sense of vocation".
-            # Configure a more specific alias (for example, a company/product
-            # name) in competitors.yml if Sense-specific monitoring is needed.
-            continue
-
-        if normalized_term in AMBIGUOUS_BRAND_TERMS and not context_found:
+        event_context_found = any(
+            keyword in haystack
+            for keywords in EVENT_KEYWORDS.values()
+            for keyword in keywords
+        )
+        if normalized_term in AMBIGUOUS_BRAND_TERMS and not (context_found or event_context_found):
             continue
 
         return term
@@ -418,7 +420,7 @@ def main():
     output = {
         "refreshed_at": fetched_at,
         "source_note": (
-            f"Google News RSS is used for discovery. Items older than {MAX_AGE_DAYS} "
+            f"Expanded Google News RSS queries are used for discovery. Items older than {MAX_AGE_DAYS} "
             "days and results without a configured competitor-name match are excluded. "
             "Verify important signals through an official source or credible publication."
         ),
