@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-11-12T13:53:34.266688+00:00",
+  "refreshed_at": "2026-11-12T14:05:13.897413+00:00",
   "source_note": "Expanded Google News RSS queries are used for discovery. Items older than 180 days and results without a configured competitor-name match are excluded. Verify important signals through an official source or credible publication.",
   "feed_errors": [],
   "filter_summary": {
@@ -7,7 +7,7 @@
     "dropped_old_existing_items": 0,
     "dropped_existing_items_without_valid_dates": 0,
     "dropped_unmatched_existing_items": 0,
-    "skipped_old_feed_items": 159,
+    "skipped_old_feed_items": 163,
     "skipped_unmatched_feed_items": 15,
     "skipped_feed_items_with_invalid_dates": 0
   },
@@ -29,7 +29,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "SAP",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "4d7384245a0ead51216e",
@@ -48,7 +49,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "SAP",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "fabc1677f47601ed4c18",
@@ -67,7 +69,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Workday",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "77fe75a7ef9b115eec4b",
@@ -86,7 +89,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Workday",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "9eea492e7237ae740892",
@@ -105,7 +109,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Paradox",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "a0929142e496e8d5fe28",
@@ -124,7 +129,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Fountain",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "683fb47c137c79e260cd",
@@ -163,7 +169,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Sense",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "ad2a856c201f1fbb7b03",
@@ -203,7 +210,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "SAP",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "fb5f9f1ead92c6e3e3c5",
@@ -262,7 +270,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "SAP",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "dd8eebdd25fc87987bb5",
@@ -301,7 +310,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Phenom",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "6e9c71d20cce0da6b0aa",
@@ -320,7 +330,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Workday",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "72670a984b6d05d0e4e9",
@@ -339,7 +350,27 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Eightfold",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
+    },
+    {
+      "id": "7aa9f795fca697c6a781",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Why Workday Acquired Agentic Identity Platform C1.AI - AI Magazine",
+      "summary": "Why Workday Acquired Agentic Identity Platform C1.AI AI Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNLVZsN3QzX1MtWlYxc2hqMmZwVzV5VlhYekM2eS1sYVdFQWJwa2lNSG5FZDlsenN3NWJVaExaLUNETHpjNjFvbWVnaWtIclNMV3piZU1VdThvM3MxTVpCMGFCeVpmSWhVSUNjX01PaWRMeDJ2LXlOXzgwNDQ0U3djRVB1TlZGX2d3NUE?oc=5",
+      "publisher": "AI Magazine",
+      "published_at": "2026-10-15T07:00:00+00:00",
+      "signal_types": [
+        "acquisitions_and_mergers"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "85be582165850df1ab1b",
@@ -358,7 +389,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Workday",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "e29c08f9e4aa8aa39064",
@@ -377,7 +409,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Eightfold",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "05934ca5ce9a610aec1d",
@@ -436,7 +469,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Eightfold",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "1a440cdd108809ceb114",
@@ -455,7 +489,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Phenom",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "768e506af22e4f7af685",
@@ -474,7 +509,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "SAP",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "0975e30a1b3b172dd68b",
@@ -493,7 +529,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Workday",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "0097f1899321639e7b2f",
@@ -512,7 +549,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "SAP",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "d5f47cb7baf04063d4e8",
@@ -551,7 +589,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Sense",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "0ef665909c33c228ac1e",
@@ -570,7 +609,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Phenom",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "880a44fa6c7e61d469cd",
@@ -589,7 +629,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Eightfold",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "171851bca020a8d0a640",
@@ -608,7 +649,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "SAP",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "a9dea5553ce92e3b7fd5",
@@ -627,7 +669,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Eightfold",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "b435fc023e96fcf97248",
@@ -646,7 +689,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Eightfold",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "6e5cf6aa3b8deee6f30e",
@@ -665,7 +709,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Fountain",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "ace469a5a39f6b75d867",
@@ -684,7 +729,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Sense",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "904522d8f318c85aa201",
@@ -704,7 +750,7 @@
       "review_status": "pending",
       "first_seen_at": "2026-11-12T12:20:47.223095+00:00",
       "matched_term": "RippleHire",
-      "last_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "78cd7d8e87741af058c3",
@@ -723,7 +769,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Phenom",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "1639710f3fa090552fab",
@@ -742,7 +789,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Phenom",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "34848db5f2ff7679d1c3",
@@ -761,7 +809,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Fountain",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "845b859824d9a9f8d696",
@@ -780,7 +829,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Paradox",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "b07e0b9f60b1c1c1746b",
@@ -818,7 +868,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Eightfold",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "e765fe14a675ebaeb3ce",
@@ -837,7 +888,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Sense",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "508fa78bc9f3bb44507f",
@@ -856,7 +908,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "SAP",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "2409177e5d41ebcc5d21",
@@ -875,7 +928,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Phenom",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "4a070eae7935316d27ef",
@@ -894,7 +948,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Zappyhire",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "3c8dd79b33a26ff50e6c",
@@ -913,7 +968,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Eightfold",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "e8f7dbfc9cb416a29a3e",
@@ -932,7 +988,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Phenom",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "dd52d29b15a14bef33b1",
@@ -951,7 +1008,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Phenom",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "20e4ca3cd399169ab5a3",
@@ -970,7 +1028,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Paradox",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "134a802d3d71fc117afe",
@@ -989,7 +1048,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "SAP",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "380e91826823777bc799",
@@ -1008,7 +1068,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "SAP",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "b807b2f4451beb62916b",
@@ -1027,7 +1088,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "SAP",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "202125f21ca192dd5479",
@@ -1047,7 +1109,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Paradox",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "3f647dd52139d58e12a7",
@@ -1066,7 +1129,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Fountain",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "7bfcd7707d60317651a3",
@@ -1085,7 +1149,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Phenom",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "f8ed1908c0ff2f1e57d2",
@@ -1104,7 +1169,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Eightfold",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "b6da9a89fc3866d5f3e0",
@@ -1123,7 +1189,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "SAP",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "aad45e1b6d54d9e4d694",
@@ -1142,7 +1209,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "SAP",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "385f36ec256911e26447",
@@ -1161,7 +1229,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "SAP",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "2b62037e7cdc6ef225bd",
@@ -1180,7 +1249,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "SAP",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "cbf04d0a0d71cfe085c3",
@@ -1199,7 +1269,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "SAP",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "6022290dcf0d26518e78",
@@ -1218,7 +1289,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "SAP",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "563348e81d3b386da50b",
@@ -1237,7 +1309,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Phenom",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "ee0657eb0da2664b1485",
@@ -1256,7 +1329,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Phenom",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "ea7d21f2817aed36e25b",
@@ -1276,7 +1350,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Eightfold",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "b2d39da31e70acc3183b",
@@ -1295,7 +1370,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Sense",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "eb72b565d85609ffa259",
@@ -1314,7 +1390,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Sense",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "51dcdbdd90fd9786d0bc",
@@ -1333,7 +1410,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Sense",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "040871e49f6d8abf19ef",
@@ -1352,7 +1430,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Fountain",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     },
     {
       "id": "dd7d661f85025f41adf5",
@@ -1371,7 +1450,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Workday",
-      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
+      "last_seen_at": "2026-11-12T14:05:13.897413+00:00"
     }
   ]
 }
