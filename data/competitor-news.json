@@ -1,17 +1,131 @@
 {
-  "refreshed_at": "2026-11-12T13:32:31.789327+00:00",
-  "source_note": "Google News RSS is used for discovery. Items older than 90 days and results without a configured competitor-name match are excluded. Verify important signals through an official source or credible publication.",
+  "refreshed_at": "2026-11-12T13:53:34.266688+00:00",
+  "source_note": "Expanded Google News RSS queries are used for discovery. Items older than 180 days and results without a configured competitor-name match are excluded. Verify important signals through an official source or credible publication.",
   "feed_errors": [],
   "filter_summary": {
-    "retention_days": 90,
-    "dropped_old_existing_items": 152,
+    "retention_days": 180,
+    "dropped_old_existing_items": 0,
     "dropped_existing_items_without_valid_dates": 0,
-    "dropped_unmatched_existing_items": 11,
-    "skipped_old_feed_items": 152,
-    "skipped_unmatched_feed_items": 11,
+    "dropped_unmatched_existing_items": 0,
+    "skipped_old_feed_items": 159,
+    "skipped_unmatched_feed_items": 15,
     "skipped_feed_items_with_invalid_dates": 0
   },
   "items": [
+    {
+      "id": "4c820908378750d64432",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP Executives to Participate in Upcoming Investor Events - Yahoo Finance Singapore",
+      "summary": "SAP Executives to Participate in Upcoming Investor Events Yahoo Finance Singapore",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOW8ySHhrSGVSekpJa1J3T25PREVaQTB2NUdMMVlKSUxmd2tYSFkzTjg5ZVJCYmNVam9UWlJPbjUxTWJnSEVwSEN3Y1dWUlQya1BpQWc5N0tJR0RyTUNkWXV6T1hKclU3TWN4VEpvQXV4TmRqc2JEdTJoM1EtT0NaSnVPQmp6LVRXT09vQ2lnZ3lrYVA1MnNSYg?oc=5",
+      "publisher": "Yahoo Finance Singapore",
+      "published_at": "2026-11-12T10:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "4d7384245a0ead51216e",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP Identifies SMEs, AI and Skilled Workforce as Key Drivers of Pakistan’s Digital Economy - ProPakistani",
+      "summary": "SAP Identifies SMEs, AI and Skilled Workforce as Key Drivers of Pakistan’s Digital Economy ProPakistani",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTUlHWGg3VGpsQ2RtTGZ4WkVCbElzNV9WOHJfbThVbWxYb0hKNTNUMUVBQ1huWWxJNFFJQjUxNUFxUFd3bHpneHJCQm8wUy0teVRSNEdieGh6V3BBZ3NxNTZPczk3d3hLbHExdDZiRDNHYnNKRXp1VG5xdF9USEdJV3BRRWlqRFk1YVBiOGd1c1hxTWNXWnhDbnJMRkVTY0t3U2FhNDQyYVdHN2dJQVFnUThsbmRQRTJXdFRsLTdVd1lxQdIBxwFBVV95cUxOVml0S2pfcktCQzVBNkI3ZHBlWkJ1UHllY1JuTkZyVkhoOXNHamtPZlN2blltdVBpTXlzdU1Gd2dHdnp2ZlREQU9qb0ItYnVqVzFYRnZXc1J1QzJQMjdyRFUtQVhKSEhxQlZjOU5Nc251ZGFORGVVR2pSdEFqWGNqX1F5QUNRbE5BeC1ra1ByNkJxOXFHYld0X3VDMFhCRHhRSGF5cV9uVUowaTZtRkFGYjY0aHQzbE9sdy1wNjhFLTEtaDlGQUtB?oc=5",
+      "publisher": "ProPakistani",
+      "published_at": "2026-11-12T08:07:45+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "fabc1677f47601ed4c18",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Workday asks judge to block class action over AI hiring screening - Cryptonews.net",
+      "summary": "Workday asks judge to block class action over AI hiring screening Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QbVNubWhuRmRISVlxRE4tSm8xVkNrblN2VWRwX2E3eVRQRXhvUnp2MG1SeUo0WExvMGE5bzZuZ3htTk5KeFhpN1YwNG1WSG1kU0JtOWdB?oc=5",
+      "publisher": "Cryptonews.net",
+      "published_at": "2026-11-12T07:09:14+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "77fe75a7ef9b115eec4b",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Workday moves to limit AI hiring discrimination lawsuit (WDAY:NASDAQ) - Seeking Alpha",
+      "summary": "Workday moves to limit AI hiring discrimination lawsuit (WDAY:NASDAQ) Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdWZqb3g0dWZQRU5hM1VPMTBvdUw2T2hVdDkyVFpsc3lDY3ZzUEZNVXI3ZVppaUNEWjBfVUJHTjA1aDRRajZIOHJFb3Iwd0gyQk95dGhfUldsV3otVWM5SGNCZlNIclFoeWVCWUpBT0lSNzVra29pMXRuQmFOV09RQndzRkhNZUcwQUk2ZG1KS1ZSZE4wSDRFaA?oc=5",
+      "publisher": "Seeking Alpha",
+      "published_at": "2026-11-11T20:16:46+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "9eea492e7237ae740892",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "The Precision Paradox in Defence Acquisition - Australian Army Research Centre",
+      "summary": "The Precision Paradox in Defence Acquisition Australian Army Research Centre",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOc1kwUzNXM3hZR1RHQm9lbVhMYThCRXU4Q1Z6bkU2UC1kX1EyT0x0SU5CeTNtbmRkSDdHM0VFWmlyTE5jcl81SHFnbm5pVFBJUnczS2I5SzVxYkdUdXVQZnk0a1oyMl9pWW9HU0ZueFdRUldEN1VXQkRtV28zd2NaMm5MalpTX3RaVzdKdXpTbHBSUWpSRHdLUDBJUFItQQ?oc=5",
+      "publisher": "Australian Army Research Centre",
+      "published_at": "2026-11-11T18:00:00+00:00",
+      "signal_types": [
+        "acquisitions_and_mergers"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Paradox",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "a0929142e496e8d5fe28",
+      "competitor_id": "fountain",
+      "competitor": "Fountain",
+      "group": "core",
+      "title": "St. Luke’s completes emergency room expansion at Fountain Hill campus - The Morning Call",
+      "summary": "St. Luke’s completes emergency room expansion at Fountain Hill campus The Morning Call",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNjFoQVBXX3FDNzNEcTljSnVWVnltR1Q0WHlTY1BLeXN6MjJwYkUydXdZazB4NTNsQnd6ZnhNVVBpd3lEVHFIV0ZpQVM3ZEhrOVhDa2pNNFhPT21fem9DbjA4REhTUWZNN0V0aFBWN21FNUpld2dWZ1BVQjA4Y05LZnpZVDlXMVkyREZTQzV3RzBqQjVZYnJpcjBrTEYzRURybnBJ?oc=5",
+      "publisher": "The Morning Call",
+      "published_at": "2026-11-11T12:01:14+00:00",
+      "signal_types": [
+        "geographic_or_segment_expansion"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Fountain",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
     {
       "id": "683fb47c137c79e260cd",
       "competitor_id": "sap_smartrecruiters",
@@ -33,6 +147,25 @@
       "last_seen_at": "2026-11-12T13:32:31.789327+00:00"
     },
     {
+      "id": "4d649abe538cdd1f6c9e",
+      "competitor_id": "skillate_sense",
+      "competitor": "Skillate / Sense",
+      "group": "core",
+      "title": "Jim Mitchell feels 'sense of urgency' around SMU Lacrosse recruiting - On3",
+      "summary": "Jim Mitchell feels 'sense of urgency' around SMU Lacrosse recruiting On3",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPemxOVGJjY2hzRFRrYk5naGp3Qm92dXhPSDhFVXJWbG1QRndrNUJLcFdYaHZqa2lMREJ2dDdyNFh3Y01RczhIQThfY2xwVDhzbkdxOGpsTVZacktTNXZ3eWlFWFRGci1QMjdIeTRUZzYyenhoQnVlUjI4dWplTjgxdGpwTU92RzRmSWFvYW8tRUprSGF6QlZsalJIem1kUU1mVm93N2M4a1VCVG1INmxERg?oc=5",
+      "publisher": "On3",
+      "published_at": "2026-11-05T21:59:59+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Sense",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
       "id": "ad2a856c201f1fbb7b03",
       "competitor_id": "phenom",
       "competitor": "Phenom",
@@ -51,6 +184,26 @@
       "first_seen_at": "2026-11-12T12:20:47.223095+00:00",
       "matched_term": "Phenom",
       "last_seen_at": "2026-11-12T13:32:31.789327+00:00"
+    },
+    {
+      "id": "e5af9610345b840830ca",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "Did AI Platform Expansion Just Shift SAP's (XTRA:SAP) Investment Narrative? - Simply Wall St",
+      "summary": "Did AI Platform Expansion Just Shift SAP's (XTRA:SAP) Investment Narrative? Simply Wall St",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPV2FsVVByMDl5UGdFUTlUVE1XTEExQ1FEQWdLYlBmMGtYSU5LSGY3UTNkdjJFVm5IWE1yaElvblZOZmpxOEtCTjRDRUhiY28tT0pwdlhOTTNoamhDcFpLd25mNG8zUFIxNWp3YW5WbHNNaEhmcWxma3JxRXBiNG8zZmE1NG5hLVNBNnFaclpnUDBLZDBSUVhBeXgxOU5yd3FDbTF2c1NmcXp6cS15S3U1VXhtU29ER0V3elV0aGlZalc1NG_SAcgBQVVfeXFMTzEzRXpBS0loeXhocmRqcTNUN09SVVpBZGdoR2VqdmZxbFZyc0JNd2tGQVlSemJYSDB0Q0VaalRtR2w3elZaT3hKRkRrZ3hHUjJ6cVRfSE11NnFERGhndWljaVJOLVFHa0RPSTg5VXNLZHNveFB1d3JDWEk2VVJaMThWYXlFRGhuZ3dQdDBoemUtMEt3a3BnODdIVzc0Sm0tRlZGZnM3M1g0WWVFVXNsbDVaeG13Q3QtTUI2a2ZNTDVtS3dvTFhlaUw?oc=5",
+      "publisher": "Simply Wall St",
+      "published_at": "2026-10-31T07:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds",
+        "geographic_or_segment_expansion"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
     },
     {
       "id": "fb5f9f1ead92c6e3e3c5",
@@ -93,6 +246,25 @@
       "last_seen_at": "2026-11-12T13:32:31.789327+00:00"
     },
     {
+      "id": "6f13958447dcd20e4f03",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "Strong Q2 Results and Cloud Momentum Reinforce SAP SE’s (SAP) Investment Thesis - Yahoo Finance",
+      "summary": "Strong Q2 Results and Cloud Momentum Reinforce SAP SE’s (SAP) Investment Thesis Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQlo4Z2VoVzhHR2RGc3ZKeHJZdTV5cE1PVGhFVXB4V0JVQnJLbV9aNnJ5ZWlBTDZhdEVQUkdOMG9QeWdlaEhETl94X0MwOEJaNXFjQV9ESTllc1RxY3A5aXhBMVd3M2NNelI3NFpqN1Nvbk1SRUpBektsWE16ZVRMUFM3eW5tNFh2M2I1NnNGNVRuTlczdWhpQTBudVdOdw?oc=5",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-10-26T07:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
       "id": "dd8eebdd25fc87987bb5",
       "competitor_id": "phenom",
       "competitor": "Phenom",
@@ -111,6 +283,101 @@
       "first_seen_at": "2026-11-12T12:20:47.223095+00:00",
       "matched_term": "Phenom",
       "last_seen_at": "2026-11-12T13:32:31.789327+00:00"
+    },
+    {
+      "id": "50dc8bc9e4f9c4b0768b",
+      "competitor_id": "phenom",
+      "competitor": "Phenom",
+      "group": "core",
+      "title": "Phenom Named a Luminary in Two Agentic AI Innovation Assessments by Everest Group - Business Wire",
+      "summary": "Phenom Named a Luminary in Two Agentic AI Innovation Assessments by Everest Group Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcGJSd0ZOMXVkZ0w5TEVjZ3AydjNyLVRNS2UzcUNTamhFZ2lRek1jOTIwZmg3akVUQ3RMQVpMVkxkN0hsY2x5aTdzWUtRemVxdkZ1YlhpVWZ6RnlaTGpoQ1JCTTZHdWRXbDlOb21kenhMaVZIMEdjSUR2akhENkVla1V1aGxMcE9yZVg0RnBNeng4ZGNWWWRrM25TM0lrVjJZYTlheG5mYk12c1dyelNGdXk3bEF2bGZkanp2TjdDVmM3VUdTazMyQWo3Y1VDLTdzcy1vaA?oc=5",
+      "publisher": "Business Wire",
+      "published_at": "2026-10-22T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Phenom",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "6e9c71d20cce0da6b0aa",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Is AI Product Push Altering The Investment Case For Workday Stock (WDAY)? - Yahoo Finance",
+      "summary": "Is AI Product Push Altering The Investment Case For Workday Stock (WDAY)? Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd1daSHdZZ09YbWZTd3phQkFxU3dCbEJ6cnRDQjFXb3lFT3lQYnkxSGJqakF2d2hLemRQUk85dS13YTh4OFRjcFhsb0t5UlQzVXhwUFRBNnFCYi1rZ3M1UDM1OVE1TVE0UHkwRGpYN1c1REhHUXc1M2h1cHp4YVF3ckltNE52d2U2a1FKSnNNUGZxYVdzeUl4MEFmR2FRSnV6ZlE?oc=5",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-10-18T07:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "72670a984b6d05d0e4e9",
+      "competitor_id": "eightfold",
+      "competitor": "Eightfold",
+      "group": "adjacent",
+      "title": "Insight Global, Eightfold AI, AtWork, Spencer Stuart, Caldwell: People on the move - Staffing Industry Analysts",
+      "summary": "Insight Global, Eightfold AI, AtWork, Spencer Stuart, Caldwell: People on the move Staffing Industry Analysts",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSXVCYWxYZ0tCc1NNZkZ1YVFTSjFqUElWY1p6U2xxVkgzLWZ5eS1HQzdQQzJ2aWp2OU4yNWltOWo5N3lndDY0bG9UNE1LS2U2M0YxSG9la1BGcHhOZUZjZzRYbjRDTU5xSGVCek5sWG1tUGxfZkFmdHlWaXhVOGtiM1BGdTdOOU1lMXdmaEFITi1tSTJOclhLbnVqeFlYOVF3WlJaNEttZWRSU1hBcXRFZDdqa005ZUNJV0FmWnduN25rSFdqNmxWTXFsZ1lZdw?oc=5",
+      "publisher": "Staffing Industry Analysts",
+      "published_at": "2026-10-16T16:16:07+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Eightfold",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "85be582165850df1ab1b",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "New Workday Candidate Profile Lets Job Seekers Save Their Information Once and Use It Every Time They Apply Through Workday - Workday",
+      "summary": "New Workday Candidate Profile Lets Job Seekers Save Their Information Once and Use It Every Time They Apply Through Workday Workday",
+      "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQVlZHUlJGOFd1X1duczQ4ZlVwV1g0MUlqYlljTTFmcDZ2WlBwTUlYdm9XRkNkQ0QwbnlMdFJzMVM2VjNWQW5haE1Pek5peDYtUUNIZWppeThHM0FNVi1sc1plbzRlZjZsdzgyZmx0aHozSVhHZXhEaC00M0t6V3VxUDFYSDNXdzNER3JsT09WS3hGOXpuRUlSMU9mekxkR2xHTkVwNV9sRWdYNEhUZjBfd1NyWGpqYmktcktNMG4yWi0wWFVjbm1jODh2VUhSa3VpMFB6a2w5cUc3SUxzOUdzNHBLeGlwa2dpdTdjZTZfOXk5cXdfNFZNTnB0MWhOZXNqemRKTXdnc0QwSElfLXZvSjFMOElNREp3TldTU3duaFBmb0VxY1YzN0pSRmV1blFuVC1uTzhXTEpGQQ?oc=5",
+      "publisher": "Workday",
+      "published_at": "2026-10-13T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "e29c08f9e4aa8aa39064",
+      "competitor_id": "eightfold",
+      "competitor": "Eightfold",
+      "group": "adjacent",
+      "title": "Eightfold AI welcomes Joe Korngiebel as CEO to lead its next chapter of growth - Yahoo Finance",
+      "summary": "Eightfold AI welcomes Joe Korngiebel as CEO to lead its next chapter of growth Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaDBieUtRZTNSSFE0UlFTeXE0bGhET28wMW5UZTYtNE5fWmtjSHNwczlGX1ZFWnh5NnM2Sm1oanVhR3RtOUNvdzkxMWRWU2drMFZXLTJGRUxVOUdFeUFhZFMzQVdkNUQyZG1SaGdOa1Izd21UNmZIaUZsVzh0TVF4eENfeGItakczeWJOYzhXenVZbUp1ZWVNdTkwNmVTUVhlN2c?oc=5",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-10-13T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Eightfold",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
     },
     {
       "id": "05934ca5ce9a610aec1d",
@@ -153,6 +420,101 @@
       "last_seen_at": "2026-11-12T13:32:31.789327+00:00"
     },
     {
+      "id": "4dd5159c5209f01c8add",
+      "competitor_id": "eightfold",
+      "competitor": "Eightfold",
+      "group": "adjacent",
+      "title": "Namespace’s $42M Series B and Eightfold Revenue Growth - Quasa.io",
+      "summary": "Namespace’s $42M Series B and Eightfold Revenue Growth Quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdExiT3ZNUEVjOEowNTdJcHlVc3FsNUlrS2Nzck5PN1JMVzZEX0tsLTV5b2dmS19kTFFsVVloRDYtT2dUU1N0SnpyM3o4NjBSOG14b1BUWDJKczhvclc2VkR1VzBYY3I5R2pWbEs3SmQ0SkRCTnQ5cEhCYXZLOFBQZVJrTEcybTE5?oc=5",
+      "publisher": "Quasa.io",
+      "published_at": "2026-10-11T07:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Eightfold",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "1a440cdd108809ceb114",
+      "competitor_id": "phenom",
+      "competitor": "Phenom",
+      "group": "core",
+      "title": "‘A unique talent’: Why sky is the limit for Brewers’ phenom Chourio - Sportsnet.ca",
+      "summary": "‘A unique talent’: Why sky is the limit for Brewers’ phenom Chourio Sportsnet.ca",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNd0I5VzVJWW9pYkYta2g5Ml9VUlVsY2xKbDlZRUZVOUpnWHFESkF4V3QzVktDNUFpRnYxcEh3dlBJZnFMMGZFM2JHcjdJbnRyNUNQdnNaR04xbzdrZVgzRnlLTkM4eXlRY2ZUYl90QzRBVFRFcTFrYWViX3RZYkNLalNReVpwYWozUnMzQ1daZzZCeHlZLUtuU0pCZW1Ka2VH?oc=5",
+      "publisher": "Sportsnet.ca",
+      "published_at": "2026-10-09T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Phenom",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "768e506af22e4f7af685",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "Did Visa’s Stablecoin and SAP Pay Push Just Shift Visa's (V) Investment Narrative? - Yahoo Finance",
+      "summary": "Did Visa’s Stablecoin and SAP Pay Push Just Shift Visa's (V) Investment Narrative? Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZU9QS2xBaE9kQ3FaMzdoVzM2VUZ3WkNGam5ScWRnZGZpSTNCOVFZaHFhd2JrX2xSMzRmRDRMYWZ0RkZETFNMdW9zVUt3RUFmdURtaVNBTnhZRk92U3Y4eENacTRQMXhvbjFUVkJPRHlsbk16SExYZy1tQnVGYmU1MWx3dWJNVUhTZHZ4c0V4M1VNM3VtME5V?oc=5",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-10-07T07:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "0975e30a1b3b172dd68b",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "E-News | Workday in Action: Performance and Talent Management - West Virginia University",
+      "summary": "E-News | Workday in Action: Performance and Talent Management West Virginia University",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWXFVRmpJWlRNZUZLS3JCMnFRT1hnT0s5b0kybnljcVFqNHVySEhlOFV4UVJhNUUxYUZ3Y1JzeUFKZmZqNlcyYWE5alUxNkhkWEg1d0FkLW0xY25KREd0MmE5UTRVSzZzd25DVnFuY3c5UndhY2JLT2RxYTFqSW5QZGxkQTZVbXFxZXZwaDdhVHNUQ2s?oc=5",
+      "publisher": "West Virginia University",
+      "published_at": "2026-10-06T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "0097f1899321639e7b2f",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP buys AI workforce startup TechWolf - www.thestack.technology",
+      "summary": "SAP buys AI workforce startup TechWolf www.thestack.technology",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBoTTlPOHUtNzJfc1BzcVI1Zk9mbzQ1NFRHdnBseTJWeGJ2NzNCcE5scUE2QzNxSGZLSEc0d0JIRkhRQjBqd1lnRlJTZm80WHdrSHNhXzdVdVJzZk5sQ1AxQzRpYWpxZzNzOGphVXNJNW1mOWVyb2hZT2RGaw?oc=5",
+      "publisher": "www.thestack.technology",
+      "published_at": "2026-10-06T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
       "id": "d5f47cb7baf04063d4e8",
       "competitor_id": "fountain",
       "competitor": "Fountain",
@@ -173,6 +535,158 @@
       "last_seen_at": "2026-11-12T13:32:31.789327+00:00"
     },
     {
+      "id": "61e8f2f332a573c4cc3e",
+      "competitor_id": "skillate_sense",
+      "competitor": "Skillate / Sense",
+      "group": "core",
+      "title": "Evaluating Which 2027 Prospects Make Most Sense for UNC Basketball - Sports Illustrated",
+      "summary": "Evaluating Which 2027 Prospects Make Most Sense for UNC Basketball Sports Illustrated",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOVUxcUtkTXphTFRLNFdkQ2paTDI1a2lmMXJxVWN1cGJ1Zi1hLXFyaHRIV0NXdzNGTnQ1N2FucHhpQjhKY1hLbDJmVjQwMDVyLW1sLTBEMTZheDJyWFNhS3RrcUk5V1ZJY2xqYUp0azRhcG5pZlQ2dFlqWWphZVdldVYzQ2J3c1ppOEotXzBXOWxnc1hYZXJuaTZZWHZOZmNS?oc=5",
+      "publisher": "Sports Illustrated",
+      "published_at": "2026-09-28T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Sense",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "0ef665909c33c228ac1e",
+      "competitor_id": "phenom",
+      "competitor": "Phenom",
+      "group": "core",
+      "title": "Teen Guitar Phenom Covers Another Big Rock Song on 'America's Got Talent' Finale - Loudwire",
+      "summary": "Teen Guitar Phenom Covers Another Big Rock Song on 'America's Got Talent' Finale Loudwire",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE82YVFmelJJN0J5ZVFXaHh4RG5TYnJaX0RnV2FYeVMtOFBnSDFOcnRNdjFqQXRRbW1RN0xOR1l1ckN6djlNNkpzN2FBUUQ2eU5HdWMtRTA2UnhSZUVzdm5uYW82Ukc0NjBJdTAwNDQ5TnVDUnR0?oc=5",
+      "publisher": "Loudwire",
+      "published_at": "2026-09-23T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Phenom",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "880a44fa6c7e61d469cd",
+      "competitor_id": "eightfold",
+      "competitor": "Eightfold",
+      "group": "adjacent",
+      "title": "Golden Visa Interest Rises Eightfold as Wealthy Investors Reassess Residency - CEOWORLD magazine",
+      "summary": "Golden Visa Interest Rises Eightfold as Wealthy Investors Reassess Residency CEOWORLD magazine",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRFZQdy1wVnVDTDRXRlEyNFhFU2RJUDAyeW9XWXVhY2dibllmc05IeWZubUk1M1hlbS1SZzZKYktYbWdURHdPbEZNQVo4UHV6NGJYX0RyeWE1M2lUWDFIUExVNnJWdUtTclRwTndfbUVodk4tYk43VXE3cGtiNFY5U1YyX0xqcURCS3NjQUF1Zk0tUXhJX0NhYTN2UFpuejU1UWI4ZXVZR0p3RVA2Znc?oc=5",
+      "publisher": "CEOWORLD magazine",
+      "published_at": "2026-09-18T07:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Eightfold",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "171851bca020a8d0a640",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "Thai businesses expect AI investment and return to accelerate, SAP research finds - SAP News Center",
+      "summary": "Thai businesses expect AI investment and return to accelerate, SAP research finds SAP News Center",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQ3pGU1lpWExxVl9hUllYVENDdk40Y3NGYkZTb01jeV8zYmZWRXBuWERONDBFMnEycmRGU0Q0UkU4Zk1oUm8wdHhiRkFyOVRrdWFYdzZJNW1hR3k0S1piclllZDRHVzhvN3pHRG9PenZIMFVSRVpNbmhBSWpEYUoweWJmMUpieFlmZGxVbnJQN3BYSzNHS3NKTU1LcGFmT0YwSEFEcFNnQlZqMWp1OTV2dXJpaGQ?oc=5",
+      "publisher": "SAP News Center",
+      "published_at": "2026-09-15T07:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "a9dea5553ce92e3b7fd5",
+      "competitor_id": "eightfold",
+      "competitor": "Eightfold",
+      "group": "adjacent",
+      "title": "2026 Top HR Products of the Year: AI Interviewer from Eightfold - HR Executive",
+      "summary": "2026 Top HR Products of the Year: AI Interviewer from Eightfold HR Executive",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVmFhZkl2bldSVXlEZWtWb0lPWmRWdWd1OXJOMHNIUktuRzNJaEdmY2lqeUEzdnJ1YlhMWHN0bHBQZEx6Sno1SElpM0Q1SG44MG5INHExWDNMazJuRG00QjA1dFJJSFZEazFNZnBIeG5RRHNzcVY5azdyU2d0X1luc05heWFWb1JDYlBSOWNzbzE?oc=5",
+      "publisher": "HR Executive",
+      "published_at": "2026-09-15T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Eightfold",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "b435fc023e96fcf97248",
+      "competitor_id": "eightfold",
+      "competitor": "Eightfold",
+      "group": "adjacent",
+      "title": "No investment, yet 176.8 billion won in sales… This company grew eightfold in four years - 머니투데이",
+      "summary": "No investment, yet 176.8 billion won in sales… This company grew eightfold in four years 머니투데이",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BN2k3alRoeFhVbkoyaFZFWUpVUXk5X1Y2QmtCSVJPT2RtNlpTVjltdk9tSUV6eEdOVmQtdmpTQ19SdUdYa2lGeWhhaW9RNjNLaTZaeDAyak1UVE1oZjB3ZnVPVUNMR3cyT09KRTh3?oc=5",
+      "publisher": "머니투데이",
+      "published_at": "2026-09-12T07:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Eightfold",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "6e5cf6aa3b8deee6f30e",
+      "competitor_id": "fountain",
+      "competitor": "Fountain",
+      "group": "core",
+      "title": "Fountain Valley police provide recruitment update, target full staffing in 2027 - Los Angeles Times",
+      "summary": "Fountain Valley police provide recruitment update, target full staffing in 2027 Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPc1dKUFlQd0o4Q0tnY1dNanZzbWdxbWV0YzNzd3pJRS1CSW81b1ctY0tyMjlpZE1jcUk1R2VSeUwtc1lXYVhvUWVPeGFfMHFQOVBjUmY0dWN0cXBtWUZKWkZBYlNBZEdpU2d2clVQd1hUcWwxcTl2eTRuVGZNX0MtMFVpUlNTYTBWeGdOeGx2VUFiM0J3anVfZnRqNVJlbl80YjE3a1RpTEh2VmhtWDdtSEp0TTVpV1F1ci04WmZ2Ui1XTTdZSjV5VUpMOA?oc=5",
+      "publisher": "Los Angeles Times",
+      "published_at": "2026-09-03T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Fountain",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "ace469a5a39f6b75d867",
+      "competitor_id": "skillate_sense",
+      "competitor": "Skillate / Sense",
+      "group": "core",
+      "title": "This Aim recruiter’s sell-off makes little sense - Investors' Chronicle",
+      "summary": "This Aim recruiter’s sell-off makes little sense Investors' Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOblR2U29pbWM3ZzY4czZXajUzTHd0VElUOURXQ242X1FYZlp0NXFwVEZuMHdZcGtyYWVqdjE3WEZ0Uk03M0NadzdaeV9YMi03bWpPeXR4NnJMRmt6b0ZUOFhiek5FemtKVDMyU0NOWjhfQl9wQk91dGlhLXEwRWU2M0UtMmpydU0t?oc=5",
+      "publisher": "Investors' Chronicle",
+      "published_at": "2026-09-02T07:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Sense",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
       "id": "904522d8f318c85aa201",
       "competitor_id": "ripplehire",
       "competitor": "RippleHire",
@@ -183,14 +697,681 @@
       "publisher": "Tracxn",
       "published_at": "2026-09-01T07:00:00+00:00",
       "signal_types": [
-        "general_competitor_news"
+        "funding_and_investor_rounds"
       ],
       "source_type": "Google News RSS discovery",
       "verification_status": "unverified",
       "review_status": "pending",
       "first_seen_at": "2026-11-12T12:20:47.223095+00:00",
       "matched_term": "RippleHire",
-      "last_seen_at": "2026-11-12T13:32:31.789327+00:00"
+      "last_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "78cd7d8e87741af058c3",
+      "competitor_id": "phenom",
+      "competitor": "Phenom",
+      "group": "core",
+      "title": "Teen Guitar Phenom Gets ‘America’s Got Talent’ Golden Buzzer for Soundgarden Cover - Loudwire",
+      "summary": "Teen Guitar Phenom Gets ‘America’s Got Talent’ Golden Buzzer for Soundgarden Cover Loudwire",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTElBa2lxcGQ3elFiMDliQXJzVjlZcVFybmI0YkxTdnVScEtCN3kzbVdMTVoweHdRc3FfczlKNU5lS0lxTUxkUkZIS3NlYVRpQVpLd0RvT05UdXBHWk9vRmtDSDM3S2gyWTJXb2hxU19rUUc2a2VDdjFWNFg4Y3NiVkpROXUyZHdJdk1JRg?oc=5",
+      "publisher": "Loudwire",
+      "published_at": "2026-08-26T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Phenom",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "1639710f3fa090552fab",
+      "competitor_id": "phenom",
+      "competitor": "Phenom",
+      "group": "core",
+      "title": "Oklahoma recruiting intel: Sooners have another two-sport phenom in the crosshairs - On3",
+      "summary": "Oklahoma recruiting intel: Sooners have another two-sport phenom in the crosshairs On3",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbkc3Rllscm13RHRlMGtQRUxvZ0xqMXNNbUxyNk5pVGRWUmp6M0dGRm5SbGE1eTVqSTNXYm5rSXhiTHBFUVBseHRnWmFHTkVFem0wd3ZQeXZtTlNaRVR3NHJ0YnVRUWg0NjhDdDY2R3BrV2RhY1ZSUnl5YzRpOWFITHZNUjRTekJhTTNkNHBpaFFnNWYzOE5QbHVaU0o3TWttTkx1dTQxcU95cFF2ZVdCRjB5Y1JaWlZxWDh1X29BcDZiVXdrbDZGMDdB?oc=5",
+      "publisher": "On3",
+      "published_at": "2026-08-21T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Phenom",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "34848db5f2ff7679d1c3",
+      "competitor_id": "fountain",
+      "competitor": "Fountain",
+      "group": "core",
+      "title": "Fountain Hills man pleads guilty to investment fraud - Fountain Hills Times",
+      "summary": "Fountain Hills man pleads guilty to investment fraud Fountain Hills Times",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONFo1QUNRcUliS1lDVER2Y0x1WElsLWxZWTVuMVh5OEZ1SkIxXzdFTldSYklGQUxxeG5udllNWGRabHJ3SmRfU1VhenNRcDNxa1VfbTNWODBTLUdXOU85aERnRWY4VjA3QmJwc1p0TFhpRFN3LW03ZUhQN0pYOEZsYUo1SEVBTzAxRUw2RGhkV0o?oc=5",
+      "publisher": "Fountain Hills Times",
+      "published_at": "2026-08-19T07:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Fountain",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "845b859824d9a9f8d696",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "The perfect proposal paradox and Garcia’s law in AI-enabled acquisition - Federal News Network",
+      "summary": "The perfect proposal paradox and Garcia’s law in AI-enabled acquisition Federal News Network",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMERZNmxkVVVLT004WHZ6N0ljM3V1YmZZTW5pdENLSEVXOTkxZTZhUTJ1YnoxcmhiR3ZveHlDdHgzZFNBZ1N2N3JWX2NBMGxveC1PdHUwWGdjcllDQU9lUjRkaVozVXRSWTBRd1hIaTBxYzg3TGl1VDN6N0stclJRVEtQTUdyd3ctcFMzVWZCdHlGZWg5ZndET3doRGVFbTNQUGlTVGhDa1FLaDR2b3RQMDFMamYwSF9HdXE1SzZB?oc=5",
+      "publisher": "Federal News Network",
+      "published_at": "2026-08-19T07:00:00+00:00",
+      "signal_types": [
+        "acquisitions_and_mergers"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Paradox",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "b07e0b9f60b1c1c1746b",
+      "competitor_id": "phenom",
+      "competitor": "Phenom",
+      "group": "core",
+      "title": "2027 Marcus Curry Jr. Staying Focused on Recruitment, Locking in Visits - Phenom Hoops",
+      "summary": "2027 Marcus Curry Jr. Staying Focused on Recruitment, Locking in Visits Phenom Hoops",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYmF0cmFFMjFKdnBaMFp1UnIyZ2VFX2lsYnQxczBpQmU4bl9hQzY5eHc0dUl2NW90SHhwdzdhMVl0blY2OXhmSEVSS3ZJbEZ1NTFWWnNGams3WWVRa29YSFRKUmVnLXlLXzMtVHlHM0tpa09Pa2tuNTRRU1ctTmc0RWlpQllQNzJXalVUYldnZ0Z6ZDRWSXhiSy10N1ZncjdlOTlkbFpn?oc=5",
+      "publisher": "Phenom Hoops",
+      "published_at": "2026-08-19T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Phenom",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "b4f64ea9dbc1880dbf14",
+      "competitor_id": "eightfold",
+      "competitor": "Eightfold",
+      "group": "adjacent",
+      "title": "Eightfold AI Named “Agentic AI HR Solution of the Year” in 2026 HR Tech Breakthrough Awards Program - HRTech Series",
+      "summary": "Eightfold AI Named “Agentic AI HR Solution of the Year” in 2026 HR Tech Breakthrough Awards Program HRTech Series",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRVNDbHcyNlZEOGRPeGVESHhvTjhLRGhmSGdsMk9BTm5wQjl2ZnJGMlpqc0hfT2tWcTlKOUNjd1pRNkVXVlJ2LThsZ1FmcHJGeW1YazY5ek9XNkp4WUdWNVZSUkhkV1haNU5rNjRDd3hrUDUxYndIVlFhbXJISVNOY2RZeVRPREVNNm05S2hFOHRaaGRHbU9kQlJ6WDg1N0wwYmtUTjRONmtuTzBJbHRxRklucGtCMkdfOEViM2pHQkhfQjJRdjdpejJnTVd3eEc3?oc=5",
+      "publisher": "HRTech Series",
+      "published_at": "2026-08-13T07:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Eightfold",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "e765fe14a675ebaeb3ce",
+      "competitor_id": "skillate_sense",
+      "competitor": "Skillate / Sense",
+      "group": "core",
+      "title": "Dan Hurley throwing shade at teams like Syracuse makes no sense in today's recruiting landscape - Inside the Loud House",
+      "summary": "Dan Hurley throwing shade at teams like Syracuse makes no sense in today's recruiting landscape Inside the Loud House",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcy16RmFzalNzN256M1R5QVBXSTV2bVRzcG95NS1JY25YdU5fYjBJQ1lUNVNvOURwV3hOcDhacXVaX3JralNjcWpPOGpwWW1BZDRhUEs0QUVjREpaLWxRQnlyNXQ0RW11YVNuRGFYRE5tdzd4NUJSOWgyRWlna1hLLXhfVEZLbERpN3NyX191eXU0OG93SnRGV2FRSVhZNEdlVnRQNzVqQ0F2Qm9FdWtYSUVKZFU3TzUxanhGVkh0ZDZFR09Y?oc=5",
+      "publisher": "Inside the Loud House",
+      "published_at": "2026-08-07T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Sense",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "508fa78bc9f3bb44507f",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "Software Giant SAP Stops Most Travel and Hiring Because of AI’s Soaring Cost - 404 Media",
+      "summary": "Software Giant SAP Stops Most Travel and Hiring Because of AI’s Soaring Cost 404 Media",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSlgzNFhFa2NqcHBGOUIxTW8tdEo0RG9PNmRkVnJaa1lBeExVYV9UWUFCZ0VIMEE1dDZReE1JTkk1c0JZN0lXVUtMcDZqSjJWcmJ6X1ZqS2RDWHB2aGVpVUdlMko4bTZPRHc2OFlCVHE3czdlT08yUVR0UllEUVhEbW5tajVHS1hMTlRReC1jTVF6c3Atb0JBNUhlaEdjYnBWX2c?oc=5",
+      "publisher": "404 Media",
+      "published_at": "2026-08-06T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "2409177e5d41ebcc5d21",
+      "competitor_id": "phenom",
+      "competitor": "Phenom",
+      "group": "core",
+      "title": "2028 6’10 Hudson Hatch Talks Recruitment Jump and Move to Monarch Academy - Phenom Hoops",
+      "summary": "2028 6’10 Hudson Hatch Talks Recruitment Jump and Move to Monarch Academy Phenom Hoops",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVTJSd3NwQml5NDI1M0VLeG8zX2lZZUxJSTNzc1JRblYtSDB2dFZ4a1F0bXBoM1lkZ3VWYUpsMklSdUlpNmM2ZFY3V2RCNGRPb05rWTVCU2xIYnowZ2ZZMTJnQXRRTkNUNjBWRDhfeHlZN1AyVFF0Z3JsVHI2dmRBMVlVR0hoV1NVbk1tNk5idGtHcnlONXNRNjBYUnN3MTdiSDNVbmNWUjZtZw?oc=5",
+      "publisher": "Phenom Hoops",
+      "published_at": "2026-07-29T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Phenom",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "4a070eae7935316d27ef",
+      "competitor_id": "zappyhire",
+      "competitor": "Zappyhire",
+      "group": "core",
+      "title": "81% of Enterprise Hiring Teams Have Adopted AI, Finds Zappyhire’s Enterprise Hiring Trends & AI Adoption Report 2026 - ThePrint",
+      "summary": "81% of Enterprise Hiring Teams Have Adopted AI, Finds Zappyhire’s Enterprise Hiring Trends & AI Adoption Report 2026 ThePrint",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOUndhYzM5T2k5V2RtOW1kYTJhX2tFdEJYTEQwLS1FakZ3QWxpZmRjZnVJWk12bnc1SlJZU3ZoWkxTYmg1Vm1aSUNYeVNKWksxb2lOaXJaV0NtVHFVVnZJN1NTTURMNnRkcklqU09naERUdXBKVmYtb2JvTEt0NVdCVU14ZWNvbGFzUlVWUXF5ZEZMV1pGdU5MeG1RQUNQUW1lNGNJeWFRVE1tS2JLU1dhenZkWTlZODlXLTJIM3Z5NXZFd29XeWxsTmZIZUxNaHRqenlUY2VDRzhBbENDT0RXdDNUNnZLZi1saUtXR0VoWkbSAfYBQVVfeXFMTVRrbUpKZlcxb3VZRjlDbzRMd25pYW55b0pXcnA3OXAwWE53SENwV2Z1WmtncFJ1VVAwN3lpOVo1NUZUTzEzN2VvV0s5aUJSQnNkOTktN21MU2M3MlVFSHk5bXUyaC1NZGNFbmYzUlhndllqMC1DRTVsY2gzcHhDeC1HUDdiazlrc3FFVEttY0dwOGVTeU96OGxTMGNZb1U4dFNtUmpSUjVFV3dGZzF5RGFXdlJnaHUwNlhPcVRFWm9QcVVPVFNfOEJxZTR0Z2Rpc3pxcXpna0toY04wVzdSVk5vSG1tRVdJTWhHUHJ6RW04UW1OSHdn?oc=5",
+      "publisher": "ThePrint",
+      "published_at": "2026-07-27T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Zappyhire",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "3c8dd79b33a26ff50e6c",
+      "competitor_id": "eightfold",
+      "competitor": "Eightfold",
+      "group": "adjacent",
+      "title": "Eightfold AI Grows Talent Agents to 2.0 with Candidate Agent, Giving every Candidate a Connected, Conversational Hiring Journey - HRTech Series",
+      "summary": "Eightfold AI Grows Talent Agents to 2.0 with Candidate Agent, Giving every Candidate a Connected, Conversational Hiring Journey HRTech Series",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQS1VaVFp3RWFwRW1GbXpWQTNjdm1WMVQ3bU5nUVZtWVhRSVNYYUVpXzh5clVRSTliMzl5OEQzaF9JVGJ0bFlJSzg4STVxSlk4RHNPNVhRYWJqY2t5aWxiU2ZOSU5iTUw3bFdLb0pQYk1VajBkZUlDSVYyaGFfQXU3SGUzN0tOaXJGRlVET2huWUhjenl0US1qdTdPdTIzdlVrdGRnM3JBZnh1bkdIOC1GNFlhV1hPWS1uTGVLVEFQUTRISUpVSzdLVnRlNkFydXM1OFRSNVFaX0pHazlnMGxOel9lR1FjQzlic3hHLUl3?oc=5",
+      "publisher": "HRTech Series",
+      "published_at": "2026-07-16T07:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Eightfold",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "e8f7dbfc9cb416a29a3e",
+      "competitor_id": "phenom",
+      "competitor": "Phenom",
+      "group": "core",
+      "title": "Phenom Opens Registration for AI Day 2026, Showcasing the Engineering and Orchestration Behind AI Agents for Human Resources - Business Wire",
+      "summary": "Phenom Opens Registration for AI Day 2026, Showcasing the Engineering and Orchestration Behind AI Agents for Human Resources Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNOWZKZEVsU2FxcUpmZU1OZlBXUUtXa09heFBpaGFENVBENjVZTjV1ejR4VmswcTFFaU9DTmV0aEl3UG4wMWpmYlVFWDA2OEJMQVZnLUlDY0F5UnREMkpYTzFRT2VWWE5CVHo1QVRVUFVQNGhQUXFvM0lSNnNoSGxkN2M2ZEFrS0dYYWRjdWdBcmRCTDE4d201WTVENUN1VzV4bXpTcklUbXJXNElKTlY3d3ZUUXc5NlpORm96LXJ6VTFpaTZzT3NZQld6RlNJbHFpdGdaelR1QU95RWtfOXJNVDFfOTFYT2F0ejJDUWY0RlZEczFobjMweV9wNGxfX25Ob2JsMFItckwxVnVK?oc=5",
+      "publisher": "Business Wire",
+      "published_at": "2026-07-15T07:00:00+00:00",
+      "signal_types": [
+        "product_and_ai_launches"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Phenom",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "dd52d29b15a14bef33b1",
+      "competitor_id": "phenom",
+      "competitor": "Phenom",
+      "group": "core",
+      "title": "Phenom Hoops LIVE Returns to Raleigh with Two Loaded Events of Talent, Exposure, and Opportunity - Phenom Hoops",
+      "summary": "Phenom Hoops LIVE Returns to Raleigh with Two Loaded Events of Talent, Exposure, and Opportunity Phenom Hoops",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSm1YcEllZVdOclVESkt2aGdjQ3FPend1cHFTMFVoZC1BNkxZZm16bDBKOHB6QnpZSlEwWWd0b0d1Rm5LMkszQXFLRnJ6ZWMxVURtQ19VNmY0R2U2dXhCTmZ6OEtSbWZzSk1ZZUN3UkNkVzJlOFBjWTdzRHFGck11TWNXTGwzbENFYW82ZFoxSFdqWUdJYVRycVZURHEzR3drUDV0QUxUMzQ1UmktbWhQX3cxSThSSm5yX3RibUhnY3IxNGNNQVdF?oc=5",
+      "publisher": "Phenom Hoops",
+      "published_at": "2026-07-08T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Phenom",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "20e4ca3cd399169ab5a3",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "More capital, fewer projects: Latin America’s investment paradox - UN Trade and Development (UNCTAD)",
+      "summary": "More capital, fewer projects: Latin America’s investment paradox UN Trade and Development (UNCTAD)",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTXVMR3lVQ3NheUZxOUdhRnprQ2dfWkJlQnptMFNhNmducXdkTFNNdWZlQXU1SnMzSGlrT295LWU5ZUVzbXk1SHlFTjhOZURxajY1RTZzaFVNc2JVMmo0ZG1CeVJ5OGVMMWdkZmZnMGIxOElIbXYyY3FuRGN6OWFtN0RIcGJDcWNNM012MXd3?oc=5",
+      "publisher": "UN Trade and Development (UNCTAD)",
+      "published_at": "2026-07-07T07:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Paradox",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "134a802d3d71fc117afe",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP cuts hiring and travel to fund AI - CIO",
+      "summary": "SAP cuts hiring and travel to fund AI CIO",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSExjbW1xeHpZb3FHZm5pTUI0LUhybE1GanUxZjFOR0J3ZDZfZFQ4ZTdldzRkTmJNeDJ1Ul82NDlDLTlYQkVJUTlDMjRhTHVtLTRyR2F1bE9DM3RpYXJTdDlJdVVuSjFfN2JqaFE4UjNBWlNHVXl3UjJub2FnM1pyM2s0MUU?oc=5",
+      "publisher": "CIO",
+      "published_at": "2026-07-03T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "380e91826823777bc799",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP Celebrates America's 250th with Investment in the Next Generation - PR Newswire",
+      "summary": "SAP Celebrates America's 250th with Investment in the Next Generation PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYWY1R1BOOV9uUHJ4NTNTdFJES0xpTG50MmwtX1Q0X1ZiTGJ4RTdRQzNtY2ExajRmY2pzMnFDclk1UHVUZzlYeXlKM0wtelR1eUpzdEZXU292eHJUZ01GUExmNzdCQncyeTFxWjZkXzhIUDUtLS1FQkpZanhldHVsWUZnMVBfd1JYT01ZTlFkQ0lJeG1IVGdpajFhcFRONFR3dXBLRmFmZDBzWFotRFZwWl96MThOUjk0eWV1S1Nydy1kZw?oc=5",
+      "publisher": "PR Newswire",
+      "published_at": "2026-07-03T07:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "b807b2f4451beb62916b",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP is your biggest IT investment. Are you managing it that way? - E3-Magazin",
+      "summary": "SAP is your biggest IT investment. Are you managing it that way? E3-Magazin",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUHh1dUdHdk02RHptWVZyMUtQWG5DUXU2TGUxdmVieUV2cWQ5MWNmSUVYc25wcnFsTXplR2tpbWhWdVplQ3JSc21xZ2R5VENLeDNSejBDaTZXdGMtdkVOZUZrUUUzNkRIR1NWX0wxYWZzNFd4cnRQMkVQaEtyRHF6TndiTzhSRXRlVEh0aUZn?oc=5",
+      "publisher": "E3-Magazin",
+      "published_at": "2026-06-30T07:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "202125f21ca192dd5479",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Sierra x Acquired | The AI Paradox - Sierra AI Agents",
+      "summary": "Sierra x Acquired | The AI Paradox Sierra AI Agents",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1vcUxLaTFJV2g1THFaaXZ6eHNsWlRtZWhRSTdKZHkydGY1MEtuNGNLRjhJNmw2Z1V5RHNYZ2hpVFpYMkZCM3cxeHRTYzBybE53WElZbnF4c1pXNm5Zc3NNZmFqWnBpVlNsRmJZbDNoV0Y4SDQ?oc=5",
+      "publisher": "Sierra AI Agents",
+      "published_at": "2026-06-26T07:00:00+00:00",
+      "signal_types": [
+        "acquisitions_and_mergers",
+        "product_and_ai_launches"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Paradox",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "3f647dd52139d58e12a7",
+      "competitor_id": "fountain",
+      "competitor": "Fountain",
+      "group": "core",
+      "title": "Fountain Blues Festival brings huge lineup of talent to downtown San Jose - The Mercury News",
+      "summary": "Fountain Blues Festival brings huge lineup of talent to downtown San Jose The Mercury News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUU9HNHFOYXlmSENPTlpBQ3g5bkVEQWlKNDcwVkF0akFnVEtwV1BBS21GTm1KaDZzcVFsdXNUelI0NzNJQjJiYVI1LWwyeGJsdzJxSHYxOFI1N1ZDaDBiS3BpRGtqSkQzS0dOdk9KVmxrWDY3dE9hVTBjbWhuNVdLYUltNmg0VW8xWFFacVZBTlhCdkttZWtoS0IxcHZfYU5MSlpURWtwX0tLV3JqYVpsbDRjRQ?oc=5",
+      "publisher": "The Mercury News",
+      "published_at": "2026-06-24T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Fountain",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "7bfcd7707d60317651a3",
+      "competitor_id": "phenom",
+      "competitor": "Phenom",
+      "group": "core",
+      "title": "Phenom Recognized Among the Four Highest Scoring Vendors Across Every Use Case in the Gartner Critical Capabilities for Talent Acquisition (Recruiting) Suites - Business Wire",
+      "summary": "Phenom Recognized Among the Four Highest Scoring Vendors Across Every Use Case in the Gartner Critical Capabilities for Talent Acquisition (Recruiting) Suites Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQS0dycUlXN1hucXdOdDNoVnJoUjN2SHpLWGZEWDQ3SmxjWF9Rd1pmWmhCT29PMm9BT0ROd085bXUzMHplY21XMEoxLVJwYTBDLUFGZHhBRldBSmd1UURWallRSWdSRzFPN1FHdllsQXhSRlVGWDR4VHBVcUdZSmVvSHRQdkF3My13ZVFpd0J5Q25lTG9IRDd3NXVmVl92ZDJPVUZ3TnNqMlhjb2luRXJLcXZxZDQyZXVXdm9iVmxNaDFER0tsNDl6VFRyRG5FbUNLRUJhbXoxMTlfVWFWYUhGdjNPSTB0TzQ1Nnd5TUNIV09aYlZ2T3QySUthMFI5VkNXTFVnQnkyR1Z3a3VrdlNOeVdIRGRKV3pMLUcySE1oNjJodmw4WDN0ZFVObEo1aXZWRWd5a0hUbjY?oc=5",
+      "publisher": "Business Wire",
+      "published_at": "2026-06-22T07:00:00+00:00",
+      "signal_types": [
+        "acquisitions_and_mergers"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Phenom",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "f8ed1908c0ff2f1e57d2",
+      "competitor_id": "eightfold",
+      "competitor": "Eightfold",
+      "group": "adjacent",
+      "title": "Green Link posts eightfold income growth on disciplined SME focus and AI investment - Asian Banking & Finance",
+      "summary": "Green Link posts eightfold income growth on disciplined SME focus and AI investment Asian Banking & Finance",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTmM1eFY0Z2lGMzBLaFFVa1NtNWt2MlU1dkRPZkNpRGpWQ0IxS0lYc3pfUGZLcGxNclFxdFdoNlNBSnhGR3RHTmt0b2toVjhRUkNKXzkwVTFnY012cU1XdUdQM095cFlWcmRYMlQxMUZRcTRteDNEZ2FZQ1RYSG9BYVlKeXd4aURVZ3o3dVVsWnZJb0RVUEVkYndybWVvZGdTYWNtb0g5dlpOZXE3V20wT2RrdGtXdC10dFFtY2NYUQ?oc=5",
+      "publisher": "Asian Banking & Finance",
+      "published_at": "2026-06-21T07:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Eightfold",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "b6da9a89fc3866d5f3e0",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "Conduct Raises $60 Million Series A Round from Index, ICONIQ, and SAP - Yahoo Finance",
+      "summary": "Conduct Raises $60 Million Series A Round from Index, ICONIQ, and SAP Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOEF3cy1ZNk90bjRkN0JMc1ZNUlE1Wjlqd3B1aDRFYTQ4aTNILU55Zk9oTFVuUV9vbV9DX2p1TG1XaXZiOXc0M0hFVEQzeVdmaG85eFZiUk1SZllERkpPRWpiYVQwY1l5ME5qQ1o5NHdnY2Z4TWRaYU16eVlpcUVKMDA4NmIwam5MQ2NWWHNRUUpydzJjQThBTTF4X3Y?oc=5",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-06-17T07:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "aad45e1b6d54d9e4d694",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "Conduct Raises $60 Million Series A From Index Ventures, ICONIQ, And SAP - Pulse 2.0",
+      "summary": "Conduct Raises $60 Million Series A From Index Ventures, ICONIQ, And SAP Pulse 2.0",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObDdPcUVwREdMNGRUeTRLYzdFeklkVzREZFpnWmdJdThJdkQ3dEZTQnZqZUkxUEU3cE50Y0RzT2pJMHpFNGNrTG4wQzlVSFltbGNybmZ0eUxvdElhbFlCTUJOdzdNZ2l1a0RYUDBpbzIybXMtVy1nczViN1hhejdvWlRWdVJmUE5BT2Z2cXUzYlQ2dFHSAZgBQVVfeXFMUGE0R3pER0hMa21YZ3RmZjlSaW5PTGRrbDdROFhxUDd1NC1EeVo3OEpValJxWUc1OUpkYU9qRUdrNHlnRnI5aVhYUmhEZzktc29HeFBMYzBrb3BXREFXN19RWFFUZkF6RmdRYnBwZ0lzSXJjUWlOUnlQdUJ3LXNWNU9XUktRSVg0azJ4YjlBTmctd2x4cHVYbmE?oc=5",
+      "publisher": "Pulse 2.0",
+      "published_at": "2026-06-17T07:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "385f36ec256911e26447",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP Shares Retreat After Oracle Unveils Aggressive AI Investment Plans (SAP) - Yahoo Finance",
+      "summary": "SAP Shares Retreat After Oracle Unveils Aggressive AI Investment Plans (SAP) Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNem1NNmRNN1N2OG0tR2NmbE9Ublh6VGFlbUxodUdhaEgwUENoWVBIMWVVUUdNLUl3MGQ1ZG1vLXpjVnFETFN0Q28zN0Ffb2pkSG4xam9uVUx1OXphdkJIUjZFZzNjSTN6WmFrQU1ES3dKQm0tSW1CNklWbXRZQ2lRaDNFRG1WVnZfbjIteTFyckltRWR0ZFJMUkllbm8xQ28?oc=5",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-06-11T07:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "2b62037e7cdc6ef225bd",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "The Future of Hiring at SAP: SAP Runs SmartRecruiters - SAP News Center",
+      "summary": "The Future of Hiring at SAP: SAP Runs SmartRecruiters SAP News Center",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE10ZWVlWXpNQmYxWnFfT25WeDFucXpjU2lKbDl0ekRQSGd5TWNqZGoxNnhUbEU3WTk2ZGg4dFdRaFJUUmhwRGVjUnlpcmhlWjcwNVZ0cFdXNHRpQnN3WjdXQjBFQ2ZSa3k5Mmh5cTRQNXVaT2w2cWZpM3p5Yw?oc=5",
+      "publisher": "SAP News Center",
+      "published_at": "2026-06-08T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "cbf04d0a0d71cfe085c3",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP Sapphire Interview: AI Agents Will Force HR to Rethink Workforce Management, Says SAP SuccessFactors CRO - ERP Today",
+      "summary": "SAP Sapphire Interview: AI Agents Will Force HR to Rethink Workforce Management, Says SAP SuccessFactors CRO ERP Today",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9XYVdEaS1tenZuRDQwbDJlZWRCelhWWjBQb1lxdkh3elRyMzNmeXp6TmNnODZVZ1hELWNoc2Vhd2FZUUZ5WXFsdG9qQy0tZUxxUm43RTBoejdnZVhWNVNMUGh2UUI5NTBfRkdlMU8yNnFQVE4taF9sTU43QQ?oc=5",
+      "publisher": "ERP Today",
+      "published_at": "2026-06-07T07:43:20+00:00",
+      "signal_types": [
+        "product_and_ai_launches"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "6022290dcf0d26518e78",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "The SAP Workforce of 2028: Accelerated by AI, Defined by Human Expertise - Capgemini",
+      "summary": "The SAP Workforce of 2028: Accelerated by AI, Defined by Human Expertise Capgemini",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMFVSVU5kMEgzd1U5cW5EVVVBcDFPN2hpdHhSRTFHaHNsSEdvVXg3a2VBcmh4WGhkOUVIS3hNb0lUd09lOTk2NFFfLUVlSWMyYWMyY3BQOUxlTE9vOGZNLUJKSEthNDRyMmFVT1hRdnd5S1kwc1lLU1J3cW1nUFBfSk5KV3Riem9Rb3pKdWpMcFJpSGFCSEN6QlRoQm5fYzgteTY2T2J0WG9BcGo1Mlh6WmYzMG9qVG9lTjhaT2REX3FHRDVBWFBpOTREYmw?oc=5",
+      "publisher": "Capgemini",
+      "published_at": "2026-06-04T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "563348e81d3b386da50b",
+      "competitor_id": "phenom",
+      "competitor": "Phenom",
+      "group": "core",
+      "title": "Phenom Positioned as Strategic Leader in Fosway 9-Grid™ for Talent Acquisition Sixth Consecutive Year - Business Wire",
+      "summary": "Phenom Positioned as Strategic Leader in Fosway 9-Grid™ for Talent Acquisition Sixth Consecutive Year Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPT1NpSC1RYWRiYU5JY2dyUFlpOGcxbDF3Z0JJam5hcWxrVlVwV3RQV0dNMHJDYmpBVVdqblJaZWtuc0JfSlFTV2J0WHVBTFNRNWhCWlI0ZnhZc2RSelJiWnh6MG9nZEx2anJ3TlNzMTQ5UEg4clFlanRVdU1HQ045aHFlZVlEU2JwcVJCdEpvZWdjWFJKMUZ3endXZ3RORTA0VGZiV256dUhrbkJhUklIenZQV25HYi1aQnVhRkVUQkIyb0FNcU4zYXFIYndwM1ZIWmV6SVI2X05CVVdvRWloa1RrczJsMm10WmJUeEpR?oc=5",
+      "publisher": "Business Wire",
+      "published_at": "2026-06-02T07:00:00+00:00",
+      "signal_types": [
+        "acquisitions_and_mergers"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Phenom",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "ee0657eb0da2664b1485",
+      "competitor_id": "phenom",
+      "competitor": "Phenom",
+      "group": "core",
+      "title": "Phenom Announces Letter of Intent for a Strategic Investment Private Placement Financing and Joint Venture with SSR Mining Inc. for 15% Interest in Dobbin Project - Yahoo Finance",
+      "summary": "Phenom Announces Letter of Intent for a Strategic Investment Private Placement Financing and Joint Venture with SSR Mining Inc. for 15% Interest in Dobbin Project Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQjdPMG5sSmdNUW1qRzU1QVotNXhGZFlLX20tWlF0STJSSE4wRkl3OXBLa1pSaUJuQzRIS25yOGRRdkRnMjhfXzA5Wm5sbEFlZW93Um9ucVVjWU1UekJnaVpsMTQwUXJxQzVKZElvSlJNamFULTVOYkV1NkZycHZQLU9qZnQyalluVWhTMjdtSC1reVdVSzU2Y3Zoal9WR1J6TTZUU1l4TDg?oc=5",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-06-01T07:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Phenom",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "ea7d21f2817aed36e25b",
+      "competitor_id": "eightfold",
+      "competitor": "Eightfold",
+      "group": "adjacent",
+      "title": "Eightfold AI Positioned as a Strategic Leader in the 2026 Fosway 9-Grid for Talent Acquisition - HRTech Series",
+      "summary": "Eightfold AI Positioned as a Strategic Leader in the 2026 Fosway 9-Grid for Talent Acquisition HRTech Series",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMGREMWMwUEtDQlBhYzhXTEhQRnRLRzBiWE55QjlRTnFjOHdIXzdxT0FGT0JYZzJnNnVxM0g4UXR4c0RXRTUyT3doNERpTVNqbUNYaW40WWN3dG9fWHRVZnZ0OUk1ZnZUUEcwSDllMDUyRWl6ZUV2Umg1OU9CejNCYjItcUJ1UE5WcWQxUTRLNmZSNmpiREMzb0tWRk5DZlo4YVd2T0FKek9tY2dUUWpIRVJxZHJ2UmZDdjRyUXRMaGNXT1VBT290TmxKTl9TeHRmMGtxYw?oc=5",
+      "publisher": "HRTech Series",
+      "published_at": "2026-06-01T07:00:00+00:00",
+      "signal_types": [
+        "acquisitions_and_mergers",
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Eightfold",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "b2d39da31e70acc3183b",
+      "competitor_id": "skillate_sense",
+      "competitor": "Skillate / Sense",
+      "group": "core",
+      "title": "Michigan's rise with elite DL target makes perfect sense when he explains it - GBMWolverine",
+      "summary": "Michigan's rise with elite DL target makes perfect sense when he explains it GBMWolverine",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLTAyX3h4b3czcXlzeXB3c0p1NjhOTWhZOTM5UlpDY3VkZWxqZmIyNFdaT0VOZHZhSDJtajBOcHhZb1VRRmZQN2tKS2p0MTNwNVB2aWxTbV9KbWZRbHVDTUEyUWY2eVRKVzFIOU9uT21WWklrTW9EWnptbkJFd2NvOXFVakI1Ymw5dF9WbWlxOE5Td01VSHVDcWVfTHBQc1RuSlc0?oc=5",
+      "publisher": "GBMWolverine",
+      "published_at": "2026-05-27T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Sense",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "eb72b565d85609ffa259",
+      "competitor_id": "skillate_sense",
+      "competitor": "Skillate / Sense",
+      "group": "core",
+      "title": "BYU football has a new recruiting rival, and I can't make any sense of it - Lawless Republic",
+      "summary": "BYU football has a new recruiting rival, and I can't make any sense of it Lawless Republic",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUUlSMHVzcm1iS2s1X0RJQWR2NVN6LXJEeDZRd2VVTy11Rk5zbV9SY19ET0lwVU40bjd4WFFaM2lVQmdtUTFFcWNHc0FNU2JCYXljSDBWa0NHRDBDeW9jX0VENmJJYlNEd0pnN1BvV0FBd0ZEYXBXNnFqWnR4XzlfOXFLdlRnSkljZFpxYURWOVJiM2Nqajh2eHRUWDFsdw?oc=5",
+      "publisher": "Lawless Republic",
+      "published_at": "2026-05-26T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Sense",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "51dcdbdd90fd9786d0bc",
+      "competitor_id": "skillate_sense",
+      "competitor": "Skillate / Sense",
+      "group": "core",
+      "title": "Lane Kiffin Hiring Ed Orgeron to his new LSU Staff Makes All the Sense in the World - Sports Illustrated",
+      "summary": "Lane Kiffin Hiring Ed Orgeron to his new LSU Staff Makes All the Sense in the World Sports Illustrated",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYnRsYk04RG4tdXZoZWY4MkhCS0MtNnl6eUlRWG5lYlo0bk1DeEFWWEZYR1JzMnppcjJqa1RyMnJKVURUYmMydkh1QXI2QklJMmxJYVFMY0V2WmMtRFZDOUYtRUZPTklsX0JoVmtCMjhIREZqdWJ4MDdSeURnX29HTUU1TFYzcHNhOTdpRTk4QUhSRnRsLUJ0WWJHNmZwZWVzUEFXRWxNb1RnZ01NbXpoTW1HeE1EUHMwRndGbS1fRWY?oc=5",
+      "publisher": "Sports Illustrated",
+      "published_at": "2026-05-24T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Sense",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "040871e49f6d8abf19ef",
+      "competitor_id": "fountain",
+      "competitor": "Fountain",
+      "group": "core",
+      "title": "Loring Park's Berger Fountain getting big upgrade from state funding - FOX 9 Minneapolis-St. Paul",
+      "summary": "Loring Park's Berger Fountain getting big upgrade from state funding FOX 9 Minneapolis-St. Paul",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9rSnZ2ZmE0VjZDeGtuZkZfWTBlM0FEZG1vY09uNFEyV0hHTkhHX2dsYUprRzV1MjhNb0EwRkZSR2xxV3JuRS05Xy0wOExRdzJmeTZtUW1sdC1xRHfSAWBBVV95cUxNMTc3ei0yY3NIMzZDWWJuREg2M0FYQk9PUFdTN3Y1Q0dycVZ4cDY4d242VHE1NmNJS3VHMlpzTUlkYmc0Sm4xWHlFSXZodG9KM0hDeHZWUlIwckY1a3dlNEI?oc=5",
+      "publisher": "FOX 9 Minneapolis-St. Paul",
+      "published_at": "2026-05-24T07:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Fountain",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
+    },
+    {
+      "id": "dd7d661f85025f41adf5",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Workday shares jump as AI demand eases investor concerns - Reuters",
+      "summary": "Workday shares jump as AI demand eases investor concerns Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdTdoSE81Zk5DcVlTVVk1WHN2TVVEeURCdy1WN3FQbEV3OExuWGtxWEhNWnlhYVVRR3Fwa3psb0RMZ0xpdnlRcmluRTRpaDRQSEdHX18wRWlsbjZKcVBOSHlJelE4NE40ZE5rcVB0YjByR3N4Ykk1N2VKaE5DRkpGeS1kTEZmM2xRWXZoeG1hX2lEemdfM1AzVWlGY2FqR3ZXZFE?oc=5",
+      "publisher": "Reuters",
+      "published_at": "2026-05-22T07:00:00+00:00",
+      "signal_types": [
+        "funding_and_investor_rounds"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-12T13:53:34.266688+00:00"
     }
   ]
 }
