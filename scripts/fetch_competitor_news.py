@@ -3,10 +3,12 @@ import json
 import re
 import sys
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+from difflib import SequenceMatcher
 from email.utils import parsedate_to_datetime
 from html import unescape
 from pathlib import Path
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
 
 import yaml
@@ -15,7 +17,11 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 COMPETITORS_FILE = ROOT / "data" / "competitors.yml"
 OUTPUT_FILE = ROOT / "data" / "competitor-news.json"
-MAX_ITEMS = 500
+
+# Keep the live board focused on recent signals. Older records are removed from
+# the live JSON; Git history remains available in the repository.
+MAX_AGE_DAYS = 90
+MAX_ITEMS = 300
 
 EVENT_KEYWORDS = {
     "acquisitions_and_mergers": [
@@ -28,11 +34,11 @@ EVENT_KEYWORDS = {
     ],
     "partnerships_and_integrations": [
         "partnership", "partnered", "partners with", "integration",
-        "integrates", "alliance"
+        "integrates", "alliance", "partneredge"
     ],
     "product_and_ai_launches": [
-        "product launch", "launches", "launched", "announces", "announced",
-        "introduces", "introduced", "new product", "ai agent"
+        "product launch", "launches a new product", "launched a new product",
+        "new feature", "introduces a new", "introduced a new", "ai agent"
     ],
     "customer_wins_and_case_studies": [
         "customer", "case study", "selected", "chosen", "deployed",
@@ -54,6 +60,15 @@ EVENT_KEYWORDS = {
     ],
 }
 
+# These words can refer to unrelated topics. Require hiring/HR context when
+# they are used as the only competitor match.
+AMBIGUOUS_BRAND_TERMS = {"sap", "fountain", "workday"}
+HIRING_CONTEXT_TERMS = {
+    "hiring", "recruiting", "recruitment", "recruiter", "talent",
+    "hr tech", "human resources", "candidate", "applicant", "workforce",
+    "staffing", "ats", "successfactors", "smartrecruiters", "paradox"
+}
+
 
 def clean_html(value):
     value = unescape(value or "")
@@ -61,17 +76,71 @@ def clean_html(value):
     return re.sub(r"\s+", " ", value).strip()
 
 
-def normalize_date(value):
+def parse_date(value):
     if not value:
-        return ""
+        return None
 
+    value = str(value).strip()
     try:
-        parsed = parsedate_to_datetime(value)
-        if parsed.tzinfo is None:
-            parsed = parsed.replace(tzinfo=timezone.utc)
-        return parsed.astimezone(timezone.utc).isoformat()
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
     except (TypeError, ValueError, OverflowError):
-        return value
+        try:
+            parsed = parsedate_to_datetime(value)
+        except (TypeError, ValueError, OverflowError):
+            return None
+
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
+
+
+def normalize_date(value):
+    parsed = parse_date(value)
+    return parsed.isoformat() if parsed else ""
+
+
+def competitor_match_terms(competitor):
+    configured = competitor.get("match_terms") or competitor.get("aliases") or []
+    if isinstance(configured, str):
+        configured = [configured]
+
+    terms = [str(term).strip() for term in configured if str(term).strip()]
+    if terms:
+        return terms
+
+    competitor_id = str(competitor.get("id", "")).lower()
+    name = str(competitor.get("name", "")).strip()
+
+    # "Sense" by itself creates many unrelated search matches. Use Skillate as
+    # the default match until an unambiguous Sense-specific alias is configured.
+    if "skillate" in competitor_id or "skillate" in name.lower():
+        return ["Skillate"]
+
+    # Support combined names such as "SAP / SmartRecruiters".
+    return [part.strip() for part in re.split(r"[/|]", name) if part.strip()]
+
+
+def matches_competitor(competitor, title, description):
+    haystack = f"{title} {description}".lower()
+    context_found = any(term in haystack for term in HIRING_CONTEXT_TERMS)
+
+    for term in competitor_match_terms(competitor):
+        normalized_term = term.lower().strip()
+        if not normalized_term or normalized_term not in haystack:
+            continue
+
+        if normalized_term == "sense":
+            # Avoid generic uses such as "makes sense" or "sense of vocation".
+            # Configure a more specific alias (for example, a company/product
+            # name) in competitors.yml if Sense-specific monitoring is needed.
+            continue
+
+        if normalized_term in AMBIGUOUS_BRAND_TERMS and not context_found:
+            continue
+
+        return term
+
+    return ""
 
 
 def classify_signal(text):
@@ -85,6 +154,27 @@ def classify_signal(text):
     return matches or ["general_competitor_news"]
 
 
+def canonical_url(url):
+    if not url:
+        return ""
+
+    try:
+        parts = urlsplit(url.strip())
+        ignored = {"utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "oc"}
+        query = [(key, value) for key, value in parse_qsl(parts.query, keep_blank_values=True)
+                 if key.lower() not in ignored]
+        return urlunsplit((parts.scheme.lower(), parts.netloc.lower(), parts.path, urlencode(query), ""))
+    except ValueError:
+        return url.strip()
+
+
+def normalized_title(title):
+    title = (title or "").lower()
+    title = re.sub(r"https?://\S+", " ", title)
+    title = re.sub(r"[^a-z0-9]+", " ", title)
+    return re.sub(r"\s+", " ", title).strip()
+
+
 def read_existing_items():
     if not OUTPUT_FILE.exists():
         return []
@@ -96,10 +186,10 @@ def read_existing_items():
         return []
 
 
-def fetch_feed(competitor):
+def fetch_feed(competitor, cutoff):
     url = competitor.get("google_news_rss")
     if not url:
-        return []
+        return [], {"old": 0, "unmatched": 0, "invalid_date": 0}
 
     request = Request(
         url,
@@ -111,6 +201,7 @@ def fetch_feed(competitor):
 
     root = ET.fromstring(xml_data)
     items = []
+    skipped = {"old": 0, "unmatched": 0, "invalid_date": 0}
 
     for item in root.findall("./channel/item"):
         title = (item.findtext("title") or "").strip()
@@ -126,7 +217,20 @@ def fetch_feed(competitor):
         if not title or not link:
             continue
 
-        identity = link or title
+        published_date = parse_date(published_at)
+        if not published_date:
+            skipped["invalid_date"] += 1
+            continue
+        if published_date < cutoff:
+            skipped["old"] += 1
+            continue
+
+        matched_term = matches_competitor(competitor, title, description)
+        if not matched_term:
+            skipped["unmatched"] += 1
+            continue
+
+        identity = canonical_url(link) or title
         record_id = hashlib.sha256(identity.encode("utf-8")).hexdigest()[:20]
 
         items.append({
@@ -142,10 +246,88 @@ def fetch_feed(competitor):
             "signal_types": classify_signal(f"{title} {description}"),
             "source_type": "Google News RSS discovery",
             "verification_status": "unverified",
-            "review_status": "pending"
+            "review_status": "pending",
+            "matched_term": matched_term
         })
 
-    return items
+    return items, skipped
+
+
+def merge_preserving_review(old_item, new_item, fetched_at):
+    if not old_item:
+        new_item["first_seen_at"] = fetched_at
+        return new_item
+
+    merged = dict(old_item)
+    merged.update(new_item)
+
+    # Do not reset a human's review work every time the workflow refreshes.
+    for key in ("verification_status", "review_status", "first_seen_at", "notes", "agent_summary"):
+        if key in old_item:
+            merged[key] = old_item[key]
+
+    merged["last_seen_at"] = fetched_at
+    return merged
+
+
+def deduplicate(items):
+    # Newest items are retained first. Exact/canonical URL duplicates and very
+    # similar headlines from the same competitor are combined. Semantically
+    # similar but differently worded stories may still need human review.
+    items = sorted(
+        items,
+        key=lambda item: item.get("published_at", ""),
+        reverse=True
+    )
+    result = []
+    by_url = {}
+    by_exact_title = {}
+
+    for item in items:
+        comp_id = item.get("competitor_id", "")
+        url_key = canonical_url(item.get("url", ""))
+        title_key = (comp_id, normalized_title(item.get("title", "")))
+
+        duplicate_index = by_url.get(url_key) if url_key else None
+        if duplicate_index is None:
+            duplicate_index = by_exact_title.get(title_key)
+
+        if duplicate_index is None:
+            date = parse_date(item.get("published_at", ""))
+            title = normalized_title(item.get("title", ""))
+            if date and title:
+                for idx, existing in enumerate(result):
+                    if existing.get("competitor_id", "") != comp_id:
+                        continue
+                    other_date = parse_date(existing.get("published_at", ""))
+                    other_title = normalized_title(existing.get("title", ""))
+                    if not other_date or abs((date - other_date).days) > 10:
+                        continue
+                    if SequenceMatcher(None, title, other_title).ratio() >= 0.92:
+                        duplicate_index = idx
+                        break
+
+        if duplicate_index is None:
+            idx = len(result)
+            result.append(item)
+            if url_key:
+                by_url[url_key] = idx
+            by_exact_title[title_key] = idx
+            continue
+
+        primary = result[duplicate_index]
+        extra_sources = list(primary.get("additional_sources", []))
+        alt = {
+            "title": item.get("title", ""),
+            "publisher": item.get("publisher", ""),
+            "url": item.get("url", "")
+        }
+        if alt["url"] and alt["url"] != primary.get("url") and alt not in extra_sources:
+            extra_sources.append(alt)
+        if extra_sources:
+            primary["additional_sources"] = extra_sources
+
+    return result
 
 
 def main():
@@ -155,28 +337,68 @@ def main():
         )
 
     config = yaml.safe_load(COMPETITORS_FILE.read_text(encoding="utf-8")) or {}
-    competitors = config.get("competitors", [])
-
-    existing_items = read_existing_items()
-    records = {
-        item.get("url") or item.get("id"): item
-        for item in existing_items
+    competitors = [
+        competitor for competitor in config.get("competitors", [])
+        if competitor.get("enabled", True)
+    ]
+    competitors_by_id = {
+        str(competitor.get("id", "")): competitor
+        for competitor in competitors
     }
+
+    fetched_at = datetime.now(timezone.utc).isoformat()
+    cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
+    existing_items = read_existing_items()
+
+    # Retain only recent, dated records from the previous JSON. This removes
+    # stale historical noise that would otherwise remain forever.
+    records = {}
+    dropped_old = 0
+    dropped_invalid_date = 0
+    dropped_unmatched_existing = 0
+    for item in existing_items:
+        published_date = parse_date(item.get("published_at", ""))
+        if not published_date:
+            dropped_invalid_date += 1
+            continue
+        if published_date < cutoff:
+            dropped_old += 1
+            continue
+        competitor = competitors_by_id.get(str(item.get("competitor_id", "")))
+        if competitor and not matches_competitor(
+            competitor,
+            item.get("title", ""),
+            item.get("summary", "")
+        ):
+            dropped_unmatched_existing += 1
+            continue
+        key = canonical_url(item.get("url", "")) or item.get("id", "")
+        if key:
+            records[key] = item
 
     errors = []
     successful_feeds = 0
-    fetched_at = datetime.now(timezone.utc).isoformat()
+    skipped_totals = {"old": 0, "unmatched": 0, "invalid_date": 0}
 
     for competitor in competitors:
         try:
-            new_items = fetch_feed(competitor)
+            new_items, skipped = fetch_feed(competitor, cutoff)
             successful_feeds += 1
 
-            for item in new_items:
-                item["first_seen_at"] = fetched_at
-                records[item["url"]] = item
+            for key in skipped_totals:
+                skipped_totals[key] += skipped.get(key, 0)
 
-            print(f"Fetched {len(new_items)} items for {competitor.get('name')}")
+            for item in new_items:
+                key = canonical_url(item.get("url", "")) or item.get("id", "")
+                old_item = records.get(key)
+                records[key] = merge_preserving_review(old_item, item, fetched_at)
+
+            name = competitor.get("name", "Unknown competitor")
+            print(
+                f"Fetched {len(new_items)} recent matches for {name}; "
+                f"skipped {skipped['old']} old, {skipped['unmatched']} unmatched, "
+                f"{skipped['invalid_date']} with invalid dates"
+            )
 
         except Exception as error:
             name = competitor.get("name", "Unknown competitor")
@@ -186,7 +408,7 @@ def main():
     if successful_feeds == 0:
         raise RuntimeError("No competitor feeds could be read.")
 
-    all_items = list(records.values())
+    all_items = deduplicate(list(records.values()))
     all_items.sort(
         key=lambda item: item.get("published_at", ""),
         reverse=True
@@ -196,10 +418,20 @@ def main():
     output = {
         "refreshed_at": fetched_at,
         "source_note": (
-            "Google News RSS is used for discovery. Verify important "
-            "signals through an official source or credible publication."
+            f"Google News RSS is used for discovery. Items older than {MAX_AGE_DAYS} "
+            "days and results without a configured competitor-name match are excluded. "
+            "Verify important signals through an official source or credible publication."
         ),
         "feed_errors": errors,
+        "filter_summary": {
+            "retention_days": MAX_AGE_DAYS,
+            "dropped_old_existing_items": dropped_old,
+            "dropped_existing_items_without_valid_dates": dropped_invalid_date,
+            "dropped_unmatched_existing_items": dropped_unmatched_existing,
+            "skipped_old_feed_items": skipped_totals["old"],
+            "skipped_unmatched_feed_items": skipped_totals["unmatched"],
+            "skipped_feed_items_with_invalid_dates": skipped_totals["invalid_date"]
+        },
         "items": all_items[:MAX_ITEMS]
     }
 
