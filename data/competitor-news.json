@@ -1,17 +1,55 @@
 {
-  "refreshed_at": "2026-11-12T14:22:08.922936+00:00",
+  "refreshed_at": "2026-11-13T09:28:10.113935+00:00",
   "source_note": "Google News RSS is used for discovery. Items older than 180 days and results without a configured competitor-name match are excluded. Verify important signals through an official source or credible publication.",
   "feed_errors": [],
   "filter_summary": {
     "retention_days": 180,
     "dropped_old_existing_items": 0,
     "dropped_existing_items_without_valid_dates": 0,
-    "dropped_unmatched_existing_items": 39,
-    "skipped_old_feed_items": 158,
-    "skipped_unmatched_feed_items": 51,
+    "dropped_unmatched_existing_items": 0,
+    "skipped_old_feed_items": 159,
+    "skipped_unmatched_feed_items": 52,
     "skipped_feed_items_with_invalid_dates": 0
   },
   "items": [
+    {
+      "id": "4a5ea27ad6a8c638e6a8",
+      "competitor_id": "eightfold",
+      "competitor": "Eightfold",
+      "group": "adjacent",
+      "title": "Eightfold AI Introduces AI Recruiting Teammate to Help Recruiting Teams Achieve Hiring Outcomes - The Manila Times",
+      "summary": "Eightfold AI Introduces AI Recruiting Teammate to Help Recruiting Teams Achieve Hiring Outcomes The Manila Times",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOU1NuNS1DRFhJLTlxRVkteXI0M1pDYmxhSHZfLXNpWEpPVVBoLTVMLWQ5X3RsU09yb0JrTS1QSXFUODdqOXBvOE14cFdkWWpnb1Jnb1FDR2FUZ28tNndmTFNMOThyY0Y4QVVaSmxrbUI2Wk94bHVqc2Q0aUxKSEFpSlE1QkpSQlVWSWY2QWpwektqNnhGTzRqSmhjR0k4akJPNHlMQzR6LXliLWZZdTlaazhZdWFVN0VmYU9FTmZIbTdOSFo5N09QSXlQYXl5SXpOSWxFWFFCTTdOUndKMnNEOENtak9OemFiZEFaTDROc2FJWkVIMThDclNsbDkwd9IBgwJBVV95cUxPRzU2YXBMNmlNd19jbk1ScmFCdjRfa1JadmVuM3E0YXdzbUwwa3RyS3VLVTdBUFBYQ1lya2JTOVdrQm5GWGNFSzZxVDRoOHF5cnVhRFg5Zzcxa0tjMmktOFF6VVI4eUd2TlBLN1hkQlBZR25GckNhTWZMTndZaldmZEFYTXRhOTh1eVdjenk2dk9xN1RwMEp3bER3b3VnYWNYdlo1QWJsdVlkVGpVNER0TURYTkxQT25Ua3JhakRXWmhWYlAwUDIxLXVkcHM4ZVptcFpyN3F4M05HNjhEQWRZTjZDeGlMSmRoVDdubkh4dDQyME9OMXJWSkRDWEg3TXJVREk4?oc=5",
+      "publisher": "The Manila Times",
+      "published_at": "2026-11-12T16:16:59+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Eightfold",
+      "first_seen_at": "2026-11-13T09:28:10.113935+00:00"
+    },
+    {
+      "id": "78ae147a0590e851e012",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Review Candidates 50% Faster in Workday Recruiting - Workday Blog",
+      "summary": "Review Candidates 50% Faster in Workday Recruiting Workday Blog",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYWJEV3VKR2ZwbGhPYTRsMDNtbWFRSksxcndRLXdkUUJQdDdQVmEtTDQ1UmxTLWlYb3lhMElIWmJTOU1TOUF0ampHVUUzd1ZvZmdtM3RmeWhRVGxxX09VMFpfQXpJRlpjaHNPMjM4T2hvODJlQVQ4UTBUeGJlYUVfX3VaUlRKTDBLOGc?oc=5",
+      "publisher": "Workday Blog",
+      "published_at": "2026-11-12T11:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-13T09:28:10.113935+00:00"
+    },
     {
       "id": "4d7384245a0ead51216e",
       "competitor_id": "sap_smartrecruiters",
@@ -30,7 +68,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "fabc1677f47601ed4c18",
@@ -41,7 +79,7 @@
       "summary": "Workday asks judge to block class action over AI hiring screening Cryptonews.net",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QbVNubWhuRmRISVlxRE4tSm8xVkNrblN2VWRwX2E3eVRQRXhvUnp2MG1SeUo0WExvMGE5bzZuZ3htTk5KeFhpN1YwNG1WSG1kU0JtOWdB?oc=5",
       "publisher": "Cryptonews.net",
-      "published_at": "2026-11-12T07:09:14+00:00",
+      "published_at": "2026-11-12T07:08:31+00:00",
       "signal_types": [
         "general_competitor_news"
       ],
@@ -50,7 +88,26 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+    },
+    {
+      "id": "894e8ce6d5e2a945c449",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Workday asks a federal judge to break up the AI hiring bias case against it - Startup Fortune",
+      "summary": "Workday asks a federal judge to break up the AI hiring bias case against it Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNmJMNFRGVVlMdUxkMlAzZHU0ZS1YWmZpZ0pZalY2bk9mWHN0dm80dy00bXhFNUNJTUtuVFNmejBUaXQ4OGJLUWh0dHd5RVA5STdtSTFQSDB1NklDZHFHVC1fdnlWcE9odlQtTVB3RUoyT09DWmJRQjdaU19HMzZ0UDBKNWlhbmplSW9hMmhINU9sbHA2VWhVZk9vT1RkTm5QR181by1B?oc=5",
+      "publisher": "Startup Fortune",
+      "published_at": "2026-11-12T02:30:45+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "77fe75a7ef9b115eec4b",
@@ -70,7 +127,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "9eea492e7237ae740892",
@@ -170,7 +227,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "85be582165850df1ab1b",
@@ -190,7 +247,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "e29c08f9e4aa8aa39064",
@@ -210,7 +267,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "05934ca5ce9a610aec1d",
@@ -270,7 +327,26 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+    },
+    {
+      "id": "3bafdd416ae4b67e00ce",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP Stocks Gain as TechWolf Adds Workforce Intelligence - Yahoo Finance",
+      "summary": "SAP Stocks Gain as TechWolf Adds Workforce Intelligence Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUmJkM0FGR0Y1Rmpjd1Y5MmIzZ3FHc2lPNFZVbUM5RmJyMmU4cHcwRDA5cDd2QkJnQVQ0aUlkT3c1M1FnRUJnamVOd3ZUc2hBaWNlNTItRHlwVXBFRE1ULUNYU3JfaFRuWkVqdWJNeDE5WDVSUGFTOHBELS1kQU5WNS1fM0ZWeVVkdUsyNzFhNy1ycF8yZ3BGbg?oc=5",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-10-09T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "0975e30a1b3b172dd68b",
@@ -290,7 +366,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "0097f1899321639e7b2f",
@@ -310,7 +386,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "d5f47cb7baf04063d4e8",
@@ -350,7 +426,7 @@
       "review_status": "pending",
       "first_seen_at": "2026-11-12T12:20:47.223095+00:00",
       "matched_term": "RippleHire",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "1639710f3fa090552fab",
@@ -370,7 +446,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "845b859824d9a9f8d696",
@@ -390,7 +466,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "b4f64ea9dbc1880dbf14",
@@ -410,7 +486,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "508fa78bc9f3bb44507f",
@@ -430,7 +506,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "4a070eae7935316d27ef",
@@ -450,7 +526,7 @@
       "review_status": "pending",
       "matched_term": "Zappyhire",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "3c8dd79b33a26ff50e6c",
@@ -470,7 +546,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "e8f7dbfc9cb416a29a3e",
@@ -490,7 +566,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "20e4ca3cd399169ab5a3",
@@ -510,7 +586,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "134a802d3d71fc117afe",
@@ -530,7 +606,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "202125f21ca192dd5479",
@@ -550,7 +626,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "7bfcd7707d60317651a3",
@@ -570,7 +646,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "2b62037e7cdc6ef225bd",
@@ -590,7 +666,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "cbf04d0a0d71cfe085c3",
@@ -610,7 +686,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "6022290dcf0d26518e78",
@@ -630,7 +706,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "563348e81d3b386da50b",
@@ -650,7 +726,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     },
     {
       "id": "ea7d21f2817aed36e25b",
@@ -670,7 +746,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-12T14:22:08.922936+00:00"
+      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
     }
   ]
 }
