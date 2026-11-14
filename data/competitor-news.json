@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-11-13T09:28:10.113935+00:00",
+  "refreshed_at": "2026-11-14T08:55:47.416561+00:00",
   "source_note": "Google News RSS is used for discovery. Items older than 180 days and results without a configured competitor-name match are excluded. Verify important signals through an official source or credible publication.",
   "feed_errors": [],
   "filter_summary": {
@@ -7,21 +7,21 @@
     "dropped_old_existing_items": 0,
     "dropped_existing_items_without_valid_dates": 0,
     "dropped_unmatched_existing_items": 0,
-    "skipped_old_feed_items": 159,
-    "skipped_unmatched_feed_items": 52,
+    "skipped_old_feed_items": 154,
+    "skipped_unmatched_feed_items": 47,
     "skipped_feed_items_with_invalid_dates": 0
   },
   "items": [
     {
-      "id": "4a5ea27ad6a8c638e6a8",
+      "id": "23aaa6994fb0386631ea",
       "competitor_id": "eightfold",
       "competitor": "Eightfold",
       "group": "adjacent",
-      "title": "Eightfold AI Introduces AI Recruiting Teammate to Help Recruiting Teams Achieve Hiring Outcomes - The Manila Times",
-      "summary": "Eightfold AI Introduces AI Recruiting Teammate to Help Recruiting Teams Achieve Hiring Outcomes The Manila Times",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOU1NuNS1DRFhJLTlxRVkteXI0M1pDYmxhSHZfLXNpWEpPVVBoLTVMLWQ5X3RsU09yb0JrTS1QSXFUODdqOXBvOE14cFdkWWpnb1Jnb1FDR2FUZ28tNndmTFNMOThyY0Y4QVVaSmxrbUI2Wk94bHVqc2Q0aUxKSEFpSlE1QkpSQlVWSWY2QWpwektqNnhGTzRqSmhjR0k4akJPNHlMQzR6LXliLWZZdTlaazhZdWFVN0VmYU9FTmZIbTdOSFo5N09QSXlQYXl5SXpOSWxFWFFCTTdOUndKMnNEOENtak9OemFiZEFaTDROc2FJWkVIMThDclNsbDkwd9IBgwJBVV95cUxPRzU2YXBMNmlNd19jbk1ScmFCdjRfa1JadmVuM3E0YXdzbUwwa3RyS3VLVTdBUFBYQ1lya2JTOVdrQm5GWGNFSzZxVDRoOHF5cnVhRFg5Zzcxa0tjMmktOFF6VVI4eUd2TlBLN1hkQlBZR25GckNhTWZMTndZaldmZEFYTXRhOTh1eVdjenk2dk9xN1RwMEp3bER3b3VnYWNYdlo1QWJsdVlkVGpVNER0TURYTkxQT25Ua3JhakRXWmhWYlAwUDIxLXVkcHM4ZVptcFpyN3F4M05HNjhEQWRZTjZDeGlMSmRoVDdubkh4dDQyME9OMXJWSkRDWEg3TXJVREk4?oc=5",
-      "publisher": "The Manila Times",
-      "published_at": "2026-11-12T16:16:59+00:00",
+      "title": "Eightfold AI Introduces AI Recruiting Teammate to Help Recruiting Teams Achieve Hiring Outcomes - HRTech Series",
+      "summary": "Eightfold AI Introduces AI Recruiting Teammate to Help Recruiting Teams Achieve Hiring Outcomes HRTech Series",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPdno0WHdKbHk2RGpwMks2RE9odS0tMmY0ZnpuakNFbDlFU3h3encyNE1XY25KWEc1TnotazZCaDVhTVA3Q2dmM29feDRORGFpaHFPRndwVEg4MHpjT0gxTXNaQzBKMXNzb3FnQjBoclN4aXVzOUYwOE8wbkZRVjk5eTZTS1VDY21nTS1mM29xbFNFbl9tSlhIRGJaNllkT09walBac08zd2huYW1yVERNN01ER1B4bzczREdiX3NQWHoyTDR2WFpEOFZXMERBVXBMcGc0ZkNsSnBKRmNnam5MREJB?oc=5",
+      "publisher": "HRTech Series",
+      "published_at": "2026-11-13T13:08:07+00:00",
       "signal_types": [
         "general_competitor_news"
       ],
@@ -29,7 +29,14 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Eightfold",
-      "first_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "first_seen_at": "2026-11-14T08:55:47.416561+00:00",
+      "additional_sources": [
+        {
+          "title": "Eightfold AI Introduces AI Recruiting Teammate to Help Recruiting Teams Achieve Hiring Outcomes - The Manila Times",
+          "publisher": "The Manila Times",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOU1NuNS1DRFhJLTlxRVkteXI0M1pDYmxhSHZfLXNpWEpPVVBoLTVMLWQ5X3RsU09yb0JrTS1QSXFUODdqOXBvOE14cFdkWWpnb1Jnb1FDR2FUZ28tNndmTFNMOThyY0Y4QVVaSmxrbUI2Wk94bHVqc2Q0aUxKSEFpSlE1QkpSQlVWSWY2QWpwektqNnhGTzRqSmhjR0k4akJPNHlMQzR6LXliLWZZdTlaazhZdWFVN0VmYU9FTmZIbTdOSFo5N09QSXlQYXl5SXpOSWxFWFFCTTdOUndKMnNEOENtak9OemFiZEFaTDROc2FJWkVIMThDclNsbDkwd9IBgwJBVV95cUxPRzU2YXBMNmlNd19jbk1ScmFCdjRfa1JadmVuM3E0YXdzbUwwa3RyS3VLVTdBUFBYQ1lya2JTOVdrQm5GWGNFSzZxVDRoOHF5cnVhRFg5Zzcxa0tjMmktOFF6VVI4eUd2TlBLN1hkQlBZR25GckNhTWZMTndZaldmZEFYTXRhOTh1eVdjenk2dk9xN1RwMEp3bER3b3VnYWNYdlo1QWJsdVlkVGpVNER0TURYTkxQT25Ua3JhakRXWmhWYlAwUDIxLXVkcHM4ZVptcFpyN3F4M05HNjhEQWRZTjZDeGlMSmRoVDdubkh4dDQyME9OMXJWSkRDWEg3TXJVREk4?oc=5"
+        }
+      ]
     },
     {
       "id": "78ae147a0590e851e012",
@@ -48,7 +55,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Workday",
-      "first_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "first_seen_at": "2026-11-13T09:28:10.113935+00:00",
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "4d7384245a0ead51216e",
@@ -68,7 +76,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "fabc1677f47601ed4c18",
@@ -170,6 +178,25 @@
       "last_seen_at": "2026-11-12T13:32:31.789327+00:00"
     },
     {
+      "id": "f213745617b2e7b63c7a",
+      "competitor_id": "phenom",
+      "competitor": "Phenom",
+      "group": "core",
+      "title": "Phenom Launches Women in Tech Leadership Council to Advance AI Readiness Among Women in the Workforce - Business Wire",
+      "summary": "Phenom Launches Women in Tech Leadership Council to Advance AI Readiness Among Women in the Workforce Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdDRDTnFOTkxrdUVCNkxrMjJIcGxNSVUxVi1hVnFmUXhGcFU3SjhPLWlaMEs4ZHZKVUJWTVV6c0hST184cklSLVBlWFF0R2xpUHFiN05nSG9zd1ZCN1FjbDFEVzJDeGkzR3VGODFVWVlyWFEtTzRvekNTRlRBTXIxY2Q4YlBkTlhhVkZyWGhlQ1piMkhfNXJaV1lxZDBUUVdmYUdQOGI4Zl9UeXlOZ0llekVKNzJRMG00ZVM0VEF2RGRuY2ZjN0hOSE9ZVWZBWnNCcUZ6Z2pnck9LZFZhUUZHWkVXRzZIMXpIazJFek5LUQ?oc=5",
+      "publisher": "Business Wire",
+      "published_at": "2026-10-29T13:30:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Phenom",
+      "first_seen_at": "2026-11-14T08:55:47.416561+00:00"
+    },
+    {
       "id": "fb5f9f1ead92c6e3e3c5",
       "competitor_id": "fountain",
       "competitor": "Fountain",
@@ -227,7 +254,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "85be582165850df1ab1b",
@@ -247,7 +274,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "e29c08f9e4aa8aa39064",
@@ -327,7 +354,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "3bafdd416ae4b67e00ce",
@@ -346,7 +373,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "SAP",
-      "first_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "first_seen_at": "2026-11-13T09:28:10.113935+00:00",
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "0975e30a1b3b172dd68b",
@@ -366,7 +394,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "0097f1899321639e7b2f",
@@ -386,7 +414,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "d5f47cb7baf04063d4e8",
@@ -426,7 +454,7 @@
       "review_status": "pending",
       "first_seen_at": "2026-11-12T12:20:47.223095+00:00",
       "matched_term": "RippleHire",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "1639710f3fa090552fab",
@@ -446,7 +474,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "845b859824d9a9f8d696",
@@ -466,7 +494,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "b4f64ea9dbc1880dbf14",
@@ -486,7 +514,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "508fa78bc9f3bb44507f",
@@ -506,7 +534,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "4a070eae7935316d27ef",
@@ -526,7 +554,7 @@
       "review_status": "pending",
       "matched_term": "Zappyhire",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "3c8dd79b33a26ff50e6c",
@@ -546,7 +574,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "e8f7dbfc9cb416a29a3e",
@@ -566,7 +594,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "20e4ca3cd399169ab5a3",
@@ -586,7 +614,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "134a802d3d71fc117afe",
@@ -606,7 +634,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "202125f21ca192dd5479",
@@ -626,7 +654,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "7bfcd7707d60317651a3",
@@ -646,7 +674,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "2b62037e7cdc6ef225bd",
@@ -666,7 +694,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "cbf04d0a0d71cfe085c3",
@@ -706,7 +734,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "563348e81d3b386da50b",
@@ -726,7 +754,26 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
+    },
+    {
+      "id": "c31a9728d7a08b4c9757",
+      "competitor_id": "phenom",
+      "competitor": "Phenom",
+      "group": "core",
+      "title": "Phenom Maddi Gordon's breakout drag racing season highlights young talent - NHRA",
+      "summary": "Phenom Maddi Gordon's breakout drag racing season highlights young talent NHRA",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeXRlZmtJTHNnVzdUMjlqeTJwbDNaOG16emVCWmI0UGJDb0lYam8yUENnSWVqNEFBM09FVkN1TlhXbmtmSllxa0djUnRKWVEtM0RlSWF5ZU9qODNnbmVRVEVjSUZfYWN0a0cwN1RGcHo4R2hZZGF5dkpROFVBQTVCTVZ6UGVBTEhMamUwbWw3Qk5FLTZ0cUdhTTRaM05lRnNFcXlESGhTZ0xxQQ?oc=5",
+      "publisher": "NHRA",
+      "published_at": "2026-06-02T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Phenom",
+      "first_seen_at": "2026-11-14T08:55:47.416561+00:00"
     },
     {
       "id": "ea7d21f2817aed36e25b",
@@ -746,7 +793,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
     }
   ]
 }
