@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-11-15T09:16:58.019595+00:00",
+  "refreshed_at": "2026-11-16T09:34:08.356937+00:00",
   "source_note": "Google News RSS is used for discovery. Items older than 180 days and results without a configured competitor-name match are excluded. Verify important signals through an official source or credible publication.",
   "feed_errors": [],
   "filter_summary": {
@@ -8,10 +8,29 @@
     "dropped_existing_items_without_valid_dates": 0,
     "dropped_unmatched_existing_items": 0,
     "skipped_old_feed_items": 163,
-    "skipped_unmatched_feed_items": 42,
+    "skipped_unmatched_feed_items": 46,
     "skipped_feed_items_with_invalid_dates": 0
   },
   "items": [
+    {
+      "id": "565bd65b68b8096b9029",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "More Scientists, Fewer Grants: South Korea’s Research Funding Paradox - Koreabizwire",
+      "summary": "More Scientists, Fewer Grants: South Korea’s Research Funding Paradox Koreabizwire",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNLUV4UDhhOTlrM2N6dTVmSWdlaVM3YlJEbTl4a3lLNzAyNzZ3TjJCaERmNmlCZ2NoZUdzYy00ZG5ISkZ0QjU4OElsZWlFclNUdGU1ZXZNREJLb3oyYzBzeVRnWVNHTHBib1c0enV2T0ZDWkVVV1RDZFlLMnh0VXY3eXNPMmdQV3pDMzhpZTc5NXhCS0NsdmZpZ3d5R3Z2UQ?oc=5",
+      "publisher": "Koreabizwire",
+      "published_at": "2026-11-16T01:02:34+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Paradox",
+      "first_seen_at": "2026-11-16T09:34:08.356937+00:00"
+    },
     {
       "id": "23aaa6994fb0386631ea",
       "competitor_id": "eightfold",
@@ -44,6 +63,25 @@
       ]
     },
     {
+      "id": "47d0e48d19649446fb30",
+      "competitor_id": "eightfold",
+      "competitor": "Eightfold",
+      "group": "adjacent",
+      "title": "Eightfold AI Introduces AI Recruiting Teammate to Help Recruiting Teams Achieve Hiring Outcomes - Yahoo Finance",
+      "summary": "Eightfold AI Introduces AI Recruiting Teammate to Help Recruiting Teams Achieve Hiring Outcomes Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUDhRNDI5YzBWU0s3RjZYS21XcjZQZGRvYzQxZWJQRWNSWEtFRzlOZ0FzOUFzU3lGNlg3dC16ZDY2Unk5MXBQX1pkakdvUWc5WkgxcFZxbjdLWjNEdUxZcDdBZWJMdklBX3BZalRsV0wtUUN0MGZRWFRkT0xXcGpCMWl4dlc4RG41MUlaMjFOS3JFUnlqendXbEswOERJbWtIWHhF?oc=5",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-12T16:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Eightfold",
+      "first_seen_at": "2026-11-16T09:34:08.356937+00:00"
+    },
+    {
       "id": "78ae147a0590e851e012",
       "competitor_id": "workday_paradox",
       "competitor": "Workday / Paradox",
@@ -61,7 +99,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-13T09:28:10.113935+00:00",
-      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
+      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
     },
     {
       "id": "4d7384245a0ead51216e",
@@ -81,7 +119,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-15T09:16:58.019595+00:00"
+      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
     },
     {
       "id": "fabc1677f47601ed4c18",
@@ -279,7 +317,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-15T09:16:58.019595+00:00"
+      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
     },
     {
       "id": "85be582165850df1ab1b",
@@ -299,7 +337,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-15T09:16:58.019595+00:00"
+      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
     },
     {
       "id": "e29c08f9e4aa8aa39064",
@@ -419,7 +457,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-15T09:16:58.019595+00:00"
+      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
     },
     {
       "id": "0097f1899321639e7b2f",
@@ -439,7 +477,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-15T09:16:58.019595+00:00"
+      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
     },
     {
       "id": "d5f47cb7baf04063d4e8",
@@ -462,6 +500,25 @@
       "last_seen_at": "2026-11-12T13:32:31.789327+00:00"
     },
     {
+      "id": "e0c0653fe1d23a2f1588",
+      "competitor_id": "phenom",
+      "competitor": "Phenom",
+      "group": "core",
+      "title": "Thai teen phenom Nene Royal to open for US metal band after winning America’s Got Talent - Yahoo",
+      "summary": "Thai teen phenom Nene Royal to open for US metal band after winning America’s Got Talent Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUEJtS0wzamdySUczWWVYdHFLTkVzYVRpWi1fZlhTNGtBYllnUzhSS0djcUM2M0JSYUp3MnB4cUxGQ2RocjlBbHY2Mlc4eWhsdlJZOFdBaDVBazZvTjZwTFp0Nktkd1poQ1FMUDJvRTRnR25jZVByVXdwWk04cTZpaXFwRXd5bnBDZ0ZMU0p2bGt6SDROVW1VNA?oc=5",
+      "publisher": "Yahoo",
+      "published_at": "2026-09-25T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Phenom",
+      "first_seen_at": "2026-11-16T09:34:08.356937+00:00"
+    },
+    {
       "id": "904522d8f318c85aa201",
       "competitor_id": "ripplehire",
       "competitor": "RippleHire",
@@ -479,7 +536,7 @@
       "review_status": "pending",
       "first_seen_at": "2026-11-12T12:20:47.223095+00:00",
       "matched_term": "RippleHire",
-      "last_seen_at": "2026-11-15T09:16:58.019595+00:00"
+      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
     },
     {
       "id": "1639710f3fa090552fab",
@@ -499,7 +556,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-15T09:16:58.019595+00:00"
+      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
     },
     {
       "id": "845b859824d9a9f8d696",
@@ -519,7 +576,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-15T09:16:58.019595+00:00"
+      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
     },
     {
       "id": "b4f64ea9dbc1880dbf14",
@@ -539,7 +596,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-15T09:16:58.019595+00:00"
+      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
     },
     {
       "id": "508fa78bc9f3bb44507f",
@@ -559,7 +616,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-15T09:16:58.019595+00:00"
+      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
     },
     {
       "id": "4a070eae7935316d27ef",
@@ -579,7 +636,7 @@
       "review_status": "pending",
       "matched_term": "Zappyhire",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-15T09:16:58.019595+00:00"
+      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
     },
     {
       "id": "3c8dd79b33a26ff50e6c",
@@ -599,7 +656,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-15T09:16:58.019595+00:00"
+      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
     },
     {
       "id": "e8f7dbfc9cb416a29a3e",
@@ -619,7 +676,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-15T09:16:58.019595+00:00"
+      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
     },
     {
       "id": "20e4ca3cd399169ab5a3",
@@ -639,7 +696,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-15T09:16:58.019595+00:00"
+      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
     },
     {
       "id": "134a802d3d71fc117afe",
@@ -659,7 +716,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-15T09:16:58.019595+00:00"
+      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
     },
     {
       "id": "202125f21ca192dd5479",
@@ -679,7 +736,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-15T09:16:58.019595+00:00"
+      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
     },
     {
       "id": "7bfcd7707d60317651a3",
@@ -699,7 +756,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-15T09:16:58.019595+00:00"
+      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
     },
     {
       "id": "2b62037e7cdc6ef225bd",
@@ -719,7 +776,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-15T09:16:58.019595+00:00"
+      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
     },
     {
       "id": "cbf04d0a0d71cfe085c3",
@@ -759,7 +816,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-15T09:16:58.019595+00:00"
+      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
     },
     {
       "id": "563348e81d3b386da50b",
@@ -779,7 +836,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-15T09:16:58.019595+00:00"
+      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
     },
     {
       "id": "c31a9728d7a08b4c9757",
@@ -819,7 +876,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-15T09:16:58.019595+00:00"
+      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
     }
   ]
 }
