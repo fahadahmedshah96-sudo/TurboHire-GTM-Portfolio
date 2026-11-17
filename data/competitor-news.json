@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-11-16T09:34:08.356937+00:00",
+  "refreshed_at": "2026-11-17T10:40:14.886490+00:00",
   "source_note": "Google News RSS is used for discovery. Items older than 180 days and results without a configured competitor-name match are excluded. Verify important signals through an official source or credible publication.",
   "feed_errors": [],
   "filter_summary": {
@@ -7,11 +7,30 @@
     "dropped_old_existing_items": 0,
     "dropped_existing_items_without_valid_dates": 0,
     "dropped_unmatched_existing_items": 0,
-    "skipped_old_feed_items": 163,
-    "skipped_unmatched_feed_items": 46,
+    "skipped_old_feed_items": 159,
+    "skipped_unmatched_feed_items": 52,
     "skipped_feed_items_with_invalid_dates": 0
   },
   "items": [
+    {
+      "id": "5f4bc52891238993bca2",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP Closes TechWolf Deal to Ground Workforce AI Agents in Work Data - Unite.AI",
+      "summary": "SAP Closes TechWolf Deal to Ground Workforce AI Agents in Work Data Unite.AI",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZTJlWDN2cnBfYXctOFcxMU51dTZZR3ZmeGFxelZKWVAtNVBaNW9kQ1JKZ1dxaDhzQVBfYTlmSDU1eGNGVVFDZ3Q5VHFjZVRjUzQ4UnJTRDBsa0d3bmRBc0xqRHlfRXlKNXUzUEtCWGwxYmp2WEZtWHZhZXc5WEwxdlVfY2hRbE9uMVZJdDFQTjd6YlE?oc=5",
+      "publisher": "Unite.AI",
+      "published_at": "2026-11-16T15:39:04+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-17T10:40:14.886490+00:00"
+    },
     {
       "id": "565bd65b68b8096b9029",
       "competitor_id": "workday_paradox",
@@ -79,7 +98,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Eightfold",
-      "first_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "first_seen_at": "2026-11-16T09:34:08.356937+00:00",
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
       "id": "78ae147a0590e851e012",
@@ -99,7 +119,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-13T09:28:10.113935+00:00",
-      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
       "id": "4d7384245a0ead51216e",
@@ -317,7 +337,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
       "id": "85be582165850df1ab1b",
@@ -337,7 +357,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
       "id": "e29c08f9e4aa8aa39064",
@@ -437,7 +457,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-13T09:28:10.113935+00:00",
-      "last_seen_at": "2026-11-14T08:55:47.416561+00:00"
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
       "id": "0975e30a1b3b172dd68b",
@@ -457,7 +477,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
       "id": "0097f1899321639e7b2f",
@@ -477,7 +497,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
       "id": "d5f47cb7baf04063d4e8",
@@ -536,7 +556,7 @@
       "review_status": "pending",
       "first_seen_at": "2026-11-12T12:20:47.223095+00:00",
       "matched_term": "RippleHire",
-      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
       "id": "1639710f3fa090552fab",
@@ -556,7 +576,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
       "id": "845b859824d9a9f8d696",
@@ -576,7 +596,26 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+    },
+    {
+      "id": "50fdda7cf7b68e798e31",
+      "competitor_id": "zappyhire",
+      "competitor": "Zappyhire",
+      "group": "core",
+      "title": "Zappyhire - 2026 Latest Shareholding & Valuation - Tracxn",
+      "summary": "Zappyhire - 2026 Latest Shareholding & Valuation Tracxn",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdkl2aEUzWV9lS2twZUQwMWhpNkhTS01acUFzQ3dRbVJ6SGRQUUJDQmRvSG10Y1NqYXo0bU9qLXZvS0tIaFpucEdVSGNSMU9ibEdKbW8weHZQaHB1VllkeGtMOWFYdjE2NkV1MTBjV0NxSDVqTWx6V1dpdEFrc0JJZ2czSldOalZCNW5rVEoxWFYzZUpTZHBsZ0ZIclJqaGxkTmpONlB5RHBMUQ?oc=5",
+      "publisher": "Tracxn",
+      "published_at": "2026-08-15T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Zappyhire",
+      "first_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
       "id": "b4f64ea9dbc1880dbf14",
@@ -596,7 +635,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
       "id": "508fa78bc9f3bb44507f",
@@ -616,7 +655,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
       "id": "4a070eae7935316d27ef",
@@ -636,7 +675,7 @@
       "review_status": "pending",
       "matched_term": "Zappyhire",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
       "id": "3c8dd79b33a26ff50e6c",
@@ -656,7 +695,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
       "id": "e8f7dbfc9cb416a29a3e",
@@ -676,7 +715,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
       "id": "20e4ca3cd399169ab5a3",
@@ -696,7 +735,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
       "id": "134a802d3d71fc117afe",
@@ -716,7 +755,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
       "id": "202125f21ca192dd5479",
@@ -727,7 +766,7 @@
       "summary": "Sierra x Acquired | The AI Paradox Sierra AI Agents",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1vcUxLaTFJV2g1THFaaXZ6eHNsWlRtZWhRSTdKZHkydGY1MEtuNGNLRjhJNmw2Z1V5RHNYZ2hpVFpYMkZCM3cxeHRTYzBybE53WElZbnF4c1pXNm5Zc3NNZmFqWnBpVlNsRmJZbDNoV0Y4SDQ?oc=5",
       "publisher": "Sierra AI Agents",
-      "published_at": "2026-06-26T07:00:00+00:00",
+      "published_at": "2026-06-25T07:00:00+00:00",
       "signal_types": [
         "acquisitions_and_mergers"
       ],
@@ -736,7 +775,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
       "id": "7bfcd7707d60317651a3",
@@ -756,7 +795,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
       "id": "2b62037e7cdc6ef225bd",
@@ -776,7 +815,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
       "id": "cbf04d0a0d71cfe085c3",
@@ -796,7 +835,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
       "id": "6022290dcf0d26518e78",
@@ -816,7 +855,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
       "id": "563348e81d3b386da50b",
@@ -876,7 +915,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     }
   ]
 }
