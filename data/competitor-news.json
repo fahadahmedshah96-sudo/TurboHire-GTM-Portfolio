@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-11-17T10:40:14.886490+00:00",
+  "refreshed_at": "2026-11-18T08:30:29.364336+00:00",
   "source_note": "Google News RSS is used for discovery. Items older than 180 days and results without a configured competitor-name match are excluded. Verify important signals through an official source or credible publication.",
   "feed_errors": [],
   "filter_summary": {
@@ -7,11 +7,68 @@
     "dropped_old_existing_items": 0,
     "dropped_existing_items_without_valid_dates": 0,
     "dropped_unmatched_existing_items": 0,
-    "skipped_old_feed_items": 159,
-    "skipped_unmatched_feed_items": 52,
+    "skipped_old_feed_items": 161,
+    "skipped_unmatched_feed_items": 60,
     "skipped_feed_items_with_invalid_dates": 0
   },
   "items": [
+    {
+      "id": "3801d76ea40539700670",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "At Nepal tax awards, finance minister raises low investment paradox - The Kathmandu Post",
+      "summary": "At Nepal tax awards, finance minister raises low investment paradox The Kathmandu Post",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdUlnQTdUNmFOTndkZ0ZlQ2oxQmJadGVoUWJOTUgzZ2s4Q2RERk1RV1h5VTZoYzQ0WlZYcFNmRXowWFJrTGt1WmNaRWR4bmNsVXEwenlPR2Q5blVqMnFSeEFkdFBNOGhGX1A2clVPNzZFRFVyeTJJMlBrcDVfenI5RW80SkRVbEhHSkxsVEhJcTQ0UzR3dFlHNnVyU0c5REN5dXpsSnVnOVpTa2NIV0E?oc=5",
+      "publisher": "The Kathmandu Post",
+      "published_at": "2026-11-18T00:49:25+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Paradox",
+      "first_seen_at": "2026-11-18T08:30:29.364336+00:00"
+    },
+    {
+      "id": "2cfe3c573c5c54c02824",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP Hiring in 2027: The Skills Everyone Will Chase - IgniteSAP",
+      "summary": "SAP Hiring in 2027: The Skills Everyone Will Chase IgniteSAP",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtZDdzZUJXc1BZUnczTEhZVEpIaVU5cUFVMmlPNUxWLWNYWUJmc0VQRFRrTGVxQ25RTWEtNXljUDFycG5abHZwQmtueFlDM2wzX0swRFhxT2c?oc=5",
+      "publisher": "IgniteSAP",
+      "published_at": "2026-11-17T14:19:44+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-18T08:30:29.364336+00:00"
+    },
+    {
+      "id": "e22cf4a64e84bc57faa6",
+      "competitor_id": "fountain",
+      "competitor": "Fountain",
+      "group": "core",
+      "title": "Fountain Launches Orchestra, the AI Agent Builder for Frontline Workforce Teams - Business Wire",
+      "summary": "Fountain Launches Orchestra, the AI Agent Builder for Frontline Workforce Teams Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTnFlQ2pJTEk0Q3JydUk4X015b3E3Smpfem9PY3BpUU1WQ0tkcHhFbnROWGZiT1kwV25CUlJhWjhjbThzbHlQZFZ5andyd0tSRXBGNDNSdFI3UE5ST0c0OUU0WTV1VHU4SDhTVWd5Wk9nZTlFbE5LNHZXdnVJLXkybkpZV1hIaXNiTHlUSkpwT2N2QUZzS0wwVzVuSk5iaUhncW5vekx5OWY1eVB3MUd2YTlLT3BEai1UWUc1eEFnSlRxUmwtR1hkRThHS1dyMWY1?oc=5",
+      "publisher": "Business Wire",
+      "published_at": "2026-11-17T14:06:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Fountain",
+      "first_seen_at": "2026-11-18T08:30:29.364336+00:00"
+    },
     {
       "id": "5f4bc52891238993bca2",
       "competitor_id": "sap_smartrecruiters",
@@ -29,7 +86,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "SAP",
-      "first_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "first_seen_at": "2026-11-17T10:40:14.886490+00:00",
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "565bd65b68b8096b9029",
@@ -99,7 +157,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-16T09:34:08.356937+00:00",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "78ae147a0590e851e012",
@@ -119,7 +177,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-13T09:28:10.113935+00:00",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "4d7384245a0ead51216e",
@@ -337,7 +395,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "85be582165850df1ab1b",
@@ -357,7 +415,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "e29c08f9e4aa8aa39064",
@@ -457,7 +515,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-13T09:28:10.113935+00:00",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "0975e30a1b3b172dd68b",
@@ -477,7 +535,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "0097f1899321639e7b2f",
@@ -497,7 +555,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "d5f47cb7baf04063d4e8",
@@ -528,7 +586,7 @@
       "summary": "Thai teen phenom Nene Royal to open for US metal band after winning America’s Got Talent Yahoo",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUEJtS0wzamdySUczWWVYdHFLTkVzYVRpWi1fZlhTNGtBYllnUzhSS0djcUM2M0JSYUp3MnB4cUxGQ2RocjlBbHY2Mlc4eWhsdlJZOFdBaDVBazZvTjZwTFp0Nktkd1poQ1FMUDJvRTRnR25jZVByVXdwWk04cTZpaXFwRXd5bnBDZ0ZMU0p2bGt6SDROVW1VNA?oc=5",
       "publisher": "Yahoo",
-      "published_at": "2026-09-25T07:00:00+00:00",
+      "published_at": "2026-09-24T07:00:00+00:00",
       "signal_types": [
         "general_competitor_news"
       ],
@@ -536,7 +594,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Phenom",
-      "first_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "first_seen_at": "2026-11-16T09:34:08.356937+00:00",
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "904522d8f318c85aa201",
@@ -556,7 +615,7 @@
       "review_status": "pending",
       "first_seen_at": "2026-11-12T12:20:47.223095+00:00",
       "matched_term": "RippleHire",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "1639710f3fa090552fab",
@@ -576,7 +635,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "845b859824d9a9f8d696",
@@ -596,7 +655,26 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
+    },
+    {
+      "id": "f924b6c3e6b3b3a1414a",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Workday in talks to be acquired by Silver Lake, report says - Staffing Industry Analysts",
+      "summary": "Workday in talks to be acquired by Silver Lake, report says Staffing Industry Analysts",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYWJLbWZIT1lIZDhaTEFSOTdhT3dzcE1OQkMyWXJ0R1h4SGZiNHhuVHNzLXMzMndULWZ4aVUxdi12N1o3NDBxbVBMaThZRnA0WC1ENkZhRWVfOHNweF9KbkhuV2k3eVpRcnZPcGVndkZiNUpyRHVYSE1icm9fbE01dWNiZDNKMWVLdlFkRUE1bmNQQzczVnZYbXl1STVsM2pDRWljc2MzYzNlRWhhNGJtUUNDVDg?oc=5",
+      "publisher": "Staffing Industry Analysts",
+      "published_at": "2026-08-17T16:43:19+00:00",
+      "signal_types": [
+        "acquisitions_and_mergers"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "50fdda7cf7b68e798e31",
@@ -615,7 +693,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Zappyhire",
-      "first_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "first_seen_at": "2026-11-17T10:40:14.886490+00:00",
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "b4f64ea9dbc1880dbf14",
@@ -655,7 +734,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "4a070eae7935316d27ef",
@@ -675,7 +754,7 @@
       "review_status": "pending",
       "matched_term": "Zappyhire",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "3c8dd79b33a26ff50e6c",
@@ -695,7 +774,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "e8f7dbfc9cb416a29a3e",
@@ -715,7 +794,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "20e4ca3cd399169ab5a3",
@@ -735,7 +814,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "134a802d3d71fc117afe",
@@ -775,7 +854,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "7bfcd7707d60317651a3",
@@ -795,7 +874,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "2b62037e7cdc6ef225bd",
@@ -815,7 +894,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "cbf04d0a0d71cfe085c3",
@@ -835,7 +914,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "6022290dcf0d26518e78",
@@ -855,7 +934,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "563348e81d3b386da50b",
@@ -875,7 +954,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     },
     {
       "id": "c31a9728d7a08b4c9757",
@@ -915,7 +994,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
     }
   ]
 }
