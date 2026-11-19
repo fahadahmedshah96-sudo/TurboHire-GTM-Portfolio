@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-11-18T10:04:38.803070+00:00",
+  "refreshed_at": "2026-11-19T10:16:09.099968+00:00",
   "source_note": "Google News RSS is used for discovery. Items older than 180 days and results without a configured competitor-name match are excluded. Verify important signals through an official source or credible publication.",
   "feed_errors": [],
   "filter_summary": {
@@ -7,11 +7,125 @@
     "dropped_old_existing_items": 0,
     "dropped_existing_items_without_valid_dates": 0,
     "dropped_unmatched_existing_items": 0,
-    "skipped_old_feed_items": 163,
-    "skipped_unmatched_feed_items": 58,
+    "skipped_old_feed_items": 164,
+    "skipped_unmatched_feed_items": 65,
     "skipped_feed_items_with_invalid_dates": 0
   },
   "items": [
+    {
+      "id": "06aa67c36e6fc983d022",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Workday to buy Honeydew to boost AI accuracy, consistency - Staffing Industry Analysts",
+      "summary": "Workday to buy Honeydew to boost AI accuracy, consistency Staffing Industry Analysts",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNa01OYnV4b0RmN0tYUHlwenMtM2VHUGNxOTFweUhjODVfczNwV2xvSEZmR0xGZjlERVluNktva2J1eHBXQTc1SFJwLUFNYVAtZ0xPRnIybTlIWFNnX1dBSnZDTmFhSTROT3R3dk9xSHdvLTJlaGZ0MlpWSmVyOHlZYWZsdlB3RWJmR2VHMUcyUUp3bXBmWVhXNXZYOGxrUVBqMDAyZHZRT195c0o4eFRUYy1R?oc=5",
+      "publisher": "Staffing Industry Analysts",
+      "published_at": "2026-11-18T23:44:31+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-19T10:16:09.099968+00:00"
+    },
+    {
+      "id": "5b1181ac8fcf05b760b0",
+      "competitor_id": "workstream",
+      "competitor": "Workstream",
+      "group": "adjacent",
+      "title": "Workstream 2 of the Santa Marta Process on Transitioning Away From Fossil Fuels - International Institute for Sustainable Development",
+      "summary": "Workstream 2 of the Santa Marta Process on Transitioning Away From Fossil Fuels International Institute for Sustainable Development",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYU5tMGNpR0FoTDNoeWZEWmZFUE5wRFVCeTZXaDFvMjVKanNKVFJCdjRTekhUSENBeHF3Zld2c1JiLTlqbzlia24yNXIzRzJsWjhqcTFNWU9saGpZMlVBZjZHcDYxNUNuS1BfdXRpUUx3TFV1YTBUSjZad0t4UEZWcnNDLUg?oc=5",
+      "publisher": "International Institute for Sustainable Development",
+      "published_at": "2026-11-18T19:46:55+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workstream",
+      "first_seen_at": "2026-11-19T10:16:09.099968+00:00"
+    },
+    {
+      "id": "a62f0e7938111590461c",
+      "competitor_id": "eightfold",
+      "competitor": "Eightfold",
+      "group": "adjacent",
+      "title": "Carahsoft, Eightfold.ai Secure Five-Year Production OTA for DOW’s GigEagle Talent Platform - ExecutiveBiz",
+      "summary": "Carahsoft, Eightfold.ai Secure Five-Year Production OTA for DOW’s GigEagle Talent Platform ExecutiveBiz",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbUsxTFV0S0Q3dXV0T3lkRkZOWm9ieVhlM1pnU3lLaHYyMlJqZDEtbFAyQXZLWUNjVlBTODVPRVl2c1VJaHlFR0VrUXp4aldySU1ubXhlSGE5SHFhd09YdzQ3XzBBeEpBcHd4VjlrQkh3MEFxMXZqbDVpNVdReHE1LWxBakYzN3V3WmN6Uw?oc=5",
+      "publisher": "ExecutiveBiz",
+      "published_at": "2026-11-18T16:51:31+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Eightfold",
+      "first_seen_at": "2026-11-19T10:16:09.099968+00:00"
+    },
+    {
+      "id": "2f0e69a5f7237ebc00b9",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "How Bestseller Turned Fragmented Workforce Data into Trusted People Intelligence - SAP News Center",
+      "summary": "How Bestseller Turned Fragmented Workforce Data into Trusted People Intelligence SAP News Center",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTWNsQ1hoV0pTemxJajRuX0pGRmwybWNTN0FWRWFEN2xLbVRwV2x0NWdfT01vNFY3VTd1Vndqd0xVWmszclRIam51clc0eHpUUThJN2pxUXBBOUtLR2JvWllfYVZhU3ZFenl6RGdJNHZIMlBDUFV1RGZoVnVRZ0syZjFKVWg2dGdSRkhJb2E5ZXlNd0xrN3UtN0lucjlJYnJDcUNpTlJ1UG15QQ?oc=5",
+      "publisher": "SAP News Center",
+      "published_at": "2026-11-18T12:35:58+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-19T10:16:09.099968+00:00"
+    },
+    {
+      "id": "90ef83333b2686dc848d",
+      "competitor_id": "eightfold",
+      "competitor": "Eightfold",
+      "group": "adjacent",
+      "title": "Pentagon expands access to Eightfold AI’s Talent Intelligence Platform - HRTech Series",
+      "summary": "Pentagon expands access to Eightfold AI’s Talent Intelligence Platform HRTech Series",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSFFsLWFNdVczREJTMS11QUEtR3dsb3hNcXFEdlVSdy1OM3haZDdMN2steTMwbHhpZWR4bW84dUR4c2doSDlJb0hka1RYT1NfcTJjNllRWU95NEJzX3VtYmE3ZGQ4NWcydkpneWlnT0xaQXlfaXVBazhhTHVlZnZLSzZxVEs1a1hrd2JseDd5Yjd6aXlvR3gtaTBmajlMZ2kzUlJrMWxwSEJzaEMtUFhnYjBOdHJBbTNfMWc?oc=5",
+      "publisher": "HRTech Series",
+      "published_at": "2026-11-18T11:45:10+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Eightfold",
+      "first_seen_at": "2026-11-19T10:16:09.099968+00:00"
+    },
+    {
+      "id": "0d46c1219cd1822d7e43",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP Recognized as a Customers’ Choice in the 2026 Gartner Peer Insights™ Voice of the Customer for Talent Acquisition (Recruiting) Suites - SAP News Center",
+      "summary": "SAP Recognized as a Customers’ Choice in the 2026 Gartner Peer Insights™ Voice of the Customer for Talent Acquisition (Recruiting) Suites SAP News Center",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdDZSQUZkNkljN2dxZW1WMkhwczZyNXNqUVREWVVpazJ2Z3FKOHNMNVZrdXZ0ZENCWU5VLVpLN1RMRURQZmdnRW82cUE3RVB2OGlBU1RjZkhJRVgzWmZueDh1dnlDUjYzd1hObDk0S0NIc0FEWDNDWmRGVHVadkswWTFrbHdYbDU5Skh5YnZR?oc=5",
+      "publisher": "SAP News Center",
+      "published_at": "2026-11-18T11:25:58+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-19T10:16:09.099968+00:00"
+    },
     {
       "id": "ef0f79607d18b001c0b6",
       "competitor_id": "sap_smartrecruiters",
@@ -29,7 +143,27 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "SAP",
-      "first_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "first_seen_at": "2026-11-18T10:04:38.803070+00:00",
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
+    },
+    {
+      "id": "11294e25ec0a6f232f15",
+      "competitor_id": "fountain",
+      "competitor": "Fountain",
+      "group": "core",
+      "title": "Fountain Launches Orchestra, the AI Agent Builder for Frontline Workforce Teams - HRTech Series",
+      "summary": "Fountain Launches Orchestra, the AI Agent Builder for Frontline Workforce Teams HRTech Series",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMGlrdkFnQlJibzFRd2lTVm91RVI1UjBoeFBEYnlLa1pqUlhtcTdVRWtDYVNXNXR5aDdKZUJfSFVTU0Jxd3Y3RVJwb1Bpa25DVE5LMUlHaUVrZnAzQVpERmZOazJNbmVjLW1MazRNejREWkZpSUoxS0RRbjV0bkxGdDJ5NWtuNXpjY0Z5eUNvSnctblUyVlFCMFB0ZU04QkZMTXRLU2FEdEdDelljMnB3?oc=5",
+      "publisher": "HRTech Series",
+      "published_at": "2026-11-18T08:37:10+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Fountain",
+      "first_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "3801d76ea40539700670",
@@ -109,7 +243,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-17T10:40:14.886490+00:00",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "565bd65b68b8096b9029",
@@ -179,7 +313,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-16T09:34:08.356937+00:00",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "78ae147a0590e851e012",
@@ -417,7 +551,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "85be582165850df1ab1b",
@@ -437,7 +571,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "e29c08f9e4aa8aa39064",
@@ -537,7 +671,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-13T09:28:10.113935+00:00",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "0975e30a1b3b172dd68b",
@@ -557,7 +691,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "0097f1899321639e7b2f",
@@ -577,7 +711,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "d5f47cb7baf04063d4e8",
@@ -637,7 +771,7 @@
       "review_status": "pending",
       "first_seen_at": "2026-11-12T12:20:47.223095+00:00",
       "matched_term": "RippleHire",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "1639710f3fa090552fab",
@@ -657,7 +791,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "845b859824d9a9f8d696",
@@ -677,7 +811,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "f924b6c3e6b3b3a1414a",
@@ -697,7 +831,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-18T08:30:29.364336+00:00",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "50fdda7cf7b68e798e31",
@@ -717,7 +851,7 @@
       "review_status": "pending",
       "matched_term": "Zappyhire",
       "first_seen_at": "2026-11-17T10:40:14.886490+00:00",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "b4f64ea9dbc1880dbf14",
@@ -737,7 +871,26 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
+    },
+    {
+      "id": "13e01c9bebc3200a232a",
+      "competitor_id": "workstream",
+      "competitor": "Workstream",
+      "group": "adjacent",
+      "title": "Tivan Shares Move Higher as Project Finance Workstream Progresses - Kalkine",
+      "summary": "Tivan Shares Move Higher as Project Finance Workstream Progresses Kalkine",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcENDUkFiVWF6OU42S2pqUHZSVW5KMzVZVzQ5YS1TRGNhM29fbGM1MXNfbl9HeWlOMF9XbldHU1o1ZGh1OHRCR1BWR2tGZVBhcWZQWVg3THJGVGRZb0dQUWtsdjhDUk5lcEtuNHN3ZEhXdkY5Sk0zTUM1RkNyaGxUNjZnaExfMGtNNGZub1hMM1V1ZExkSWdwYVdpYjBVVUNRWERsUXhwTXNhZw?oc=5",
+      "publisher": "Kalkine",
+      "published_at": "2026-08-11T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workstream",
+      "first_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "508fa78bc9f3bb44507f",
@@ -757,7 +910,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "4a070eae7935316d27ef",
@@ -777,7 +930,7 @@
       "review_status": "pending",
       "matched_term": "Zappyhire",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "3c8dd79b33a26ff50e6c",
@@ -797,7 +950,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "e8f7dbfc9cb416a29a3e",
@@ -817,7 +970,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "20e4ca3cd399169ab5a3",
@@ -837,7 +990,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "134a802d3d71fc117afe",
@@ -877,7 +1030,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "7bfcd7707d60317651a3",
@@ -897,7 +1050,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "2b62037e7cdc6ef225bd",
@@ -917,7 +1070,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "cbf04d0a0d71cfe085c3",
@@ -937,7 +1090,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "6022290dcf0d26518e78",
@@ -957,7 +1110,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     },
     {
       "id": "563348e81d3b386da50b",
@@ -1017,7 +1170,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
+      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
     }
   ]
 }
