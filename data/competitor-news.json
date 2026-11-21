@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-11-20T09:58:23.790175+00:00",
+  "refreshed_at": "2026-11-21T09:42:49.887219+00:00",
   "source_note": "Google News RSS is used for discovery. Items older than 180 days and results without a configured competitor-name match are excluded. Verify important signals through an official source or credible publication.",
   "feed_errors": [],
   "filter_summary": {
@@ -7,8 +7,8 @@
     "dropped_old_existing_items": 0,
     "dropped_existing_items_without_valid_dates": 0,
     "dropped_unmatched_existing_items": 0,
-    "skipped_old_feed_items": 164,
-    "skipped_unmatched_feed_items": 54,
+    "skipped_old_feed_items": 214,
+    "skipped_unmatched_feed_items": 99,
     "skipped_feed_items_with_invalid_dates": 0
   },
   "items": [
@@ -30,7 +30,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-19T10:16:09.099968+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "5b1181ac8fcf05b760b0",
@@ -50,7 +50,7 @@
       "review_status": "pending",
       "matched_term": "Workstream",
       "first_seen_at": "2026-11-19T10:16:09.099968+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "a62f0e7938111590461c",
@@ -70,7 +70,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-19T10:16:09.099968+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "2f0e69a5f7237ebc00b9",
@@ -168,7 +168,7 @@
       "review_status": "pending",
       "matched_term": "Fountain",
       "first_seen_at": "2026-11-19T10:16:09.099968+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "3801d76ea40539700670",
@@ -188,7 +188,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-18T08:30:29.364336+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "2cfe3c573c5c54c02824",
@@ -247,7 +247,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Eightfold",
-      "first_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "first_seen_at": "2026-11-20T09:58:23.790175+00:00",
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "5f4bc52891238993bca2",
@@ -321,26 +322,6 @@
       "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
     },
     {
-      "id": "47d0e48d19649446fb30",
-      "competitor_id": "eightfold",
-      "competitor": "Eightfold",
-      "group": "adjacent",
-      "title": "Eightfold AI Introduces AI Recruiting Teammate to Help Recruiting Teams Achieve Hiring Outcomes - Yahoo Finance",
-      "summary": "Eightfold AI Introduces AI Recruiting Teammate to Help Recruiting Teams Achieve Hiring Outcomes Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUDhRNDI5YzBWU0s3RjZYS21XcjZQZGRvYzQxZWJQRWNSWEtFRzlOZ0FzOUFzU3lGNlg3dC16ZDY2Unk5MXBQX1pkakdvUWc5WkgxcFZxbjdLWjNEdUxZcDdBZWJMdklBX3BZalRsV0wtUUN0MGZRWFRkT0xXcGpCMWl4dlc4RG41MUlaMjFOS3JFUnlqendXbEswOERJbWtIWHhF?oc=5",
-      "publisher": "Yahoo Finance",
-      "published_at": "2026-11-12T16:00:00+00:00",
-      "signal_types": [
-        "general_competitor_news"
-      ],
-      "source_type": "Google News RSS discovery",
-      "verification_status": "unverified",
-      "review_status": "pending",
-      "matched_term": "Eightfold",
-      "first_seen_at": "2026-11-16T09:34:08.356937+00:00",
-      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
-    },
-    {
       "id": "78ae147a0590e851e012",
       "competitor_id": "workday_paradox",
       "competitor": "Workday / Paradox",
@@ -358,7 +339,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-13T09:28:10.113935+00:00",
-      "last_seen_at": "2026-11-18T08:30:29.364336+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "4d7384245a0ead51216e",
@@ -379,6 +360,26 @@
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
       "last_seen_at": "2026-11-16T09:34:08.356937+00:00"
+    },
+    {
+      "id": "47d0e48d19649446fb30",
+      "competitor_id": "eightfold",
+      "competitor": "Eightfold",
+      "group": "adjacent",
+      "title": "Eightfold AI Introduces AI Recruiting Teammate to Help Recruiting Teams Achieve Hiring Outcomes - Yahoo Finance",
+      "summary": "Eightfold AI Introduces AI Recruiting Teammate to Help Recruiting Teams Achieve Hiring Outcomes Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUDhRNDI5YzBWU0s3RjZYS21XcjZQZGRvYzQxZWJQRWNSWEtFRzlOZ0FzOUFzU3lGNlg3dC16ZDY2Unk5MXBQX1pkakdvUWc5WkgxcFZxbjdLWjNEdUxZcDdBZWJMdklBX3BZalRsV0wtUUN0MGZRWFRkT0xXcGpCMWl4dlc4RG41MUlaMjFOS3JFUnlqendXbEswOERJbWtIWHhF?oc=5",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-12T08:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Eightfold",
+      "first_seen_at": "2026-11-16T09:34:08.356937+00:00",
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "fabc1677f47601ed4c18",
@@ -559,6 +560,44 @@
       "last_seen_at": "2026-11-12T13:32:31.789327+00:00"
     },
     {
+      "id": "f7ccef44a47a3b20ee4c",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "A Merger Solves a Puzzling Paradox in Orion - Universe Today",
+      "summary": "A Merger Solves a Puzzling Paradox in Orion Universe Today",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSk5xOGtvV3FVcUpLMExmOEw1cHMtZ243S05zRDFrdUlINi15cnJQaFFiYzZoQlVkb01VdzFodW82Y0tNNEp0S3Vyak01TUdjNWlIQjYtWUVxcVpiXzlTU3VTVUVqQ3lYMk5PRWhTcUNLd1VELWFCTFlHWGNKcXlHZE16OHpmZ3VrcWc?oc=5",
+      "publisher": "Universe Today",
+      "published_at": "2026-10-26T07:00:00+00:00",
+      "signal_types": [
+        "acquisitions_and_mergers"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Paradox",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "0092432d033849d4ef58",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "The Law Firm Merger Paradox: Why Strong Firms Are Weighing Scale Now - FTI Consulting",
+      "summary": "The Law Firm Merger Paradox: Why Strong Firms Are Weighing Scale Now FTI Consulting",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5udUZ5c3V4Sy1nTnhPWXotdUZmY3RUMlVTVVZuTHV2YUpQZTFCQW9ldEJ0SFRZRU1WTGlvNDFsNUV4TmQ4YnRlZnZJcmc2Z0l5dy16anJwUkxYZEpXVGw4dm9Cbm1pSElGUkJlOEljd2Z3bkNCWmxlQzhVOA?oc=5",
+      "publisher": "FTI Consulting",
+      "published_at": "2026-10-22T07:00:00+00:00",
+      "signal_types": [
+        "acquisitions_and_mergers"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Paradox",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
       "id": "72670a984b6d05d0e4e9",
       "competitor_id": "eightfold",
       "competitor": "Eightfold",
@@ -576,7 +615,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "e7ae0a679f7addd8ef4e",
@@ -615,7 +654,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "e29c08f9e4aa8aa39064",
@@ -636,6 +675,25 @@
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
       "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+    },
+    {
+      "id": "1a01e2a429b45f077a74",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "A New Era of Recruiting: Talent Acquisition Agent Is In Early Access - Workday Blog",
+      "summary": "A New Era of Recruiting: Talent Acquisition Agent Is In Early Access Workday Blog",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJaDhqM0tNOTJ1dEhvT3BnX0I0RmVKVGh5T3RKNjJ5Z2l0SGczMDJWV04tZ1pad2YxbV9hUTNzWVlWMkRIX0RpRjVvakIzNF94NWdJMGpzek1QSnN0djN6a3ZjeFliZ09STVYtag?oc=5",
+      "publisher": "Workday Blog",
+      "published_at": "2026-10-13T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "05934ca5ce9a610aec1d",
@@ -754,7 +812,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "0097f1899321639e7b2f",
@@ -774,7 +832,26 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "cee6caf59d229ddfd07b",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Gravity IT Resources to Sponsor Workday Rising 2026, Formally Launching Its Workday Nearshore Staffing Practice - GlobeNewswire",
+      "summary": "Gravity IT Resources to Sponsor Workday Rising 2026, Formally Launching Its Workday Nearshore Staffing Practice GlobeNewswire",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQN0pmT0g3ZHBmbzRjcUcwbHNXVUo3ekdsb2E3SFNILVRaUUV6WERpTFF1d3dQUnlfdU1OQ2VsS0F3Nmw2ZkplUG5wYmFLZVZ5aXFkeERwNHZ2MW84UHp3TkY1MS1wTkZuREZBUFNFTFVlTHgyWl9PM3VfUDliN2VJWnlGZldwMndpZ3M2V3c5VGRMOTB3RUJDby1DSERNQWFPMFdUQ200a0F0YnBKVkFTTzU3MklPdVpjR2JmWG5CQ0dyOS1ZV2d3eERuclNLUVNNbHJTeU5RdDBxWlUyTlpsT0JPbF9jRk9ubkhHSmZncnVIT2JFZllJRkFiNk5Zam1Ea2syN3J0Q2Jud3dnelZj?oc=5",
+      "publisher": "GlobeNewswire",
+      "published_at": "2026-10-06T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "d5f47cb7baf04063d4e8",
@@ -797,6 +874,101 @@
       "last_seen_at": "2026-11-12T13:32:31.789327+00:00"
     },
     {
+      "id": "627a15764a8b1e69b072",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Workday Global Workforce Report: AI Is Rewriting Jobs More Than It's Cutting Them - PR Newswire",
+      "summary": "Workday Global Workforce Report: AI Is Rewriting Jobs More Than It's Cutting Them PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTUJRb1hXclNvWXdYcXNTUGNoNDdwMUZFSXF1aks2NUJYNlhqYUhuYXlDV2lqY1RqVmJwOC1WNGl4T0Fydndnd19IQ1d2dVEwSzJ1cXZjaEVxVDZfQ0R1bVM4MVc0NUF3dVA0dmxxWmxfM3lsRDJEWF9LNTlwcTVhLU50WHIxUjhiSnNrTjl3ZGdYcmV1ay1RQ2wtdGFpYTZFR1RHc3BRNk1rSDlZMTl6YVY5Q0VnMEc2R0p4UnF6QzViMmFmeklpT3JYZUVRQjEw?oc=5",
+      "publisher": "PR Newswire",
+      "published_at": "2026-10-05T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "3e711ce9ee9f815a1b02",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "The Family Office Investment Paradox - Family Wealth Report",
+      "summary": "The Family Office Investment Paradox Family Wealth Report",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUGRSb0plcVF3bmNlV21QTVlTdUhxbzhnTU9kWHR6MDNqQ0FDMnVjOGYtdF93N3hNZWVHVkdNdkdLV3YtbldkbXBSc0lrZnB1U3BxZVlfYkZOLXR1S0RBdWZzTFRaNTcxUVFNOWxaZ3VZaWVoYkZwS2JWZGpUcTVKU0ZVM2wteGZzMndVM2t3?oc=5",
+      "publisher": "Family Wealth Report",
+      "published_at": "2026-10-01T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Paradox",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "c4c080f08415ee7d6a7c",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Workday Announces Strategic Reorganization and Workforce Reduction - The Globe and Mail",
+      "summary": "Workday Announces Strategic Reorganization and Workforce Reduction The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPODBoRzlfa1ZJR19mRmtPQVJMbmUxX29KUFFqUWR0VHV5c1JDU0xndXBHZmJfVGxBZ3JoeDdmcjdEZXJYSS1mODZhRnRVYnoyemZxSVpNR3VnVWtrZnRsM1YwV1hZZWtybkdqYU8zb25uUHdsenNQeVpCT2VkeEswQzlyUWJkT2ZvYjNCVENMQ25Za1N0Qnlqa3F3eTdLSGRpQWRRNVRwSHdjdG1aOUdLLXBTRWZEdjJTOUltZ2ZYY3l0cjdYbEtKbkJLYTVmbFc2dDFTYzJFcEk1YmxjN3VSR1JvQ01pUQ?oc=5",
+      "publisher": "The Globe and Mail",
+      "published_at": "2026-09-30T07:00:00+00:00",
+      "signal_types": [
+        "layoffs_and_restructuring"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "150787a8c5f9432f5c71",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Workday cuts 2.5% of workforce, revises GAAP margin outlook - StreetInsider",
+      "summary": "Workday cuts 2.5% of workforce, revises GAAP margin outlook StreetInsider",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdnROaGxFdDhQNmRpQUdKdHF3eE84cTdZc2xWaEozT2EwVTNxZUpxNkY1OVlGMXRCNnUxQ0kyYl95Z1g4OXVnZTM4RExZTEpYUjlWU2dtSUFQenJxZzRyY1V0akNXWWJrLThzXzZpeXh4MmwteTZYNmlNUlF3aVhqWWFHWUJyUXQxT0hSaU43RWQyRTEyOWxUTXU4U2pqbm82UFRGd0FqdGxTcVh0Y05ORkF0bzNZUXlycklxQmFXUQ?oc=5",
+      "publisher": "StreetInsider",
+      "published_at": "2026-09-29T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "740e5a4ed579d645e561",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Trophy Games acquires Airport Simulator: First Class developer Playrion from Paradox Interactive - GamesIndustry.biz",
+      "summary": "Trophy Games acquires Airport Simulator: First Class developer Playrion from Paradox Interactive GamesIndustry.biz",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcGw1ejdwbTBDU0tuN3NZdlFfenhSMk53eTQyNjZtSUVEakhWN3c3dklkTjVZZXBrS1VtQVlCSTlINjJoWjEzeURmZzNPb3ZHTTlhYU5KUkhCSWF6T0czbHdERUdHcmhVekV2eXRhdjRNbHVPUzhkVXE5QnRmZThUeUdPZVZOQWVjdVZMMHJnNnk1QWxqdnJWc2dpOHZuRVkyZFZNVnI1eW41VGp5aEdpSkxfa1NBbEo3UXdtNHVxb05MQ2c?oc=5",
+      "publisher": "GamesIndustry.biz",
+      "published_at": "2026-09-25T07:00:00+00:00",
+      "signal_types": [
+        "acquisitions_and_mergers"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Paradox",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
       "id": "e0c0653fe1d23a2f1588",
       "competitor_id": "phenom",
       "competitor": "Phenom",
@@ -817,6 +989,120 @@
       "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
     },
     {
+      "id": "cbcb81842a73dd1f13a2",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Introducing Workday VNDLY Contingent Sourcing Agent: The Next Era of Total Workforce Management - Workday Blog",
+      "summary": "Introducing Workday VNDLY Contingent Sourcing Agent: The Next Era of Total Workforce Management Workday Blog",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV0V1Y3BJUzA2UFpHZEpycGJsSTNLOHNGTjlmQlVvN1RILVZxLVE0S3dyaWwzdy1TUFB6d21jWUMwdGZRWUxMMm9VZnVjV0IzWDJGWGEtR09xcV9RVGZLWWFCR3lsNDhPdkZuUVNZZ29VUGp0TWNja2loNF85aGliUlgyVVVGWWZrTmJaMUpYZ0ZGNzNoNnUxcnhEOHFKOWJCa29FLW5qTEhoZHoxdjN1Z2VIYnpPQQ?oc=5",
+      "publisher": "Workday Blog",
+      "published_at": "2026-09-23T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "f2b69ae960a651c65ada",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Workday Recognized as a Leader in Inaugural 2026 Gartner® Magic Quadrant™ for Workforce Management Technology - Workday Blog",
+      "summary": "Workday Recognized as a Leader in Inaugural 2026 Gartner® Magic Quadrant™ for Workforce Management Technology Workday Blog",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSTVDajNKeUx2UkNnTDVBbFVFZ3VZek94cnZCNm5pNnRsV3pQWDNKV0tFUGZsVy1TNk90cGFrTzVPWkZlVEZjQURrRzVQMVQybUFsNVp6dThXc3lJak50VmZBQmVUdUxRdXE5Yy04VkhqUGxqckRMeURSc3Y4QlhROFIzdE16cWFrX1o4Zg?oc=5",
+      "publisher": "Workday Blog",
+      "published_at": "2026-09-17T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "2760a3f80968ca2fee83",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Workday Named a Leader in Inaugural 2026 Gartner® Magic Quadrant™ for Workforce Management Technology - Yahoo Finance",
+      "summary": "Workday Named a Leader in Inaugural 2026 Gartner® Magic Quadrant™ for Workforce Management Technology Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbENfcGV4R1dZTWdaVXFZc09lcjFmYm1sMG9uV2l2X0dCOWRZU0tWXzJtWWpidnZRVzdZZTNZZUJwNzlabS1QYTM2V0JKZV9YRWJhUTR4eWVnTktDMDFOMVJiU01Gd1pUWUFjU01JU0cyZzd1RXE1QVJXdWJrVVR6NkQtZ08yRjliZDN0eUplODNZNlFqdlR0eC1GR3phT2lo?oc=5",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-17T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "5a09823ffe1e6d38f8a2",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Canada’s Agri-Food Investment Paradox - Substack",
+      "summary": "Canada’s Agri-Food Investment Paradox Substack",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOemtraDFFaVoxQ19qYkZTSDdUOVlCVnM1ZXIzelZVVko1LWUxc1VoWl90WFJ0eVRkSDlCODFia2R1cEUwc2otT01HOHVvN0lPckJLX3FmcTB2Z19GZnhFYi1LeW5icTlhUzMyY1M5UjJtbnlLQ2M0dHdyZl90Mml0UUs5MEJuaVk?oc=5",
+      "publisher": "Substack",
+      "published_at": "2026-09-15T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Paradox",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "705b81eeb931e2f4253f",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "The AI investment paradox: Too much or too little? - Managed Services Journal",
+      "summary": "The AI investment paradox: Too much or too little? Managed Services Journal",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUFh6Q1RCWm5LUGs0VEVYSUpWd2wwNFBtbnlZeG1Dd2Z4YlllTzI3RF9sTFFfNWwwSmR0OXc0LVo3TmQwcmJJWW0wYW9FSTFLd09KZlJ5VUVDLTdGQ0sydDFyYng3enk3dkYwUHJKODRWSkRCdGtMM1dRUEdTbmpwY3ZoNjZkTkY4ZG9XanpLMVhpVGM2Q1o2U3V0RFh0Ml9uZm5N?oc=5",
+      "publisher": "Managed Services Journal",
+      "published_at": "2026-09-15T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Paradox",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "f0102cf7a1c46fd3ed43",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Z Squared lands energized Union County Campus in Paradox Data acquisition - W.Media",
+      "summary": "Z Squared lands energized Union County Campus in Paradox Data acquisition W.Media",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMFJKTGVrbDduMmdnQ0pPWnBWOTljb1ZLV21VMElWYXBWNVNDd1M2YWlzSDF4dDVSVFdtcWUtQ3J5WUFHazV4a2lmS2k1Wk00NlhaVVdQYUE4NndWXzhhM2VkT3RxZTVRXzBZUHdqVjQzckRmNEZtMi1LSWI2WlFmUExDTUJQNkdTWUJMbS1BTHNHQVZV?oc=5",
+      "publisher": "W.Media",
+      "published_at": "2026-09-09T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Paradox",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
       "id": "904522d8f318c85aa201",
       "competitor_id": "ripplehire",
       "competitor": "RippleHire",
@@ -834,7 +1120,45 @@
       "review_status": "pending",
       "first_seen_at": "2026-11-12T12:20:47.223095+00:00",
       "matched_term": "RippleHire",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "4486fdfedc51d5cd9c0b",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Op. Ed: The Farmland Market – A Paradox? A Puzzle? - Agriculture Investment Marketplace",
+      "summary": "Op. Ed: The Farmland Market – A Paradox? A Puzzle? Agriculture Investment Marketplace",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQR0NEVGZENTZQZnQ0UW9mRWplN1FyTVN0WVR3QUZCdTdLNlcyS3V0ZDZsV0NnNU9rUG40RHFFR1dmZGQ1Mk1fbXM4ejZTSE8ydUprMW1OTElMNXRoT0pvelBIVTBESzJMeFFtYUl1X2dTWVNwQWZTWXlhbTFWby1LLVctTU1ZZw?oc=5",
+      "publisher": "Agriculture Investment Marketplace",
+      "published_at": "2026-09-01T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Paradox",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "26ec318228ac8e071d8b",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Z Squared agrees to acquire full ownership of Paradox Data - Data Center Dynamics",
+      "summary": "Z Squared agrees to acquire full ownership of Paradox Data Data Center Dynamics",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR1NIa1g4OVBMbnNWc1dUS2dITFIzYUpwVHRiVXNNM3pGQXgwNjVZeXVJSVlBRkU5ZXY4OGlKQWd5cFR1UFd3RFptNmNtcFgzMXh5dFJPRjJiX1lSWVRpQ3p4b3F1Z2hZMWdpelA3aWd4cnd2bkNVcXNrM1VBckhJdkN0cnZHVHQ3N1duRWZ3U0tWb3l4WHg5ZWNRMldnWUhPbTFnMg?oc=5",
+      "publisher": "Data Center Dynamics",
+      "published_at": "2026-08-24T07:00:00+00:00",
+      "signal_types": [
+        "acquisitions_and_mergers"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Paradox",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "1639710f3fa090552fab",
@@ -854,7 +1178,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "845b859824d9a9f8d696",
@@ -874,7 +1198,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "f924b6c3e6b3b3a1414a",
@@ -894,7 +1218,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-18T08:30:29.364336+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "50fdda7cf7b68e798e31",
@@ -914,7 +1238,7 @@
       "review_status": "pending",
       "matched_term": "Zappyhire",
       "first_seen_at": "2026-11-17T10:40:14.886490+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "b4f64ea9dbc1880dbf14",
@@ -934,7 +1258,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "13e01c9bebc3200a232a",
@@ -954,7 +1278,26 @@
       "review_status": "pending",
       "matched_term": "Workstream",
       "first_seen_at": "2026-11-19T10:16:09.099968+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "582e7c8b714e787b583f",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "The Merger Paradox: Why Transformational Mergers Create Extraordinary Value and Frequently Fail - Pharmaceutical Executive",
+      "summary": "The Merger Paradox: Why Transformational Mergers Create Extraordinary Value and Frequently Fail Pharmaceutical Executive",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTmRGTTEzSGFVYnFYa09KU0VQSkRoR0NseWdJaTBxRDYxV1VNRDA1SE4ySm1MNWpZcnM2NzBmN2NHLTNSRGt2OUtCODVUM3dpWGZHd1Jaamh5cERwQThlWHcyeDdQMks5d2pUR0lya0xuSGVRaXZ6ejMxSmZ0TDlhVjk5OU9fNnJMbUs4NkpaVUo?oc=5",
+      "publisher": "Pharmaceutical Executive",
+      "published_at": "2026-08-07T07:00:00+00:00",
+      "signal_types": [
+        "acquisitions_and_mergers"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Paradox",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "508fa78bc9f3bb44507f",
@@ -974,7 +1317,26 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "49fe03fac62298bd2092",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "What the Workday Case Reveals About AI Hiring Records - Corporate Compliance Insights",
+      "summary": "What the Workday Case Reveals About AI Hiring Records Corporate Compliance Insights",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNVAxaktaTzB1OElwcmRXek1fUkRmcjk4REZzVW5ybUVlNVZ1N0pLM3dJQ1o5Vm5zcHgwMWc4RDduN3doVmwyTXpRanBGNy1TcDhVMjg2VkI5ZFZDOS1IU0tfVC1ZcVlrU1BwRE5hR0FrM2R4X1JvQk5YWUlzTHFIWDlEUDFhQ0RmbU92RC11Yk5OaVFJaFhCSWlB?oc=5",
+      "publisher": "Corporate Compliance Insights",
+      "published_at": "2026-08-04T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "4a070eae7935316d27ef",
@@ -994,7 +1356,26 @@
       "review_status": "pending",
       "matched_term": "Zappyhire",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "2041ee1aa31ecfa65f44",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Workday’s AI lawsuit keeps spotlight on AI-powered recruiting as case works through courts - HR Brew",
+      "summary": "Workday’s AI lawsuit keeps spotlight on AI-powered recruiting as case works through courts HR Brew",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeENfaVNxbUlONmRKYWRId3pxdFhLVW9qLVVmMUZpY0pOTk5RSlFLaFpUY1diTWVTTXR2blBlcFQzdDYxdWxPdVZvU3RFb1N1cjQ1SzJaQTRoa0Q1SDFYMFV3b0pmTmNsN09UYmZnMXJFcVBlTm1hWmNDQ3VyZ2ljbElxVUpOdS1aVTNKVVhNZ21Ec3ZCWThyZmNrdTc4WUpNUW9CbE16ZU0tSUNFZzZJY0Radks2OEY2SklFaUtn?oc=5",
+      "publisher": "HR Brew",
+      "published_at": "2026-07-20T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "3c8dd79b33a26ff50e6c",
@@ -1014,7 +1395,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "e8f7dbfc9cb416a29a3e",
@@ -1034,7 +1415,45 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "a9ca2bdb5b7a228ff63a",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "E-News | Workday in Action: Recruiting and Hiring in Workday - West Virginia University",
+      "summary": "E-News | Workday in Action: Recruiting and Hiring in Workday West Virginia University",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZlpUb0R4ZWcteUFxbktPNmRETjk1dmlaTDB2Sm9BLUwtZ2JOZkJpUEswTlJ1YjBpVnZNSzFjN3l2UURUeURtbkxMek5zMGpKVmhZemdQLWRnV1NRMTRrYnA5UDJNZGNibGVTZW84Uk1fcTRVVlVPdlhxS2ZfdkR4RExGbHN5dEZqUzBTaHk3M2lWUEE1Snlz?oc=5",
+      "publisher": "West Virginia University",
+      "published_at": "2026-07-14T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "95fa42c6cb606b0a67a8",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Mobley v. Workday Update: AI Hiring Discrimination Lawsuit Continues to Shape Employment Law - www.bamlawca.com",
+      "summary": "Mobley v. Workday Update: AI Hiring Discrimination Lawsuit Continues to Shape Employment Law www.bamlawca.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPd09ELW0xWWxvaXFXTzZhd28xa2t2MG5ZWXVlb3U4QVQ5eTlYS0dNOFpkeVlGN01TR3dIdzI5WUtFVmEya3RObjV2WEx0OVFnenQtQk5uN0ZIVVZvZWdtRUVzNXcya2libFhWaEtWWGYyQXQtRU80SWRvSUpwMV9oUldxSzVVVzFRejh1bXZ2WXFHd05xN3gxd1NhV0tsNk9TdWJOWFJxYWVPcWl4TER2QTZkd21rd0pIRDFWLXNaMWhCMUdJbXBwcjR3cWlXM2ZBei1B?oc=5",
+      "publisher": "www.bamlawca.com",
+      "published_at": "2026-07-14T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "20e4ca3cd399169ab5a3",
@@ -1054,7 +1473,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "134a802d3d71fc117afe",
@@ -1077,6 +1496,63 @@
       "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
     },
     {
+      "id": "58299b05c9d1c68a248a",
+      "competitor_id": "fountain",
+      "competitor": "Fountain",
+      "group": "core",
+      "title": "The Service Companies Chooses Fountain For Hiring Across 35 States With 24/7 Screening - Business Wire",
+      "summary": "The Service Companies Chooses Fountain For Hiring Across 35 States With 24/7 Screening Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOYVBGTkxwM1gyQmZQYml4eGo0YjVOZVhNV29HcnFuU0tXc0J1bXAwRVItUE1uTEpCbGdfY0xPVEdlVERqZFdhMW55YU01eWhMWlZsNktqT2xremF5WUZFTzdtSk9PbUtPTkp4aFFTNktLd1o1bUNnSFVROGoxQkxjRGZPMWtWSHJ3X0J0TWZIN0ROYXZ1Y2lUU0tNSnNmajdBSThGNmtBVHo1TDZFVEVXRWM0X25IUU15TnprM1MxeVhhRzJTSEpxTEotMGREX0VPTFR0aGlMVEgwQQ?oc=5",
+      "publisher": "Business Wire",
+      "published_at": "2026-07-01T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Fountain",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "02b62b683479f95bb592",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Workday Loses Bid To Dismiss AI Hiring Bias Lawsuit Filed By Older Black Worker - Black Enterprise",
+      "summary": "Workday Loses Bid To Dismiss AI Hiring Bias Lawsuit Filed By Older Black Worker Black Enterprise",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVWdmOTFTeDBKc1pHRWZ3NHpuS2Y4RkdTdGhFNXlvczFnUlF4eG5KN24yN1U5WVBJRERvdV9kN1ZSa2hKNks4UVBNX29kT2M3VEFwcWF6Vmp2T3gwOFdNbjB5OXA2ZVh5dExxR25BaUdvX3JhbGNCSncwQjVjWG8wV09FZUNJQlhhOUE?oc=5",
+      "publisher": "Black Enterprise",
+      "published_at": "2026-07-01T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "5d078c05b8b715695b56",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "The early career paradox: Saving the entry-level role in the age of AI - www.mercer.com",
+      "summary": "The early career paradox: Saving the entry-level role in the age of AI www.mercer.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPa1VpejZUYXd3Mk5sdjdjQzR6blRmM3dYZFVkenpXdGVQalh6YlFQdUgzUkRSOFBaT0RWQTdLNzZoSXEwamVrdloyQVdnellsYnptb0stMlFNVk1aTWVaemVCMmhnUXNwR3cwTDBHaXNxQThuN05ZNzhaN3p4bW5UTF9Leldqa0RkMk5DV2FBamRaQ2g3RC1ud2RpUEhlV2dKRlRRNmF5OTNnakpD?oc=5",
+      "publisher": "www.mercer.com",
+      "published_at": "2026-06-26T10:16:13+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Paradox",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
       "id": "202125f21ca192dd5479",
       "competitor_id": "workday_paradox",
       "competitor": "Workday / Paradox",
@@ -1094,7 +1570,64 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "95a069256ade1c5ca000",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Judge refuses to dismiss most Workday hiring bias allegations - HR Executive",
+      "summary": "Judge refuses to dismiss most Workday hiring bias allegations HR Executive",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcjdkczdzYkcwUkRxZ0tmVl8yWGZ5dWxHUUFRQXM5cVRLVGExa000eHNoQ00wRW1zNndWbDMtaGkzMENLMi1OVG94MWFsXzQ1TjJ5b1pwLW1TVERBei1kUzBLNXZmSjBTM2U1VldWa2NlclpiX1B5bGxsYThEZFExcHR6RnVrUGc0a09VOGIwNA?oc=5",
+      "publisher": "HR Executive",
+      "published_at": "2026-06-23T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "8e5d280f3470a60cae3d",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Workday AI bias case moves forward, putting HR hiring tools on notice | Human Resources Director - Human Resources Director",
+      "summary": "Workday AI bias case moves forward, putting HR hiring tools on notice | Human Resources Director Human Resources Director",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOemQ5RkhDejJMQjE2SUZYTUExUkI5NjM0QnowZUdxWlNFZThDZl85TGRkVFR6UXJxWlVFeUROUnlKLW9TTDNxRndsOWptd040NmxQNE5XWU54RXRDY0ctV2NUOG9iRGhXWlFpVVY3azlIWF9zTlBwdDZCVkQ5d3ZxS1VMUzBqU1FKR3JWZTdhR24tTXVGTEJHS2s2U3JvdnpPTThtbTkyMjFqOE8xSVd4TmRuMzRtTmdPR0J4WVpqRjZVZndFUWQ0?oc=5",
+      "publisher": "Human Resources Director",
+      "published_at": "2026-06-23T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "fef3c15be3b2336d4400",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "US judge rejects Workday motion, allows class lawsuit over AI hiring discrimination - Mezha.net",
+      "summary": "US judge rejects Workday motion, allows class lawsuit over AI hiring discrimination Mezha.net",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB1SXNicnlWeE1fbVJSYW1kT2R6SUE3UThqbXI0WVh1VWlVN29iSmUwLVVKTS1WUzRSNHVERnN0UkhRWmRPYXdTZ2FXSlFnNGRyaGRYVl84TVU4T0hCbDAxTXl3SQ?oc=5",
+      "publisher": "Mezha.net",
+      "published_at": "2026-06-23T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "7bfcd7707d60317651a3",
@@ -1114,7 +1647,26 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "c01f6e68a9a58255223a",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Workday’s AI recruitment tool could be liable for discrimination - CIO",
+      "summary": "Workday’s AI recruitment tool could be liable for discrimination CIO",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRVRqSV9xVHJfdDh4UmRrdDJQbzQ1M3k2ZDhhX0RQV05LUTJwbnY5ZmpPcDMzVXNtRlZvM0N1TnBreHlMekpGWl9Rdi1PdWktMVBFelg0X3pmOXpabHdva0dyUzNWdE5VaVdHaW9SWmJwbWFSODVkeUNKdHpVTE1zT0FSZTFqTHAtZjdCU242OUxseFZaRUZsOEJLbDBXTFl3c09kM2NBQkpzWndNZ1gwRmpBcGh6R0ttRmVwbXpCb09jOWhaYjV0aGhtTGpkZVpxNkZ2MGVn?oc=5",
+      "publisher": "CIO",
+      "published_at": "2026-06-17T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "2b62037e7cdc6ef225bd",
@@ -1134,7 +1686,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "cbf04d0a0d71cfe085c3",
@@ -1154,7 +1706,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "6022290dcf0d26518e78",
@@ -1174,7 +1726,26 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "11dad21879648509652d",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Broad support, barely funded: The paradox of advanced education in America - The Thomas B. Fordham Institute",
+      "summary": "Broad support, barely funded: The paradox of advanced education in America The Thomas B. Fordham Institute",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORDRvdk1PWlhvRkRWWWRoZXhSVzk0ZE1IbGxZelFWVEZhOWNxSFRqUjk4OHoyYlBtdDBvWjAtUVpiczRtSjU1ZWY1aWpCVXFSVHYwaVdzQ29DaG9DWlRoZjVjMXhkWU9WQ0FUZHlrSmszbUVGN0NZNW1LVGY2Q3BsZjcwbjMzRzJCT0JfOHMzNkI2VVFXTGlRWVBWRUoyMWhreDVuYUozS2pELWZVd1NVMA?oc=5",
+      "publisher": "The Thomas B. Fordham Institute",
+      "published_at": "2026-06-03T08:00:58+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Paradox",
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
       "id": "563348e81d3b386da50b",
@@ -1234,7 +1805,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
     }
   ]
 }
