@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-11-22T09:42:40.144797+00:00",
+  "refreshed_at": "2026-11-23T10:41:37.085738+00:00",
   "source_note": "Google News RSS is used for discovery. Items older than 180 days and results without a configured competitor-name match are excluded. Verify important signals through an official source or credible publication.",
   "feed_errors": [],
   "filter_summary": {
@@ -7,8 +7,8 @@
     "dropped_old_existing_items": 0,
     "dropped_existing_items_without_valid_dates": 0,
     "dropped_unmatched_existing_items": 0,
-    "skipped_old_feed_items": 203,
-    "skipped_unmatched_feed_items": 70,
+    "skipped_old_feed_items": 157,
+    "skipped_unmatched_feed_items": 78,
     "skipped_feed_items_with_invalid_dates": 0
   },
   "items": [
@@ -49,7 +49,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-19T10:16:09.099968+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "5b1181ac8fcf05b760b0",
@@ -69,7 +69,7 @@
       "review_status": "pending",
       "matched_term": "Workstream",
       "first_seen_at": "2026-11-19T10:16:09.099968+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "a62f0e7938111590461c",
@@ -89,7 +89,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-19T10:16:09.099968+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "2f0e69a5f7237ebc00b9",
@@ -186,7 +186,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-18T10:04:38.803070+00:00",
-      "last_seen_at": "2026-11-19T10:16:09.099968+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "11294e25ec0a6f232f15",
@@ -226,7 +226,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-18T08:30:29.364336+00:00",
-      "last_seen_at": "2026-11-21T09:42:49.887219+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "2cfe3c573c5c54c02824",
@@ -286,7 +286,26 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-20T09:58:23.790175+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
+    },
+    {
+      "id": "6a3571b4ffadd4cfc839",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP Completes Acquisition of TechWolf; Technology to Be Integrated into SuccessFactors - Moomoo",
+      "summary": "SAP Completes Acquisition of TechWolf; Technology to Be Integrated into SuccessFactors Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNM1dldGVESGcwNExraUc3eGpMQXZoWDZ6c055XzNyMjFrVzl3NmxIMGZPNW5PcFNrd19RZTdQblJaUlJzYVlpTnFoMS0yZjVwTXo1RGxrOVNxSDZZVmM1eE5aQjNmWWtNcXd5bTQ5dkItNnJyMlEzTzN4MGczeGUtYjBYMGVHMXMtN3daWkI3MHVsOW1tR0JzYjlaZER2SXZpWU1wU2VmU2U4clpHZFZ5TjJfNXM?oc=5",
+      "publisher": "Moomoo",
+      "published_at": "2026-11-17T11:46:55+00:00",
+      "signal_types": [
+        "acquisitions_and_mergers"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "5f4bc52891238993bca2",
@@ -306,7 +325,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-17T10:40:14.886490+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "565bd65b68b8096b9029",
@@ -417,7 +436,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-16T09:34:08.356937+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "fabc1677f47601ed4c18",
@@ -538,6 +557,63 @@
       "last_seen_at": "2026-11-12T13:32:31.789327+00:00"
     },
     {
+      "id": "ca5a9c0b95151c4107b5",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "Employer Brand in SAP Consulting: How DACH Candidates Choose - IgniteSAP",
+      "summary": "Employer Brand in SAP Consulting: How DACH Candidates Choose IgniteSAP",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB0dE1YRUNSNmZmd2UwRXlTU2drZkJIYktnSmhnMk5nT21RTFgzR3lSZHJWelVxWk9GWGRYVVU1ZjNCR1c1S1BpSXItb1d1MC0wN29Ma29LMl9OMkIzUHFYeXlLNnNJMGFv?oc=5",
+      "publisher": "IgniteSAP",
+      "published_at": "2026-11-05T08:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-23T10:41:37.085738+00:00"
+    },
+    {
+      "id": "821d6c9d0e18c2abde91",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "The SAP Team Move: The Law, the Sequence and When a Lift-Out Beats Building - IgniteSAP",
+      "summary": "The SAP Team Move: The Law, the Sequence and When a Lift-Out Beats Building IgniteSAP",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ISnhQQ2d1WmQzQ0N5RzEtd3l4RF9KYUNLYWRMaFpkUEV4N09wQUp3MFpaaXlyb1JpWElTUFdGX24zcXNEYjYzNG5DVDI?oc=5",
+      "publisher": "IgniteSAP",
+      "published_at": "2026-11-04T08:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-23T10:41:37.085738+00:00"
+    },
+    {
+      "id": "5e63e39dd511d2ae9821",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "What the Bench Costs: How Unassigned Consultants Shape SAP Hiring and Offers - IgniteSAP",
+      "summary": "What the Bench Costs: How Unassigned Consultants Shape SAP Hiring and Offers IgniteSAP",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9lU1JocE4xWFVESzlQS09BWlFIOXRFekQ0dlFEX1hLVjF4NkhjQkZQUGJDYnNpcHc2bmhKMnlqX05FSHpTakxqY09hbktxa3oxRlB3OWhYeVFJeE9jWk0ycEsyMUkwZGdobV9wdlYwVQ?oc=5",
+      "publisher": "IgniteSAP",
+      "published_at": "2026-11-03T08:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-23T10:41:37.085738+00:00"
+    },
+    {
       "id": "f213745617b2e7b63c7a",
       "competitor_id": "phenom",
       "competitor": "Phenom",
@@ -636,6 +712,25 @@
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
+      "id": "501a17593c5bb4c938b1",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP to acquire TechWolf, expanding AI-powered workforce intelligence - Portal ERP",
+      "summary": "SAP to acquire TechWolf, expanding AI-powered workforce intelligence Portal ERP",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcnE5TjVEWTJ5c3FsZ3pxTkEtZm1DOF9iZ05YUEgxOElkOW4wc045TExOY0M3QkJ3Y2htdGRybnJHU2JRWklaOGdnX25qOGRweVdKSHdkdkl6LVdRQ0U0YVRIcXBSOHFRcHNraDB1RmF5cHp6eTE3ZzRMSDdVMFhXTU9Mc2pVYlRyZ0h6LXBlY2h6MENScEl5bktwNlFuZw?oc=5",
+      "publisher": "Portal ERP",
+      "published_at": "2026-10-19T07:00:00+00:00",
+      "signal_types": [
+        "acquisitions_and_mergers"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-23T10:41:37.085738+00:00"
+    },
+    {
       "id": "72670a984b6d05d0e4e9",
       "competitor_id": "eightfold",
       "competitor": "Eightfold",
@@ -653,7 +748,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "e7ae0a679f7addd8ef4e",
@@ -692,7 +787,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "e29c08f9e4aa8aa39064",
@@ -712,7 +807,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-13T09:28:10.113935+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "1a01e2a429b45f077a74",
@@ -833,6 +928,101 @@
       "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
     },
     {
+      "id": "c8989424a67a2165e84a",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP Stocks Gain as TechWolf Adds Workforce Intelligence - TradingView",
+      "summary": "SAP Stocks Gain as TechWolf Adds Workforce Intelligence TradingView",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONUFwNGI0ZDVjQ3RVd1dyVE9VSExMLWZhQTJYbF95SmlVRE5na1h0T1hlbzRKb3B6V1hWdHFIMEduaTRKSm1LQ2V0MWpDc1JuNE1hN3FQSkFvZEI5aHpVemdqdTZfX3JHdTBnTkNnYUhsRVd6YkxMbVFDUXdDYjZpVC01RDhTeHBybGpDbzU1aWhQSElpbDFxMG1DVmtNX1B6MURwZXExT0h6aU4xU3VreW9ndU01dw?oc=5",
+      "publisher": "TradingView",
+      "published_at": "2026-10-09T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-23T10:41:37.085738+00:00"
+    },
+    {
+      "id": "2d8765797bd6dd00fe72",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP to Acquire TechWolf, Bringing AI-Powered Work Intelligence into SAP SuccessFactors Core - ERP Today",
+      "summary": "SAP to Acquire TechWolf, Bringing AI-Powered Work Intelligence into SAP SuccessFactors Core ERP Today",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb1dCUWZMMWtpVnVfRnIwR2U5UlJWYnZnbkdNRWNFdUpKRnQ5cFZSSnFlODhhWml4VGE0ZDFiU1BNWmEwZS1Zc2RUVzA1NVlMNXAzUUU0X2NtcUc0MjY0d1phZGpOYlJON2pqNlhEVnBRTTQzWWtQYVFmUUVyN2owVkZvU3dsUTRLRC0zd01XaFFvb0xMSFRNVkExaVRQdjZvelhxWURsT3d5NWdfSWc?oc=5",
+      "publisher": "ERP Today",
+      "published_at": "2026-10-08T07:00:00+00:00",
+      "signal_types": [
+        "acquisitions_and_mergers"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-23T10:41:37.085738+00:00"
+    },
+    {
+      "id": "e8b0a07b2af372fb623e",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP to Acquire TechWolf to Strengthen AI-Powered Workforce Management - Yahoo Finance",
+      "summary": "SAP to Acquire TechWolf to Strengthen AI-Powered Workforce Management Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSms0dXNUcEZGekFyeHlPakRkRGk2WHU5bmkyaE94SWFfalBqRWRtTVUyUWRpMmVsaUdPbEFKUjVaUDdUYjVaOUhDLU50WUJLQUlxRmpWLV9UQXNObndRang5blpvTjliWVExaVQ0YVBBbUxWUnByRFlPLVMxWnFKcWh5Mk5oNzY5cDgzelVNbGhnWldGbE1ZcXlPSGE2a3M?oc=5",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-10-07T07:00:00+00:00",
+      "signal_types": [
+        "acquisitions_and_mergers"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-23T10:41:37.085738+00:00"
+    },
+    {
+      "id": "e1810c672807468a3263",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP to Acquire TechWolf to Strengthen AI-Powered Workforce Management - Zacks Investment Research",
+      "summary": "SAP to Acquire TechWolf to Strengthen AI-Powered Workforce Management Zacks Investment Research",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcWRKMnRFbFVIdXI5eHlUTTVkYjJ3UmVLUHl6aE9VNFRXU1FKYVl5RTM0UzZSZ0NYYWFOZm14WV9VZEFneVloZ29qVGt6cHktaHBjX1hlX0dEa2tBMzZraXhJTGczbTdNT2lBVHlRQkJ4TGFnNE5oejZpZWlTeUZuNlNxeU0zbVJrTktRc2xtWjh0WExJYW5FVlVDRUU3NjVPZ3dsOEM1UU52aDNkVFhF?oc=5",
+      "publisher": "Zacks Investment Research",
+      "published_at": "2026-10-07T07:00:00+00:00",
+      "signal_types": [
+        "acquisitions_and_mergers"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-23T10:41:37.085738+00:00"
+    },
+    {
+      "id": "28bea714c9995393b730",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP Agrees to Acquire Belgian HR Tech Firm TechWolf, Making Skills Visibility a Core Feature of SuccessFactors - finance.biggo.com",
+      "summary": "SAP Agrees to Acquire Belgian HR Tech Firm TechWolf, Making Skills Visibility a Core Feature of SuccessFactors finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YVloxQjJoU3FqdThoOW1INE95M1g3MjZGOHFrMkJSMXU4S3AyeEZSYWNHeE5tTEJVMmxtX2hLNkFMWkhKNWhHYkRPZ2RLXzQtNjM5UERDTl9oRm1OZ0t2MnJXaU9QN3BrOGgybE9yZTBBYXdiaXc?oc=5",
+      "publisher": "finance.biggo.com",
+      "published_at": "2026-10-07T07:00:00+00:00",
+      "signal_types": [
+        "acquisitions_and_mergers"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-23T10:41:37.085738+00:00"
+    },
+    {
       "id": "0975e30a1b3b172dd68b",
       "competitor_id": "workday_paradox",
       "competitor": "Workday / Paradox",
@@ -850,7 +1040,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "0097f1899321639e7b2f",
@@ -870,7 +1060,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "cee6caf59d229ddfd07b",
@@ -890,6 +1080,44 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "1ad5969d30dcfa059720",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP to buy Belgian AI workforce software firm TechWolf - Proactive financial news",
+      "summary": "SAP to buy Belgian AI workforce software firm TechWolf Proactive financial news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1BzSFhfR2RPZmhoYWEzejFLYUNCaTEwYkVEeWV3VFVlYUNnS1llM1R2SlQyN3BSM1JTLUFwbF9HNnFXS3JXNnZwZnh1NEgtSElmRklWanQ4bnhtZ24yWHdJVUpBU0JoWU9CSHhvZk1teC1KbGVyM1VtbUJNb05nU0VhZ0FYS3FmLXI4cE83SHNCcF9wTU9sQVdTTE1NYjNUQlRJNVMxSFRhdFB5T2VpRFJoYy1rQUF6SzRjMzJMY1JzMFE?oc=5",
+      "publisher": "Proactive financial news",
+      "published_at": "2026-10-06T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-23T10:41:37.085738+00:00"
+    },
+    {
+      "id": "8ee80bb93f4f0a54a93d",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP acquires Ghent-based AI company TechWolf, adds it to SuccessFactors - Techzine Global",
+      "summary": "SAP acquires Ghent-based AI company TechWolf, adds it to SuccessFactors Techzine Global",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd09yT1g5eUw5SGhOaVNuMlk1cDVVVUlwWUtLUmNqSFNVUkNxcnlEbzZZdkhHYUU2NDRTc2VEd3JwTkEzWjVtYVBtVXFOUEppN2lmU2RlV0otTU1iRzY0LXVlUG9UTkpPNzN1cE5aUlFCLUZMMjNoQzZQUEZWUlhSS2dNcnF5QWxHaWs3TTF2bXpOUHoxa2dpbFhLSHRlMXNrbzNjZ2FYMGJrVThqbFZnaGFkRWJYa3o4TXRYUQ?oc=5",
+      "publisher": "Techzine Global",
+      "published_at": "2026-10-06T07:00:00+00:00",
+      "signal_types": [
+        "acquisitions_and_mergers"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "d5f47cb7baf04063d4e8",
@@ -986,6 +1214,25 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+    },
+    {
+      "id": "e4c03eb0275003ece8a2",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP Talent Acquisition Metrics That Matter - IgniteSAP",
+      "summary": "SAP Talent Acquisition Metrics That Matter IgniteSAP",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9UZUk3Rk5GY2RJSzJRSVNMUHJxTkpyZUdoV2lYLTB3cjFEaDRYcFFrTXVXaTY0VDlkZmZQU3drU2liaFNITlpuT1otOFlKZWFWMVBrRjRDQnRtYTJXd2ZzaUQxbHZiSDd2UVdMdWFuUFRIR0k?oc=5",
+      "publisher": "IgniteSAP",
+      "published_at": "2026-09-29T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "740e5a4ed579d645e561",
@@ -1122,6 +1369,25 @@
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
+      "id": "b58e089437fc1304acb3",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "HR Path expands in DACH region with acquisition of German SAP specialist - Staffing Industry Analysts",
+      "summary": "HR Path expands in DACH region with acquisition of German SAP specialist Staffing Industry Analysts",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVmtLNmUzV3V6TDFtb0VCeWJrbnItZ2VBU1NsM1NXUW5FNnk4SmNoZkhxNzBNeEJJTDQ0UzV4YnVVdEUwd3VRMUNUVXpnTDJPb2tYaXVXVnI5cmVzbEppOVctY1Y5bTR5NDRoUi1kdWhudjlhTFRONzFEbUotQWtkbXkxT2cxUkxsREwyT0RDbUdhMFotSnliZm1xR0hDNnJNVk9Cem05eFRlQVZjbzUtdmE5V1ZBVVY5c1JZZC0wdXhDMUNDR09J?oc=5",
+      "publisher": "Staffing Industry Analysts",
+      "published_at": "2026-09-10T12:01:11+00:00",
+      "signal_types": [
+        "acquisitions_and_mergers"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-23T10:41:37.085738+00:00"
+    },
+    {
       "id": "f0102cf7a1c46fd3ed43",
       "competitor_id": "workday_paradox",
       "competitor": "Workday / Paradox",
@@ -1141,6 +1407,25 @@
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
+      "id": "087e142e0bc6929b43bc",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "Lockheed Martin Advances Workforce Transformation with SAP SuccessFactors Solutions - SAP News Center",
+      "summary": "Lockheed Martin Advances Workforce Transformation with SAP SuccessFactors Solutions SAP News Center",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOFRFS0hqWXc4M3J1Q2staGZNTm90Z01IM3pSd3FWTU9BMG9nUE5xUjd3a2tLbm10NTVtQnJEdFFQeC1aX3hhWW1ScUk0Z0s2RkllN1R1NmlTVGs0NGtsZUZULTJaaGphb2tMQU1fcHN4bzZkdzRjdVVEUF9fWjNKT0J4SXpSYzZxY05mVUhFWmtzWHlWZzZhRnV6LTFJMmM?oc=5",
+      "publisher": "SAP News Center",
+      "published_at": "2026-09-08T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-23T10:41:37.085738+00:00"
+    },
+    {
       "id": "904522d8f318c85aa201",
       "competitor_id": "ripplehire",
       "competitor": "RippleHire",
@@ -1158,7 +1443,7 @@
       "review_status": "pending",
       "first_seen_at": "2026-11-12T12:20:47.223095+00:00",
       "matched_term": "RippleHire",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "4486fdfedc51d5cd9c0b",
@@ -1216,7 +1501,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "845b859824d9a9f8d696",
@@ -1236,7 +1521,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "f924b6c3e6b3b3a1414a",
@@ -1296,7 +1581,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "13e01c9bebc3200a232a",
@@ -1316,7 +1601,7 @@
       "review_status": "pending",
       "matched_term": "Workstream",
       "first_seen_at": "2026-11-19T10:16:09.099968+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "582e7c8b714e787b583f",
@@ -1355,7 +1640,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "49fe03fac62298bd2092",
@@ -1374,7 +1659,8 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Workday",
-      "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
+      "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "4a070eae7935316d27ef",
@@ -1394,7 +1680,26 @@
       "review_status": "pending",
       "matched_term": "Zappyhire",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
+    },
+    {
+      "id": "f7b584918dc86f9d1f13",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "Why S/4HANA Sets the SAP Hiring Agenda - IgniteSAP",
+      "summary": "Why S/4HANA Sets the SAP Hiring Agenda IgniteSAP",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBmZTk2MlJSM0FpYzhjODd6UHRrb01uaDEyYVlMLWhTWVBtN3YtOGJ3N09ZcVp6dXNNWElvaGVJRFNkdjhwd0dPdWlCajQ0MW55OFdGaFdCVFBBN192OUtsTmEzZmZ4WjgwTjBRZUZB?oc=5",
+      "publisher": "IgniteSAP",
+      "published_at": "2026-07-23T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "2041ee1aa31ecfa65f44",
@@ -1453,7 +1758,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "a9ca2bdb5b7a228ff63a",
@@ -1511,7 +1816,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "134a802d3d71fc117afe",
@@ -1531,7 +1836,102 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-17T10:40:14.886490+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
+    },
+    {
+      "id": "9cd2b5d753c3fa0bfc21",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "After SAP’s Leadership Reorg, AI Overhaul Places New Scrutiny on Hiring and Travel - ERP Today",
+      "summary": "After SAP’s Leadership Reorg, AI Overhaul Places New Scrutiny on Hiring and Travel ERP Today",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FX1NFNE5NTEFFa2dBcDh6N3pLOGlyRWlib054Y1VfNVU5aUl5UFljVnhDWUFIRGlUWmVaRjhVNVVXUzMwYVdkaGVDb3ZGLWFnZ0VWMzhUODI3Qy04WVoycHl4Z2FxXy1DX1IxQW5XYzVBZHdwVkRCWXBFNjE4Rm8?oc=5",
+      "publisher": "ERP Today",
+      "published_at": "2026-07-03T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-23T10:41:37.085738+00:00"
+    },
+    {
+      "id": "c0cf7822edc669bea62b",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP Cuts Back Hiring, Travel to Fund ‘Significant’ AI Push - Bloomberg.com",
+      "summary": "SAP Cuts Back Hiring, Travel to Fund ‘Significant’ AI Push Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObnlmeXcxRzBJYkFGeVQ5a2xlTktIR2FhWkhtQUExOTY3M0RFaUxZQjR5UUt6czFjRURtaDFWang1T3Y4VVQ0V1MzUHBNVWRGYW9mM3gzM3lxOThBZHY2SGZnZi02WmZjOF9MXy1GTklMRmU3YUtXaFpNb1NXOXlLV1VjQWJYM3ZHaWJsbHo2YTBFaWVzb19ESVJCVTNnaWhROF9UUHhpMGwxUQ?oc=5",
+      "publisher": "Bloomberg.com",
+      "published_at": "2026-07-02T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-23T10:41:37.085738+00:00"
+    },
+    {
+      "id": "55b6a07423e840b0a99a",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "Microsoft prepares new layoffs, SAP freezes non-core hiring - Human Resources Director",
+      "summary": "Microsoft prepares new layoffs, SAP freezes non-core hiring Human Resources Director",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMXo4U05iYmIwTkR3Y2NKZXo3TExGVVVzVUt0bWllS1hKbUpiQ2tsWTgtNFdRNGZkOGJPcVNLRkRsVHppdDZjQlBYVzFxcHI1M1FzQlZiM2VFZ05rVi1wdUNsdHhncHZ6a3pTd2todkVKWWtPVHQ3UVRoNjItN1BicE5PZjJZYXRxZENiaG9CdVpXVTBoSFg3ZkFtTXJrbWk4M2dCZkVfcw?oc=5",
+      "publisher": "Human Resources Director",
+      "published_at": "2026-07-02T07:00:00+00:00",
+      "signal_types": [
+        "layoffs_and_restructuring"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-23T10:41:37.085738+00:00"
+    },
+    {
+      "id": "dc830121e578cc79564a",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP snaps wallet shut for travel and hiring so it can keep shoveling cash into AI - The Register",
+      "summary": "SAP snaps wallet shut for travel and hiring so it can keep shoveling cash into AI The Register",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQM1RBazR4TVZQa2ZCTmg4bVd2NllaOVRtY3QwNFk1ai1tT3RPT0dWXzY4SzlnWDdmVWQ5VU5Ka21LVEROeHN1V3FFaDdVU1JUUjlzVFJaeGV0Ri1sdHdkclZWYmtDYkx0N0pqSUNwWXVjcVZHOVp0VnEwSFpLXzhPNGNQVjluSldaS2pTbGxJRUxUZUgzZl96ZWtLc2RJcGk3ejRKanNCbGJQY0d2QkpkYUJBdm5xT18wOWUxTkU3eEZiamZkY3kzVzJMNlVVb1BIMnU2Mg?oc=5",
+      "publisher": "The Register",
+      "published_at": "2026-07-02T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-23T10:41:37.085738+00:00"
+    },
+    {
+      "id": "d2ee83bde4654055cfa2",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP Hiring Less as It Focuses on Core AI Jobs - PYMNTS.com",
+      "summary": "SAP Hiring Less as It Focuses on Core AI Jobs PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRndCUzNhQ203dlZhYTNkQUVKUElIRUtMN0xsLTA2OEozeHo4OXRNYlg5S0RVa2pfdFZSaFFTaE82QmNiZVFhS256Y01laDhzSDIwdmJyWlFMNk44SER0UlEzazgxRlk2QU5lTlZ3M0xiWFN1UDltSkJMUXQ2MWZIc0FYUHVZcUExUjROMlZuWDg5QW05a3NLWEZTYWdYZmNJS0swTmNn?oc=5",
+      "publisher": "PYMNTS.com",
+      "published_at": "2026-07-02T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "58299b05c9d1c68a248a",
@@ -1609,7 +2009,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "95a069256ade1c5ca000",
@@ -1686,7 +2086,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "c01f6e68a9a58255223a",
@@ -1708,6 +2108,25 @@
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00"
     },
     {
+      "id": "1fa943d3e0adf859945d",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP Named a Strategic Leader in the 2026 Fosway 9-Grid™ for Talent Acquisition - SAP News Center",
+      "summary": "SAP Named a Strategic Leader in the 2026 Fosway 9-Grid™ for Talent Acquisition SAP News Center",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOXlfTFFhVUZ1c1BCMXNtNGZIM1Z2QkdsWlFTYVdnSTRXRGlXM2NiMzRzSWJ5dkVVREdFbGMxUXFKRFgzUkRQWi1mUFhHdVdRTTRzZDdLdnVQam8wRjNVUmtjV3NhNTBNaWR3aTgxaFRPa3d4NlJfTWFEalFRa3JoN3VBQlo3bEd3SkxtTllpQzN3UQ?oc=5",
+      "publisher": "SAP News Center",
+      "published_at": "2026-06-15T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-23T10:41:37.085738+00:00"
+    },
+    {
       "id": "2b62037e7cdc6ef225bd",
       "competitor_id": "sap_smartrecruiters",
       "competitor": "SAP / SmartRecruiters",
@@ -1725,7 +2144,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "cbf04d0a0d71cfe085c3",
@@ -1804,7 +2223,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     },
     {
       "id": "c31a9728d7a08b4c9757",
@@ -1844,7 +2263,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-22T09:42:40.144797+00:00"
+      "last_seen_at": "2026-11-23T10:41:37.085738+00:00"
     }
   ]
 }
