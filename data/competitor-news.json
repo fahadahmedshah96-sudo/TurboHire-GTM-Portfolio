@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-11-26T10:48:58.354417+00:00",
+  "refreshed_at": "2026-11-27T10:47:45.619448+00:00",
   "source_note": "Google News RSS is used for discovery. Items older than 180 days and results without a configured competitor-name match are excluded. Verify important signals through an official source or credible publication.",
   "feed_errors": [],
   "filter_summary": {
@@ -7,11 +7,87 @@
     "dropped_old_existing_items": 0,
     "dropped_existing_items_without_valid_dates": 0,
     "dropped_unmatched_existing_items": 0,
-    "skipped_old_feed_items": 208,
-    "skipped_unmatched_feed_items": 64,
+    "skipped_old_feed_items": 179,
+    "skipped_unmatched_feed_items": 146,
     "skipped_feed_items_with_invalid_dates": 0
   },
   "items": [
+    {
+      "id": "882566bade3c40dd31db",
+      "competitor_id": "eightfold",
+      "competitor": "Eightfold",
+      "group": "adjacent",
+      "title": "Infosys H-1B approvals jump eightfold in Texas as state prepares to reverse hiring restrictions: Report | Hindustan Times - Hindustan Times",
+      "summary": "Infosys H-1B approvals jump eightfold in Texas as state prepares to reverse hiring restrictions: Report | Hindustan Times Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNNjd1azhoY255NlkwTkJlb014dEtCOEh3d1g2bmc0bkNwNGljeVBabGpqd1p0WWV3blNYYlN1NTJPUktNV3NpUGJOOV95ZnU3Z2dod1pyVnZwcVRIdlNsSE5EVmdqWnhZSm1XLUYzcm1XM0hPa2xtdEdidXVhNExHdTMwU1N1NTVQa211anFpblhtcHNtNUNRRUFNQ3c1aGlPMGs5ZjdWdzN6dlV0RFAtcVB6dXprNEsxRGpCaWFic2dCQkFOMW5qc041SU55bWlRcGN0SGFMZjBNTWUwTEZoMnBVNW53NG1SSk55YkNUcFVwLXVIcDhaMkRrNHhXYVBUN3pV0gGIAkFVX3lxTE1OVWJyOWlhU2FpQnhrcjhIUnZLdlNNT3ZrZ0FJMGRELVRXM2JtenhHU0gyZVVsNGZLbE4wNXpUeS1mSEFqT1BKZkNhdEQ0R1lQZVROMHMySUlhUU1UMnZVcHhHMWJBYmNnN3YzMWVzZjNlYVgtWUFaRWtBNHdKZlVNN0tMaUZVT0h1Z0xyWmtILXdtYndIRExXankzcjRVX093RUx0LVZLZFlTZ0stNjBzejB6Z2VuY2Q1aGlRUWg0eGc4ZFh5R0QtTGlaZW9uRWdYSmhiYlRldGxST1lKOWVmRFZ1Yno3MWRUZWxtQXhDODlKRDlTN0dsdGQya0dsREpwTFZQSEMzQQ?oc=5",
+      "publisher": "Hindustan Times",
+      "published_at": "2026-11-27T07:52:40+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Eightfold",
+      "first_seen_at": "2026-11-27T10:47:45.619448+00:00"
+    },
+    {
+      "id": "46c29db123d46405e1eb",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP may cut nearly 10 pc of workforce amid AI restructuring: Report - SME Futures",
+      "summary": "SAP may cut nearly 10 pc of workforce amid AI restructuring: Report SME Futures",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTXVjUTRWdUFCMnFxRmQwb1NEaEFoWTFoZ3JYTG1KX0NGNXdoMjMxeEVlY3U5NHBYQ0JCdV9xUXFOdkdLUTBHMWFOSWNYamNIX0U3QzV6aVBRaVJtcnZkZXhhYnZteGh4bHJQTkluc1ppeFRKMTI3dXNQTTZST3hvZ3BhUXJMNURCNnk5MnE1RS1UM3hi?oc=5",
+      "publisher": "SME Futures",
+      "published_at": "2026-11-27T06:20:17+00:00",
+      "signal_types": [
+        "layoffs_and_restructuring"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-27T10:47:45.619448+00:00"
+    },
+    {
+      "id": "a0e2f3a6eeb37dd45462",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP explores 10,000 job cuts as AI disrupts its business model - Human Resources Director",
+      "summary": "SAP explores 10,000 job cuts as AI disrupts its business model Human Resources Director",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQV0M3UzIwTm1yalNCRDAzZHFxRnZrT1IyUTNrRUVtLTRDd0ROUjh5cVZKVGhpTjVRMTMtRWZQbFZQaDZJVmhzUl81bW02TndRdHVZa3hpV2ZwMzFBV3RSQ3NySHpjRFFkX2tZWnFya0UyZ284VW43QTdVZGxtZXdzQmx3Vm5mS1IwZW5YQW1IRkc2ZTJOWkEtejh0dDFOYU9JSTBaVDRrX2djZm8?oc=5",
+      "publisher": "Human Resources Director",
+      "published_at": "2026-11-27T04:40:24+00:00",
+      "signal_types": [
+        "layoffs_and_restructuring"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-27T10:47:45.619448+00:00"
+    },
+    {
+      "id": "52d3d17694290010c541",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP layoffs: Company plans to 10,000 jobs as AI push triggers major workforce restructuring - Moneycontrol.com",
+      "summary": "SAP layoffs: Company plans to 10,000 jobs as AI push triggers major workforce restructuring Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOZUJ6QzBfZVZzYm9hWmplY3U3cmV1V3BNVlVyOE5tOXR4dmlSMHpsOXViWUJuV0VQVnRWTjZrNi1NVkJVT3NzVG9HNHZhUXhOSWtYSDlKZG80cmlkSjRtWm5yUEo5UGFuVWZZVk9ac1V6QzNuaWtlYUh0MWtfM1FMRU1oVXRWaWRkZ3ZSM2NqSWFoaTZORGcyQmJqVjM5bXdoWGJDMFdicFZhUWxHTmhCSHJXc01acHVDeDFoQXVlQ3NVbl9xa05DT2gtUmtqYzZzenJXWVpFemttREVZNmZfQnhYcGZMUdIB6wFBVV95cUxQUU1QaTU2QXIwcy1FZEtuSVpUZFFSeHpodUgxdXpCZmJEVlU3cFlQeXZLenBXdHItVzRjWUZJeXVGdjA0eUFJemdIOWRpTkdkdnpIbHpOVVNwQ3U5X3NCXzJ3RXVmUEt1a1c1NXh1SWZJYUV0cm5vNTcwdEVoUE9LbkFVTTB6OWhoV2NKUWtZX1dDQy1GbWJreTdMU0huRW55TUZDVHNva3dncVEwVHl2Mk1qLTdoTXpNcmxqS2RkMHpSTjZfaWlFdVlsSnprbHBnendyM3Y2RjR3ZTIyNEdFbjBTdEZXR1MxYkhj?oc=5",
+      "publisher": "Moneycontrol.com",
+      "published_at": "2026-11-27T03:33:02+00:00",
+      "signal_types": [
+        "layoffs_and_restructuring"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-27T10:47:45.619448+00:00"
+    },
     {
       "id": "23068786f0bb0506b2e0",
       "competitor_id": "sap_smartrecruiters",
@@ -29,7 +105,27 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "SAP",
-      "first_seen_at": "2026-11-25T11:12:35.148192+00:00"
+      "first_seen_at": "2026-11-25T11:12:35.148192+00:00",
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
+    },
+    {
+      "id": "de28d0acfaaaae2db4e5",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "Recruitment Director Reveals the 10 SAP Interview Questions Hiring Managers Should Be Asking - hrnews.co.uk",
+      "summary": "Recruitment Director Reveals the 10 SAP Interview Questions Hiring Managers Should Be Asking hrnews.co.uk",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcTNESUVBNm5yTTVNU0dVakVnRlducDlJWFZDTER2WmhwV1dVcHRMRmlZNEt6bTVaUXRBQlJoVFEzMEFQMVFUNml4QXo3dE12UDh5c1JFNFlRTjJmT3FoWDByZGdWbVRmd1g5MWxKX2pBa21FSVlmUExmRGhZMUpULXZYTXkxR3BiM1ZRUWtqVldlLTdTdVplWUh6V1pyejdwVEhmemxvdnpRY2x4X3M4a1J5akw?oc=5",
+      "publisher": "hrnews.co.uk",
+      "published_at": "2026-11-24T14:54:07+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "15fafed7d74d200271a3",
@@ -68,7 +164,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-19T10:16:09.099968+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "5b1181ac8fcf05b760b0",
@@ -205,7 +301,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-18T10:04:38.803070+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "11294e25ec0a6f232f15",
@@ -245,27 +341,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-18T08:30:29.364336+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
-    },
-    {
-      "id": "2cfe3c573c5c54c02824",
-      "competitor_id": "sap_smartrecruiters",
-      "competitor": "SAP / SmartRecruiters",
-      "group": "adjacent",
-      "title": "SAP Hiring in 2027: The Skills Everyone Will Chase - IgniteSAP",
-      "summary": "SAP Hiring in 2027: The Skills Everyone Will Chase IgniteSAP",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtZDdzZUJXc1BZUnczTEhZVEpIaVU5cUFVMmlPNUxWLWNYWUJmc0VQRFRrTGVxQ25RTWEtNXljUDFycG5abHZwQmtueFlDM2wzX0swRFhxT2c?oc=5",
-      "publisher": "IgniteSAP",
-      "published_at": "2026-11-17T14:19:44+00:00",
-      "signal_types": [
-        "general_competitor_news"
-      ],
-      "source_type": "Google News RSS discovery",
-      "verification_status": "unverified",
-      "review_status": "pending",
-      "matched_term": "SAP",
-      "first_seen_at": "2026-11-18T08:30:29.364336+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "e22cf4a64e84bc57faa6",
@@ -288,26 +364,6 @@
       "last_seen_at": "2026-11-18T10:04:38.803070+00:00"
     },
     {
-      "id": "515024661c9d82a636ea",
-      "competitor_id": "eightfold",
-      "competitor": "Eightfold",
-      "group": "adjacent",
-      "title": "Pentagon expands access to Eightfold AI's Talent Intelligence Platform - Yahoo Finance",
-      "summary": "Pentagon expands access to Eightfold AI's Talent Intelligence Platform Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdENaWG1XdXMyXzJ0dHpoZGdjem9NMXBsR2diSktQdF8yZ1hvS09JRVBLOXA3ZVA3RGtGc2UyWHZMS0NLM2x5b3VmakthYmZoQ1c4QW5zT29DSklubzJuV2lQYTNfVnRPQ09PcnhhejZBb1FxWDViUXNZQ09lZUNWMFRfNWg2TFQ2SlQ4d3hKMXNoY3czcTFOZUtrSUs2Q2wxVFZv?oc=5",
-      "publisher": "Yahoo Finance",
-      "published_at": "2026-11-17T14:00:00+00:00",
-      "signal_types": [
-        "general_competitor_news"
-      ],
-      "source_type": "Google News RSS discovery",
-      "verification_status": "unverified",
-      "review_status": "pending",
-      "matched_term": "Eightfold",
-      "first_seen_at": "2026-11-20T09:58:23.790175+00:00",
-      "last_seen_at": "2026-11-26T10:48:58.354417+00:00"
-    },
-    {
       "id": "6a3571b4ffadd4cfc839",
       "competitor_id": "sap_smartrecruiters",
       "competitor": "SAP / SmartRecruiters",
@@ -325,7 +381,47 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-23T10:41:37.085738+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
+    },
+    {
+      "id": "2cfe3c573c5c54c02824",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SAP Hiring in 2027: The Skills Everyone Will Chase - IgniteSAP",
+      "summary": "SAP Hiring in 2027: The Skills Everyone Will Chase IgniteSAP",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtZDdzZUJXc1BZUnczTEhZVEpIaVU5cUFVMmlPNUxWLWNYWUJmc0VQRFRrTGVxQ25RTWEtNXljUDFycG5abHZwQmtueFlDM2wzX0swRFhxT2c?oc=5",
+      "publisher": "IgniteSAP",
+      "published_at": "2026-11-17T08:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SAP",
+      "first_seen_at": "2026-11-18T08:30:29.364336+00:00",
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
+    },
+    {
+      "id": "515024661c9d82a636ea",
+      "competitor_id": "eightfold",
+      "competitor": "Eightfold",
+      "group": "adjacent",
+      "title": "Pentagon expands access to Eightfold AI's Talent Intelligence Platform - Yahoo Finance",
+      "summary": "Pentagon expands access to Eightfold AI's Talent Intelligence Platform Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdENaWG1XdXMyXzJ0dHpoZGdjem9NMXBsR2diSktQdF8yZ1hvS09JRVBLOXA3ZVA3RGtGc2UyWHZMS0NLM2x5b3VmakthYmZoQ1c4QW5zT29DSklubzJuV2lQYTNfVnRPQ09PcnhhejZBb1FxWDViUXNZQ09lZUNWMFRfNWg2TFQ2SlQ4d3hKMXNoY3czcTFOZUtrSUs2Q2wxVFZv?oc=5",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-17T08:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Eightfold",
+      "first_seen_at": "2026-11-20T09:58:23.790175+00:00",
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "5f4bc52891238993bca2",
@@ -345,7 +441,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-17T10:40:14.886490+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "565bd65b68b8096b9029",
@@ -396,7 +492,7 @@
           "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPRzU2YXBMNmlNd19jbk1ScmFCdjRfa1JadmVuM3E0YXdzbUwwa3RyS3VLVTdBUFBYQ1lya2JTOVdrQm5GWGNFSzZxVDRoOHF5cnVhRFg5Zzcxa0tjMmktOFF6VVI4eUd2TlBLN1hkQlBZR25GckNhTWZMTndZaldmZEFYTXRhOTh1eVdjenk2dk9xN1RwMEp3bER3b3VnYWNYdlo1QWJsdVlkVGpVNER0TURYTkxQT25Ua3JhakRXWmhWYlAwUDIxLXVkcHM4ZVptcFpyN3F4M05HNjhEQWRZTjZDeGlMSmRoVDdubkh4dDQyME9OMXJWSkRDWEg3TXJVREk40gGDAkFVX3lxTE9HNTZhcEw2aU13X2NuTVJyYUJ2NF9rUlp2ZW4zcTRhd3NtTDBrdHJLdUtVN0FQUFhDWXJrYlM5V2tCbkZYY0VLNnFUNGg4cXlydWFEWDlnNzFrS2MyaS04UXpVUjh5R3ZOUEs3WGRCUFlHbkZyQ2FNZkxOd1lqV2ZkQVhNdGE5OHV5V2N6eTZ2T3E3VHAwSndsRHdvdWdhY1h2WjVBYmx1WWRUalU0RHRNRFhOTFBPblRrcmFqRFdaaFZiUDBQMjEtdWRwczhlWm1wWnI3cXgzTkc2OERBZFlONkN4aUxKZGhUN25uSHh0NDIwT04xclZKRENYSDdNclVESTg?oc=5"
         }
       ],
-      "last_seen_at": "2026-11-20T09:58:23.790175+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "4d7384245a0ead51216e",
@@ -436,7 +532,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-13T09:28:10.113935+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "47d0e48d19649446fb30",
@@ -613,7 +709,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-23T10:41:37.085738+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "821d6c9d0e18c2abde91",
@@ -633,7 +729,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-23T10:41:37.085738+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "5e63e39dd511d2ae9821",
@@ -653,7 +749,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-23T10:41:37.085738+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "f213745617b2e7b63c7a",
@@ -753,7 +849,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "0092432d033849d4ef58",
@@ -813,7 +909,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-26T10:48:58.354417+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "e7ae0a679f7addd8ef4e",
@@ -874,6 +970,25 @@
       "last_seen_at": "2026-11-26T10:48:58.354417+00:00"
     },
     {
+      "id": "8a9142a798f0d736b8f2",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Metaview Expands Workday Integration to Bring Agentic Recruiting to the Fortune 500 - Business Wire",
+      "summary": "Metaview Expands Workday Integration to Bring Agentic Recruiting to the Fortune 500 Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPenN0NlVSUS10TXRScWhTbFc2MHB5bTBtTDJkSnBGZHl5bHU5ellQNGVKdUc0REU1d3pJUjhlYnlTTlBCcEtUWjdtbkcyNG1zX3hSZFNDVGQ0Y0YzbmFUVzQzVU55RWtxaWp6aERLOHJMd3NEWUVXQVI4WDhKaVFsMTB6amZEWndJMVhINHZxS2RGMmxRc1V5X1NvVktteDNzYnVJT2RUZEc1WjEyLUc2bGpTVTN3dWxkZlFWb092Njlqd0p2WHN6THNsX1NJcm9LMjkyQnJMWQ?oc=5",
+      "publisher": "Business Wire",
+      "published_at": "2026-10-14T07:00:00+00:00",
+      "signal_types": [
+        "partnerships_and_integrations"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-27T10:47:45.619448+00:00"
+    },
+    {
       "id": "85be582165850df1ab1b",
       "competitor_id": "workday_paradox",
       "competitor": "Workday / Paradox",
@@ -891,7 +1006,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-26T10:48:58.354417+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "e29c08f9e4aa8aa39064",
@@ -1049,7 +1164,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-26T10:48:58.354417+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "3bafdd416ae4b67e00ce",
@@ -1108,7 +1223,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-23T10:41:37.085738+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "e8b0a07b2af372fb623e",
@@ -1128,7 +1243,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-23T10:41:37.085738+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "e1810c672807468a3263",
@@ -1148,7 +1263,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-23T10:41:37.085738+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "28bea714c9995393b730",
@@ -1188,7 +1303,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-26T10:48:58.354417+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "0097f1899321639e7b2f",
@@ -1208,7 +1323,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-26T10:48:58.354417+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "cee6caf59d229ddfd07b",
@@ -1228,7 +1343,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "1ad5969d30dcfa059720",
@@ -1268,7 +1383,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-23T10:41:37.085738+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "d5f47cb7baf04063d4e8",
@@ -1308,7 +1423,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "3e711ce9ee9f815a1b02",
@@ -1328,7 +1443,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "c4c080f08415ee7d6a7c",
@@ -1370,6 +1485,25 @@
       "first_seen_at": "2026-11-24T12:24:41.743667+00:00"
     },
     {
+      "id": "f0dbca053af07c03f79e",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "Workday to cut 2.5% of workforce, affecting about 525 employees - The American Bazaar",
+      "summary": "Workday to cut 2.5% of workforce, affecting about 525 employees The American Bazaar",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbjR2bFVoMlEwVGdwRW5NY1E0eFdrWkRuM3JNd2lFVjJjU2w1MFhmaGczcFVxQWQ0NzhEQ21XbzRrR25YZ0FXc1kwRXhNckZZbHpWcnBNOU82UUNWX040UFVWYkF6bm9HcUIzTUVVVWF0blN3V1RLbHNUYmx4T09ac1dHWl9hbVQwQk1nNDQ2SF9xTjlsRjhvWWh3NkhENW1ZdW85Y1ZicEx4Sk84WEx4NzJxbw?oc=5",
+      "publisher": "The American Bazaar",
+      "published_at": "2026-09-30T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Workday",
+      "first_seen_at": "2026-11-27T10:47:45.619448+00:00"
+    },
+    {
       "id": "150787a8c5f9432f5c71",
       "competitor_id": "workday_paradox",
       "competitor": "Workday / Paradox",
@@ -1387,7 +1521,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "e4c03eb0275003ece8a2",
@@ -1407,7 +1541,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-23T10:41:37.085738+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "740e5a4ed579d645e561",
@@ -1467,7 +1601,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "f2b69ae960a651c65ada",
@@ -1487,7 +1621,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00",
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00",
       "additional_sources": [
         {
           "title": "Workday Named a Leader in Inaugural 2026 Gartner® Magic Quadrant™ for Workforce Management Technology - Workday",
@@ -1533,7 +1667,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "705b81eeb931e2f4253f",
@@ -1573,7 +1707,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-23T10:41:37.085738+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "f0102cf7a1c46fd3ed43",
@@ -1593,7 +1727,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "087e142e0bc6929b43bc",
@@ -1613,7 +1747,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-23T10:41:37.085738+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "904522d8f318c85aa201",
@@ -1633,7 +1767,7 @@
       "review_status": "pending",
       "first_seen_at": "2026-11-12T12:20:47.223095+00:00",
       "matched_term": "RippleHire",
-      "last_seen_at": "2026-11-26T10:48:58.354417+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "4486fdfedc51d5cd9c0b",
@@ -1656,6 +1790,25 @@
       "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
     },
     {
+      "id": "4a6d3793e2379316d0bc",
+      "competitor_id": "workday_paradox",
+      "competitor": "Workday / Paradox",
+      "group": "core",
+      "title": "More investment, fewer jobs: India’s new growth paradox - The CapTable",
+      "summary": "More investment, fewer jobs: India’s new growth paradox The CapTable",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUWVGNkMyOGRLNW1SM2ZCUHVqZEhDLU5peHJGd3BzZXNHS1hneG5seUQxdHJyNmRxdWJvY2J4b0M2RzdzTVE2Y0QxTnhwQTRxV09sdGhDZXpsbjFLWmNYVE9XYndvdHMya3M2V2J1bDJHQXdfcDlseC1LN3J2Nm9BYVUxUlJoTFNhYW8wNGcydw?oc=5",
+      "publisher": "The CapTable",
+      "published_at": "2026-09-01T07:00:00+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "Paradox",
+      "first_seen_at": "2026-11-27T10:47:45.619448+00:00"
+    },
+    {
       "id": "26ec318228ac8e071d8b",
       "competitor_id": "workday_paradox",
       "competitor": "Workday / Paradox",
@@ -1673,7 +1826,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "1639710f3fa090552fab",
@@ -1693,7 +1846,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-26T10:48:58.354417+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "845b859824d9a9f8d696",
@@ -1713,7 +1866,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-26T10:48:58.354417+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "f924b6c3e6b3b3a1414a",
@@ -1733,7 +1886,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-18T08:30:29.364336+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "50fdda7cf7b68e798e31",
@@ -1773,7 +1926,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-26T10:48:58.354417+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "13e01c9bebc3200a232a",
@@ -1793,7 +1946,7 @@
       "review_status": "pending",
       "matched_term": "Workstream",
       "first_seen_at": "2026-11-19T10:16:09.099968+00:00",
-      "last_seen_at": "2026-11-26T10:48:58.354417+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "582e7c8b714e787b583f",
@@ -1813,7 +1966,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "508fa78bc9f3bb44507f",
@@ -1833,7 +1986,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-26T10:48:58.354417+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "49fe03fac62298bd2092",
@@ -1853,7 +2006,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
-      "last_seen_at": "2026-11-26T10:48:58.354417+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "892cd5c151c191babd72",
@@ -1872,7 +2025,27 @@
       "verification_status": "unverified",
       "review_status": "pending",
       "matched_term": "Fountain",
-      "first_seen_at": "2026-11-25T11:12:35.148192+00:00"
+      "first_seen_at": "2026-11-25T11:12:35.148192+00:00",
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
+    },
+    {
+      "id": "d52c751bdfea3a03c11c",
+      "competitor_id": "sap_smartrecruiters",
+      "competitor": "SAP / SmartRecruiters",
+      "group": "adjacent",
+      "title": "SmartRecruiters Number of Employees 2026 | Employee Count & Headcount Data - Revelio Labs",
+      "summary": "SmartRecruiters Number of Employees 2026 | Employee Count & Headcount Data Revelio Labs",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1CUkVEZlk2ZDFzQlB0ZDJhbDVJbTB5Z1oybzlGQWVwSV8tWlZaOG1YY0Y1S1RpMjZYQ2RVNUxvSkJZV0xqWEp5U3l3M29TZXdwbE9kblZ3cXRZNjhvU2ctdV9iWXdlek5jQjlfd3ZQaF8?oc=5",
+      "publisher": "Revelio Labs",
+      "published_at": "2026-07-30T11:14:54+00:00",
+      "signal_types": [
+        "general_competitor_news"
+      ],
+      "source_type": "Google News RSS discovery",
+      "verification_status": "unverified",
+      "review_status": "pending",
+      "matched_term": "SmartRecruiters",
+      "first_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "c561fa5604254df1a897",
@@ -1991,7 +2164,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-26T10:48:58.354417+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "a9ca2bdb5b7a228ff63a",
@@ -2011,7 +2184,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "95fa42c6cb606b0a67a8",
@@ -2031,7 +2204,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "20e4ca3cd399169ab5a3",
@@ -2051,7 +2224,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-26T10:48:58.354417+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "134a802d3d71fc117afe",
@@ -2071,7 +2244,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "9cd2b5d753c3fa0bfc21",
@@ -2091,17 +2264,17 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-23T10:41:37.085738+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "c0cf7822edc669bea62b",
       "competitor_id": "sap_smartrecruiters",
       "competitor": "SAP / SmartRecruiters",
       "group": "adjacent",
-      "title": "SAP Cuts Back Hiring, Travel to Fund ‘Significant’ AI Push - Bloomberg.com",
-      "summary": "SAP Cuts Back Hiring, Travel to Fund ‘Significant’ AI Push Bloomberg.com",
+      "title": "SAP Cuts Back Hiring, Travel to Fund ‘Significant’ AI Push - Bloomberg",
+      "summary": "SAP Cuts Back Hiring, Travel to Fund ‘Significant’ AI Push Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObnlmeXcxRzBJYkFGeVQ5a2xlTktIR2FhWkhtQUExOTY3M0RFaUxZQjR5UUt6czFjRURtaDFWang1T3Y4VVQ0V1MzUHBNVWRGYW9mM3gzM3lxOThBZHY2SGZnZi02WmZjOF9MXy1GTklMRmU3YUtXaFpNb1NXOXlLV1VjQWJYM3ZHaWJsbHo2YTBFaWVzb19ESVJCVTNnaWhROF9UUHhpMGwxUQ?oc=5",
-      "publisher": "Bloomberg.com",
+      "publisher": "Bloomberg",
       "published_at": "2026-07-02T07:00:00+00:00",
       "signal_types": [
         "general_competitor_news"
@@ -2111,7 +2284,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-23T10:41:37.085738+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "55b6a07423e840b0a99a",
@@ -2191,7 +2364,7 @@
       "review_status": "pending",
       "matched_term": "Fountain",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
-      "last_seen_at": "2026-11-25T11:12:35.148192+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "02b62b683479f95bb592",
@@ -2211,7 +2384,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "5d078c05b8b715695b56",
@@ -2231,7 +2404,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "202125f21ca192dd5479",
@@ -2251,7 +2424,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-26T10:48:58.354417+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "95a069256ade1c5ca000",
@@ -2271,15 +2444,15 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "8e5d280f3470a60cae3d",
       "competitor_id": "workday_paradox",
       "competitor": "Workday / Paradox",
       "group": "core",
-      "title": "Workday AI bias case moves forward, putting HR hiring tools on notice | Human Resources Director - Human Resources Director",
-      "summary": "Workday AI bias case moves forward, putting HR hiring tools on notice | Human Resources Director Human Resources Director",
+      "title": "Workday AI bias case moves forward, putting HR hiring tools on notice - Human Resources Director",
+      "summary": "Workday AI bias case moves forward, putting HR hiring tools on notice Human Resources Director",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOemQ5RkhDejJMQjE2SUZYTUExUkI5NjM0QnowZUdxWlNFZThDZl85TGRkVFR6UXJxWlVFeUROUnlKLW9TTDNxRndsOWptd040NmxQNE5XWU54RXRDY0ctV2NUOG9iRGhXWlFpVVY3azlIWF9zTlBwdDZCVkQ5d3ZxS1VMUzBqU1FKR3JWZTdhR24tTXVGTEJHS2s2U3JvdnpPTThtbTkyMjFqOE8xSVd4TmRuMzRtTmdPR0J4WVpqRjZVZndFUWQ0?oc=5",
       "publisher": "Human Resources Director",
       "published_at": "2026-06-23T07:00:00+00:00",
@@ -2291,7 +2464,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "fef3c15be3b2336d4400",
@@ -2311,7 +2484,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "7bfcd7707d60317651a3",
@@ -2331,7 +2504,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-26T10:48:58.354417+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "c01f6e68a9a58255223a",
@@ -2351,7 +2524,7 @@
       "review_status": "pending",
       "matched_term": "Workday",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "c8fb81ba286d5a991e33",
@@ -2391,7 +2564,7 @@
       "review_status": "pending",
       "matched_term": "SAP",
       "first_seen_at": "2026-11-23T10:41:37.085738+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "8d610449a5757927d85b",
@@ -2490,7 +2663,7 @@
       "review_status": "pending",
       "matched_term": "Paradox",
       "first_seen_at": "2026-11-21T09:42:49.887219+00:00",
-      "last_seen_at": "2026-11-24T12:24:41.743667+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "563348e81d3b386da50b",
@@ -2510,7 +2683,7 @@
       "review_status": "pending",
       "matched_term": "Phenom",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-26T10:48:58.354417+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "c31a9728d7a08b4c9757",
@@ -2550,7 +2723,7 @@
       "review_status": "pending",
       "matched_term": "Eightfold",
       "first_seen_at": "2026-11-12T13:53:34.266688+00:00",
-      "last_seen_at": "2026-11-26T10:48:58.354417+00:00"
+      "last_seen_at": "2026-11-27T10:47:45.619448+00:00"
     },
     {
       "id": "1615bc0aff9cb9bba159",
